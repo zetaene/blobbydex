@@ -1,0 +1,468 @@
+[
+    {"id":84,"name":"Ailikamp", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/c5a6f4b943e252528c976abea8b8e362.png"
+    },
+    {"id":15,"name":"Alcopafel", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[100]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/780215da7a4352f4a82b1eb4a34a916b.png"
+    },
+    {"id":76,"name":"Alfeli", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/2226cc14befb679afecacc4e6081c6e6.png"
+    },
+    {"id":77,"name":"Aurorca", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/153eb41deba8f849e22ab7da3ba769f9.png"
+    },
+
+
+    {"id":74,"name":"Bakhrahell", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/6083c6c7ab535648cd63bf138bd82067.png"
+    },
+    {"id":83,"name":"Beckett", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/de5c304deb46629ede93cfdcc3325872.png"
+    },
+    {"id":11,"name":"Becola", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[9,16]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/21b46ff690963d7f9cb7aad22edab1a4.png"
+    },
+    {"id":28,"name":"Beriflore", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[28]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/92a2ed4644855fe4ce18a93fd891da55.png"
+    },
+    {"id":47,"name":"Black Gallytrot", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/7ee70a47e2db69656182e7e0da7291a3.png"
+    },
+    {"id":82,"name":"Blobbette", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/9d48dcac56fd02b94f312ee80754b534.png"
+    },
+    {"id":87,"name":"Blobbiathan", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":["Obtención: Alquimia"]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/b474d71f251e09dcb1936710dd47df5c.png"
+    },
+    {"id":71,"name":"Blobby", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/035ba583d2674d2a1b23b69478c5ace7.png"
+    },
+    {"id":67,"name":"Bloobun", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/bded0fa5873a88186764da2189bdc145.png"
+    },
+    {"id":107,"name":"Bhemoth", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/91e580e46b3410e2f86168399109e425.png"
+    },
+    {"id":51,"name":"Boltue", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":[70]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/f633b5e4af646d42e29d0d8db84be85e.png"
+    },
+    {"id":60,"name":"Bowsa", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":["Disponible en episodio 17."]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/6e6d777186241391e1d4b19cf57b5e30.png"
+    },
+    {"id":52,"name":"Braukwin", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":[103]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/14a13b4a60126a3c532a2e342071f0d3.png"
+    },
+    {"id":39,"name":"Bunraku n\u00b0JE2016", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/eb24be12c45387dfd41eff51d957f75d.png"
+    },
+    
+    
+    {"id":62,"name":"Calunko", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/e291081e7dc48d546d5e1a7a2f03433a.png"
+    },
+    {"id":94,"name":"Candilla", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/6d500836e9df47d2054902c6b2da9836.png"
+    },
+    {"id":null,"name":"Cargoche", "group":"pet", "category":"Huevos", "rarity":"common",
+        "location":{"mall":false, "exploration":[114]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/81e101a255f9b814d6e6ce330392674f.png"
+    },
+    {"id":55,"name":"Catatapillar", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[69]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/2640e20f0ed05f15d6bbc69e5fcef596.png"
+    },
+    {"id":41,"name":"Chead", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/41354e0c027ff382cf7672c62bdb0e6b.png"
+    },
+    {"id":29,"name":"Chestok", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[25]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/78697e6c6b2c1fdc027a289112d3131e.png"
+    },
+    {"id":103,"name":"Chimori", "group":"pet", "category":"Huevos", "rarity":"common",
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/5282d04119a34e7bb116d95d0f980283.png"
+    },
+    {"id":80,"name":"Chiromagnus", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":["Obtención: Alquimia"]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/65f03332d3aeb89891b002602a59121a.png"
+    },
+    {"id":42,"name":"Ciralak", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/b3437b7f52809884e0f51b3af05c0f3b.png"
+    },
+    {"id":13,"name":"Corko", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[9]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/ddb49dfbffee113cf8b87f6a84530dad.png"
+    },
+    {"id":5,"name":"Crowmero", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[23]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/08397cff846aa02a5f4133fac5c386f2.png"
+    },
+    {"id":9,"name":"Crylasm", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":false, "exploration":[18,20]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/99dda3fc72c44d017fd392dc97168cbf.png"
+    },
+
+
+    {"id":10,"name":"Dalafa", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/602c1bf7daf775ae482f0af930d18a1a.png"
+    },
+    {"id":43,"name":"Danalasm", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/f72e5c3ccf3101bdaa756090b175c8e2.png"
+    },
+    {"id":17,"name":"Dawn Homonculus", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":[67]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/2314badb79f96ad5123820eb9b0018aa.png"
+    },
+    {"id":12,"name":"Draflayel", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":["Disponible en costales."]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/27602704d8fe6b25896eba00dc65a2e8.png"
+    },
+    
+
+    {"id":92,"name":"Etheralm", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/488afcc1dd36766e4131964d7f470e06.png"
+    },
+
+
+    {"id":59,"name":"Fenrisulfr", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":[108]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/3baa1f5b6f4d23d91c8250c5c4e9e4d3.png"
+    },
+    {"id":54,"name":"Flubat", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[104]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/65e603b0961c0f48150f450b52187690.png"
+    },
+
+
+    {"id":73,"name":"Galorze", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/42adf29d2713d7832ee0d3b4b46df6e0.png"
+    },
+    {"id":64,"name":"Globulosaurus", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/22aa8dce19ca6d9a52d70154c4edf370.png"
+    },
+    {"id":88,"name":"Greifmar", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/03472b87b4c8938eab761329993b06f8.png"
+    },
+    {"id":36,"name":"Grookhan", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":["Disponible en episodio 17."]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/0cca1c484f00f1ee25532d5a9d71601a.png"
+    },
+   
+
+    {"id":93,"name":"Hanajo\u014d", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/089115851d54c0342ad3e2a230b74a74.png"
+    },
+    {"id":66,"name":"Hydracarys", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/f58369d98dc9341ed83193ba4929e975.png"
+    },
+    
+    
+    {"id":57,"name":"Jeanylotte", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/c0a72c1c1f0a3149de00248d359cc7db.png"
+    },
+    {"id":6,"name":"Jipinku", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[19]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/dc4c471c29bdf1ae59feee8ec2640c56.png"
+    },
+
+    
+    {"id":24,"name":"Kiampu", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":false, "exploration":[32]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/27689b35279aaca258e3bfacd34a3905.png"
+    },
+    {"id":86,"name":"Korivora", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/586ee7b815301611d5ae012156f777bc.png"
+    },
+
+
+    {"id":27,"name":"Lamulin", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/6351d0c894aafc3cadaefd63a6a2ad28.png"
+    },
+    {"id":79,"name":"Lapy", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":false, "exploration":[96]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/4f03d4c9253c9c534e361f4e0362cad0.png"
+    },
+    {"id":40,"name":"Libleunette", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[57]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/52aba34eff1ff66afe0a243c4634fc23.png"
+    },
+    {"id":14,"name":"Liclion", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[14]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/61983bc9e8a3ac9dddfa8c85296a029b.png"
+    },
+    {"id":114,"name":"Loutruol", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/baae46cec00dd75f23f039d6577b3ad9.png"
+    },
+    {"id":53,"name":"Lovigis", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/cf3022b276752b1d6bf42d3891848671.png"
+    },
+
+
+    {"id":85,"name":"Marquil", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/8d1449add813cbb85b05a5e27f6fd52a.png"
+    },
+    {"id":35,"name":"Maulix", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[73]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/1741a4ce3883483c849ccce546e997ed.png"
+    },
+    {"id":72,"name":"Meeper", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/3284919abacb7641e8337867bacbe6cb.png"
+    },
+    {"id":61,"name":"Melomantha", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/3477defcc2a46a56a195b60268686740.png"
+    },
+    {"id":16,"name":"Midnight Homonculus", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":[92]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/599b2fd3e1a1a28d55d042cdf565e7bb.png"
+    },
+    {"id":22,"name":"Minaloo", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":["Disponible en costales."]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/78770ac72c9c7594f1d3564eca27f279.png"
+    },
+    {"id":48,"name":"Molecat", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[97]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/694f0696ad591928d65dcad811edf45f.png"
+    },
+    {"id":75,"name":"Mohmia\u00fb", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/13f795cf137cad70f9149e2a4962785e.png"
+    },
+    {"id":50,"name":"Monchon", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[107]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/a987f468f060342a193117d06fab9d75.png"
+    },
+    {"id":21,"name":"Musarose", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/92c3f84d6772932d72bb284245ce4d32.png"
+    },
+
+
+    {"id":23,"name":"Nocturnal Dalafa", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[11]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/066c5eaa58f89032a6390cd7390aea3b.png"
+    },
+    {"id":18,"name":"Noon Homonculus", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":false, "exploration":[26]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/e024fd2c6bf49260525439e99fab00a2.png"
+    },
+
+
+    {"id":49,"name":"O'oluray", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[59]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/af20fd257de911b109d5ad13e6e79a56.png"
+    },
+    {"id":33,"name":"Ocemas", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/6227f5024b33473eddab40b8670ddc86.png"
+    },
+    {"id":44,"name":"Okanya", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/eba3a5f44c36cc206aaf2aa39c7b0ec7.png"
+    },
+    {"id":58,"name":"Ornak", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[106]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/23051054a550f932a13ab10558ceed03.png"
+    },
+    {"id":65,"name":"Osstoplasm", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/b450ae90ff32d4ad736d74671ce54500.png"
+    },
+    {"id":68,"name":"Owlett", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/3684f626e1c9420cf1acb198faf1caf7.png"
+    },
+
+
+    {"id":26,"name":"Panalulu", "group":"pet", "category":"Huevos", "rarity":"legendary", 
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/32fff2d017b0885287dae9744b0c7a05.png"
+    },
+    {"id":90,"name":"Perceed", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/020308cf1af1f53c0bc779e7d7b877da.png"
+    },
+    {"id":7,"name":"Pimpel", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[18,21,23]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/d4c33b165868e49a710e7c6649175c31.png"
+    },
+    {"id":96,"name":"Pinchou", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/f6d2d803bc1d7ca06809c1088c4af321.png"
+    },
+    {"id":37,"name":"Pinigin", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/48109395741d4ac36b8e1aaa0b6513e0.png"
+    },
+    {"id":111,"name":"Pinpipou", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/060b07158677ced62206b93983f86946.png"
+    },
+    {"id":109,"name":"Pirnomnom", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/35a9c78aaaed7c823ba375a4bc072f28.png"
+    },
+    {"id":97,"name":"Piscxolot", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/fed2afc42fb1fb2cf61c3fecf6e1c1b7.png"
+    },
+    {"id":4,"name":"Plumobec", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[18]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/d33dbbcb7852960ff3ede41c702f70d7.png"
+    },
+    {"id":null,"name":"Pluvialily", "group":"pet", "category":"Huevos", "rarity":"common",
+        "location":{"mall":false, "exploration":[110]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/d42eb8302b54e94d4b4be146dfd7bbc4.png"
+    },
+    {"id":113,"name":"Pocoku", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/2410ce91a45f63b2ad889a4542d28178.png"
+    },
+    {"id":78,"name":"Pomponeige", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/c60d22946de3b1a916f5e4e10f214ebf.png"
+    },
+    {"id":25,"name":"Poulpatata", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[16]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/565ae4170005e1e2317e363a166e7ffa.png"
+    },
+    {"id":38,"name":"Poulpatata from the Deep", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[27]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/709487cfb1c544d5988f186b38e720a1.png"
+    },
+    {"id":89,"name":"Pterocorvus", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/b25c50d0945ee2468f1b61acba45e7d0.png"
+    },
+
+
+    {"id":32,"name":"Rawist", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/fbb859dcea3272468b89d6a7bc72a907.png"
+    },
+    {"id":98,"name":"Regarius", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/3c4134ba7679af47e3af749988375775.png"
+    },
+    {"id":70,"name":"Rowtsya", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/385cc14aa69fce5b2c27934651f16b57.png"
+    },
+
+
+    {"id":8,"name":"Sabali", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":true, "exploration":[14,15]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/6ed7a1ffcc77b18104bb0847672adf79.png"
+    },
+    {"id":null,"name":"Seifaun", "group":"pet", "category":"Huevos", "rarity":"epic",
+        "location":{"mall":false, "exploration":["Disponible en episodio 2 (NE)."]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/99ec6d3cd78d40b1133694d1d0d8f60d.png"
+    },
+    {"id":19,"name":"Seryphon", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[22]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/5b03292164f6ed9a4a0b2f8f2db8322d.png"
+    },
+    {"id":31,"name":"Sgarkellogy", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/739f2ec457f67c6f6a15f6d318056d3e.png"
+    },
+    {"id":91,"name":"Skanis", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/399fd490a1b6d7414e4e8fdeba7dcd28.png"
+    },
+    {"id":45,"name":"Sitourche", "group":"pet", "category":"Huevos", "rarity":"common", 
+        "location":{"mall":false, "exploration":[62]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/5853fde79e2fdfb50c39f4121628b357.png"
+    },
+    {"id":34,"name":"Sowige", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/5895f4debd541937bb4b0f7de8e4077c.png"
+    },
+    {"id":30,"name":"Spadel", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/1ce67c32410baa424b06e75118be7927.png"
+    },
+
+
+    {"id":20,"name":"Valuret", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/aa44c4617665fa9d12acac90607fd87a.png"
+    },    
+    {"id":46,"name":"Verdheleon", "group":"pet", "category":"Huevos", "rarity":"epic", 
+        "location":{"mall":false, "exploration":[66]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/02c37b3cb63a76c4aac842b4e452ddd5.png"
+    },
+    
+
+    {"id":102,"name":"Warrifang", "group":"pet", "category":"Huevos", "rarity":"common",
+        "location":{"mall":true, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/35edaa5b796108e5b0381d7c08f23fea.png"
+    },
+    {"id":95,"name":"Wispirit", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/11f4bb2b92f87dae8d9b20d475ffc3f7.png"
+    },
+    {"id":63,"name":"Woolapiyou", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/f7b8909f87d9309fea10b01216fe5beb.png"
+    },
+
+
+    {"id":106,"name":"Xozehf", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/08ebf4698968136c7bec406e97bfb96d.png"
+    },
+    {"id":69,"name":"Xylvra", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/1dfbeac44436f0151db612ba97fb2695.png"
+    },
+
+
+    {"id":56,"name":"Yeti", "group":"pet", "category":"Huevos", "rarity":"rare", 
+        "location":{"mall":false, "exploration":[75]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/a3bae710d1a9b6e2bfb3ca5851a047db.png"
+    }, 
+
+
+    {"id":81,"name":"Zarali", "group":"pet", "category":"Huevos", "rarity":"event", 
+        "location":{"mall":false, "exploration":[-1]},
+        "img":"https://www.eldarya.es/assets/img/item/egg/983faa9d534a7d9e7983abc236e0ca19.png"
+    }
+]

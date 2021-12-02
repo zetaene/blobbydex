@@ -1,0 +1,1282 @@
+[
+    {"id":11, "name":"Creamy Caterpillar", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[17], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2b73777ac6d11bb47b897a1e2aeaf017.png"
+    },
+    {"id":12, "name":"Precious Lotus", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1b1ce777df1ab47128f7fd6531a9fb0a.png"
+    },
+    {"id":13, "name":"Sugar Cloud", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[26], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9e34ceeba23c6f7658639d3bad22899b.png"
+    },
+    {"id":14, "name":"Cotton Flower", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[23,11], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/635fe0e5b32abd8f43f3ee9f86f54574.png"
+    },
+    {"id":15, "name":"Glowing Caterpillar", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[17,13,112], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d56aea3cc6001e550c52dd87344e65d6.png"
+    },
+    {"id":16, "name":"Eskimo Pie", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/6a2269995d38e4cfee820fa5737eea48.png"
+    },
+    {"id":17, "name":"Honey Fruit", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[14,11], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/101bbcf85579bbd2947fbf1fc2cdf2d2.png"
+    },
+    {"id":18, "name":"Golden Nectar", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[23], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/016ba2afe43a957f793696343f37ed1f.png"
+    },
+    {"id":19, "name":"Sweetened Egg", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[23], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4a8a6bb81376728fcdfc01d03e07b268.png"
+    },
+    {"id":20, "name":"Star Cookie", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/534f8ff2cfb7715b69fabad691c41e3f.png"
+    },
+    {"id":21, "name":"Mini Black Hole", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[13,92], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1cb3d0f4c640bfe7e642c36e3f699c18.png"
+    },
+    {"id":22, "name":"Midnight Fruit", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/b2a13f01b5665def1bf8fdb25fe2a484.png"
+    },
+    {"id":23, "name":"Mini Ray of Sunlight", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[11,93], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a9a6942545e7998afec55eb9702e7d60.png"
+    },
+    {"id":24, "name":"Red Moon Fruit", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[11,14,15,114], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f84eb34e9f3430f70ee4540be19d85d1.png"
+    },
+    {"id":25, "name":"Mini Meteorite", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[17,35], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/624cca74c4cc87ac4fe4badf9b8644d5.png"
+    },
+    {"id":26, "name":"Red Lizard", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[17,19], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4608d273cca8e928f4f599f6795acc0e.png"
+    },
+    {"id":27, "name":"Night Bubble", "group":"pet", "category":"Alimento", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2d456def32a59d80f3bac04cba72f856.png"
+    },
+    {"id":28, "name":"Dragonfly Fish", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[16,27,35], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/660229e8aa32d1fe4da8b31a8f8951ca.png"
+    },
+    {"id":29, "name":"Iridescent Beetle", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[21], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/3437e996ddd253253f13aca7e41a3af4.png"
+    },
+    {"id":30, "name":"Golden Rose Petals", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[58,117], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a85292f7fb9f7b41a86f86e70b9c8e8a.png"
+    },
+    {"id":31, "name":"Poisonous Ladybug", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[22], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/eb374a7ab9ea8da02114857fa71709b3.png"
+    },
+    {"id":32, "name":"Eternal Snow", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/88f7a775d83eab5b1c68b0f1d3e5749e.png"
+    },
+    {"id":33, "name":"Frozen Bubble", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/b0edb8b1e4a5c2a1724345fd61e07e1e.png"
+    },
+    {"id":34, "name":"Imperfect Snowflake", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/86835640986f14d7bbcfcfb280e0f549.png"
+    },
+    {"id":35, "name":"Bamboo Shoot", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[15,22], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a8c573a60fe54217519e0e7aaa014144.png"
+    },
+    {"id":36, "name":"Nugget of Gold", "group":"alchemy", "category":"Minerales", "rarity":"legendary", 
+        "location":{"exploration":[57,58,105], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/04e02d7650452e28e9e80d14ebbb5fff.png"
+    },
+    {"id":37, "name":"Feather Duster", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[24], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/6f0e0bc684874559a47eca7a925c25d8.png"
+    },
+    {"id":38, "name":"Sticky Lollipop", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[24], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c7cfcfb267c6c885952c6de4a8221937.png"
+    },
+    {"id":39, "name":"Watering Can", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[23,24], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0a3d66b5d3ba7400a27b5661a40242ad.png"
+    },
+    {"id":40, "name":"Currycomb", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ba1ce2e1dd74466d0ce72b746191e985.png"
+    },
+    {"id":41, "name":"Emerald Lantern", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a6dc15dca0195f8edea2a156a134a8f6.png"
+    },
+    {"id":42, "name":"Golden Shears", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[24], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c59ac4db999f63cb9c5a1a810f91ac30.png"
+    },
+    {"id":43, "name":"Dreamcatcher", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a916e3f835526805da892a9e28624b54.png"
+    },
+    {"id":44, "name":"Round Lily Pad", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[27], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9d02191e008474f796e81c203df3aa7a.png"
+    },
+    {"id":45, "name":"Rare Flower", "group":"pet", "category":"Cebos", "rarity":"legendary",
+        "location":{"exploration":[93], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/34410d904d508fdcc0755c097f1538a3.png"
+    },
+    {"id":46, "name":"Sky Bubble", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[20], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/6b775d0a7c363b032205256e9da9a679.png"
+    },
+    {"id":47, "name":"Flippers", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[16], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/e46e799aac2a92fe4aec8b2625d1e991.png"        
+    },
+    {"id":48, "name":"Cinders", "group":"pet", "category":"Cebos", "rarity":"epic", 
+        "location":{"exploration":[28], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0a0c537dbb9c2250124360897eb8fb08.png"
+    },
+    {"id":49, "name":"Bottle of Nothingness", "group":"pet", "category":"Cebos", "rarity":"legendary", 
+        "location":{"exploration":[13], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/aec1c077604cbafb1132446de4147ef3.png"
+    },
+    {"id":50, "name":"Page of a Book", "group":"pet", "category":"Cebos", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/00619ba6e645a72410c9b21ae9dabcd0.png"
+    },
+    {"id":51, "name":"Bottle of Essence of Life", "group":"pet", "category":"Cebos", "rarity":"legendary", 
+        "location":{"exploration":[24], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/be96f3907c417218b12b537bc3e80df4.png"
+    },
+    {"id":52, "name":"Silver Feather", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[33,94], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/beb7bacd6843b491a81647bf8c2f6fe1.png"
+    },
+    {"id":53, "name":"Bottle of Fury", "group":"pet", "category":"Cebos", "rarity":"legendary", 
+        "location":{"exploration":[27],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/aa6db71fb388ec165496dcc23f08b5c8.png"
+    },
+    {"id":54, "name":"Antique Bell", "group":"pet", "category":"Cebos", "rarity":"legendary",
+        "location":{"exploration":[18,67], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/aca2a5e69e14bfecf2c1311010afb655.png"
+    },
+    {"id":55, "name":"Inkwell", "group":"pet", "category":"Cebos", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7833d742bfc22101ed5eb794180bed25.png"
+    },
+    {"id":56, "name":"Candle", "group":"pet", "category":"Cebos", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1cd43b75339d37551bfb9adf1740d662.png"
+    },
+    {"id":57, "name":"Glass Comb", "group":"pet", "category":"Cebos", "rarity":"rare",
+        "location":{"exploration":[35], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ce43a04302ca1c648a35d69b26ca73e2.png"
+    },
+    {"id":58, "name":"Feather Fan", "group":"pet", "category":"Cebos", "rarity":"epic",
+        "location":{"exploration":[75], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/58b1658470b83ba4873097d33867703f.png"
+    },
+    {"id":59, "name":"Patched Plush Bear", "group":"pet", "category":"Cebos", "rarity":"epic", 
+        "location":{"exploration":[20],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/50d74378b6772ab49076b0b0ec9c79d1.png"
+    },
+    {"id":60, "name":"Iridescent Pearls", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[32], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9719323f87c9294733077b83136451a7.png"
+    },
+    {"id":61, "name":"Music Box", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[27], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bf49acfb0c781a73ba33e319fbb1afe8.png"
+    },
+    {"id":62, "name":"Ivory Ocarina", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[25], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5af8126a026832087214901380a18235.png"
+    },
+    {"id":65, "name":"Test Tube", "group":"alchemy", "category":"Recipientes", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4d8b01ef3eba43786851b2b8e7860c9e.png"
+    },
+    {"id":66, "name":"Beaker", "group":"alchemy", "category":"Recipientes", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1b510ebf6a8a94544d53b9d8b1dcac64.png"
+    },
+    {"id":67, "name":"Flask", "group":"alchemy", "category":"Recipientes", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/95270ef510a71daf6a69fb4a003d0e77.png"
+    },
+    {"id":68, "name":"Ethereal Moon Flask", "group":"alchemy", "category":"Recipientes", "rarity":"common", 
+        "location":{"exploration":[72], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bc466afd5765125b68b0de5c49f4bc4e.png"
+    },
+    {"id":71, "name":"Hollowed Flask", "group":"alchemy", "category":"Recipientes", "rarity":"common", 
+        "location":{"exploration":[17,67], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/32f802870d2b51d1f51a1dc3ac2d365b.png"
+    },
+    {"id":74, "name":"---", "group":"alchemy", "category":"Recipientes", "rarity":"rare",
+        "location":{"exploration":[57], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/95adc164559082f4f4ac4afbd6870b63.png"
+    },
+    {"id":77, "name":"Energy Pearl", "group":"alchemy", "category":"Otros", "rarity":"epic", 
+        "location":{"exploration":[13,24], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f9a4111a94623ecd3da67c48bc98b06f.png"
+    },
+    {"id":78, "name":"Arcane Dust", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ae0bfbdb8a2e79163f54d4dd77c51909.png"
+    },
+    {"id":79, "name":"Spicy Melon", "group":"alchemy", "category":"Plantas", "rarity":"rare",
+        "location":{"exploration":[22], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/cd179b83cf1b1c34a7d66753438f6314.png"
+    },
+    {"id":80, "name":"Dryad Tear", "group":"alchemy", "category":"Minerales", "rarity":"epic", 
+        "location":{"exploration":[11], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7f9acbf97acb4fa56cbabf17f51013b5.png"
+    },
+    {"id":81, "name":"Whistling Grass", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[11,22], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/3de747466bb0818cfc22170eea216adb.png"
+    },
+    {"id":82, "name":"Acidic Grass", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[18], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c04afcfae74a3fc68172fe458ed7a936.png"
+    },
+    {"id":83, "name":"Purified Water", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a4f6d5b6c1e9738a1c99816433c2c12b.png"
+    },
+    {"id":84, "name":"Flame Flower", "group":"alchemy", "category":"Plantas", "rarity":"epic",
+        "location":{"exploration":[28], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2c90e32cbadd3390faf10b0234e05217.png"
+    },
+    {"id":85, "name":"Frozen Volcanic Rock", "group":"alchemy", "category":"Minerales", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d3774ea99bb6723c40ee52ac77b46a0e.png"
+    },
+    {"id":86, "name":"Water", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common", 
+        "location":{"exploration":[9,16,27], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d860b545a000dad2ac36a8154bdf1621.png"
+    },
+    {"id":87, "name":"Fire Honey", "group":"alchemy", "category":"Plantas", "rarity":"rare", 
+        "location":{"exploration":[17], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c0f0c416fed973897fbf66eacbe6245c.png"
+    },
+    {"id":88, "name":"Marshland Corrosive Gas", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7f4b23bd762135e09462c99547f75ef0.png"
+    },
+    {"id":89, "name":"Wooden Ashes", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[28], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a7c56a97ae24a55f34f53145c7a73118.png"
+    },
+    {"id":90, "name":"Moogliz Milk", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d9a0d21ac6e9b7143e5ae625f1c11f3f.png"
+    },
+    {"id":91, "name":"Thick Sap", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[14,15], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/37047d6fd998de95d99244195aac44ae.png"
+    },
+    {"id":92, "name":"Olive Oil", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common", 
+        "location":{"exploration":[23,109,156], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/59570f85535033e2658f9151a8116719.png"
+    },
+    {"id":93, "name":"Enchanted Coca Leaf", "group":"alchemy", "category":"Plantas", "rarity":"common",
+        "location":{"exploration":[26], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/b3f4282aef75135ce4b25b9fce09d46d.png"
+    },
+    {"id":94, "name":"Sugary Beet", "group":"alchemy", "category":"Plantas", "rarity":"common",
+        "location":{"exploration":[60], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/818b761091dc3d32314aad54506a9c4f.png"
+    },
+    {"id":95, "name":"Coffee Bean Cluster", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[64,102], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/67d04679c5fa2b4aa7dbbfdc497e06d9.png"
+    },
+    {"id":125, "name":"Special Candy", "group":"pet", "category":"Alimento", "rarity":"legendary",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/eb9664d5b96a303ded662248e1de3393.png"
+    },
+    {"id":127, "name":"Love Candies", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"San Valentín"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1382e609eddf83e19b9e30e3f2b200d9.png"
+    },
+    {"id":128, "name":"Minty Steak", "group":"pet", "category":"Alimento", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/8eabdae9f409ce708cdd0f3cf341beab.png"
+    },
+    {"id":129, "name":"Winged Bell", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/36fff87788325aa4c0258c933f491c88.png"
+    },
+    {"id":130, "name":"Chocolate Cirses", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Pascuas"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/89e3e4147a154e667eaec09a56f99575.png"
+    },
+    {"id":131, "name":"Soap", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/62efc7fd69cfc23fff6f73be290cc19f.png"
+    },
+    {"id":132, "name":"Dried Algae", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[32,65,75], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f254cd24b4b66b385fa7ee7d50bdcf81.png"
+    },
+    {"id":133, "name":"Speckled Crab Claw", "group":"pet", "category":"Alimento", "rarity":"epic",
+        "location":{"exploration":[32], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9fb47213c50d40eb68c570bd505cc68e.png"
+    },
+    {"id":134, "name":"Pearly Thin Sand", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[32], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/22ad1e9799852a7491e0acd0648be873.png"
+    },
+    {"id":135, "name":"Sweet Payaga", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[33], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a05325ea0498d64a697973adc57803c2.png"
+    },
+    {"id":136, "name":"Fragmento de estatua", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[33,156], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4e8c184d67256848728693bdf77787d2.png"
+    },
+    {"id":137, "name":"Old Kappa Seal", "group":"alchemy", "category":"Otros", "rarity":"rare", 
+        "location":{"exploration":[19,34,103], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/065032d287b1bae71fc5fcc27fe6e52e.png"
+    },
+    {"id":138, "name":"Ripped Kappa Fabric", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[16,34,62,75,108], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/13fad826a8a69852904260814f473024.png"
+    },
+    {"id":139, "name":"Moon Fish", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[34,35,71], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/8046f75f0780636b99924c16938a621d.png"
+    },
+    {"id":140, "name":"Azure Pigments", "group":"alchemy", "category":"Minerales", "rarity":"rare", 
+        "location":{"exploration":[33], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/15f8509d566e5802df1f16b1f903b1d0.png"
+    },
+    {"id":141, "name":"Flask of Bewitching", "group":"alchemy", "category":"Gases y líquidos", "rarity":"rare",
+        "location":{"exploration":[35], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/db20ba8bd11b280dd7536e850f4f37d6.png"
+    },
+    {"id":142, "name":"Arcane Pit", "group":"alchemy", "category":"Otros", "rarity":"epic", 
+        "location":{"exploration":[23,35,101], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/21084e8ce947fd14fe5907c8f27a05ac.png"
+    },
+    {"id":143, "name":"Luminous Coral", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[61,65], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/822928ac7679fbd79f4b48434503948d.png"
+    },
+    {"id":144, "name":"Polished Shell", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[61,93], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c96f67050cd7b04a4e892fb8b7cbdfc4.png"
+    },
+    {"id":145, "name":"Candy Corn", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/dbaa9928ffb1bcc60233c7b75a1994a1.png"
+    },
+    {"id":150, "name":"Bastoncillo de Navidad", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Navidad"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/175725c147351f1f12abd1f8bd67ce16.png"
+    },
+    {"id":158, "name":"Christmas Cookie", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Navidad"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/50fe24d26aafb5d41618ea311ff2f305.png"
+    },
+    {"id":159, "name":"Iced Pudding", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Navidad"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/13f4b5c6fef7b1368a3d79f2ca730988.png"
+    },
+    {"id":160, "name":"Terrifying Sweet", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2bace7e4437841475a6f33f3d6ce070a.png"
+    },
+    {"id":161, "name":"Possessed Apple", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0d35dbdf6604df89c8baaf83e029d956.png"
+    },
+    {"id":162, "name":"Onigiris", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bd9da36d2ba4a32d43b6a02f00e4fba9.png"
+    },
+    {"id":164, "name":"Sharp Tooth", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[57,100,104], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/59369a72ac4b9c67023fbefd28233eea.png"
+    },
+    {"id":165, "name":"Blood Carrot", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[57], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/398f1f82e878640d9ddf859c691664ff.png"
+    },
+    {"id":166, "name":"Harmony Crystal", "group":"alchemy", "category":"Minerales", "rarity":"epic", 
+        "location":{"exploration":[14,58,98], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1d11307daf0f3eb70e8b5546d2d3d655.png"
+    },
+    {"id":167, "name":"Tuft of Moogliz Fur", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[21,62,67], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/8970a61e977290737a1431a262853331.png"
+    },
+    {"id":168, "name":"Poisonous Rose", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[61,69,95], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/038852903f0a4ad1efc642904e6d9e4a.png"
+    },
+    {"id":170, "name":"Haunted Harp", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/6b08424cdea56632068e314b214f53fe.png"
+    },
+    {"id":173, "name":"Lethe Water", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common", 
+        "location":{"exploration":[35,58,61], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ec0cc5877c6fb6110542eee8abd19b6a.png"
+    },
+    {"id":174, "name":"Royal Jelly", "group":"alchemy", "category":"Otros", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/77530a7b8373dd44d418e9ced49d01be.png"
+    },
+    {"id":178, "name":"Abandoned Plushie", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/25fa748b2041ff01071ced70522376a0.png"
+    },
+    {"id":175, "name":"Strawberry Pistachios", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[22,34,57,67], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/43934e3dd96e761f3f4977d4916a0a04.png"
+    },
+    {"id":184, "name":"Filled Three Toed Boot", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[71,74],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d185c968e3890f6eca4777d242b04110.png"
+    },
+    {"id":185, "name":"Flying Carp", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[74,106], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a1f145564eb6b9c0fe1c8bef3b58509d.PNG"
+    },
+    {"id":186, "name":"Gallyflore", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[13], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c31baf189911e73d3ceaa40c8feb261d.png"
+    },
+    {"id":187, "name":"Damaged Claw", "group":"alchemy", "category":"Otros", "rarity":"rare", 
+        "location":{"exploration":[20,66,96,104], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0e3580718391c54a23b46f9c23e2aa40.png"
+    },
+    {"id":188, "name":"Mushrooms of the Cold", "group":"alchemy", "category":"Plantas", "rarity":"rare",
+        "location":{"exploration":[72,74], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bf811ea509c421f27519c33d3a7b0434.png"
+    },
+    {"id":199, "name":"Melody in a Flask", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Música"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/61bfd110070b3d8d3231274c8df02bef.png"
+    },
+    {"id":200, "name":"Malleable Glass", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1453504444d5436e80efbb787600f723.png"
+    },
+    {"id":201, "name":"Antique Coin", "group":"pet", "category":"Cebos", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/58f5dc4d9578486c01b677d89bdbd78a.png"
+    },
+    {"id":202, "name":"Isca de pesca (BR)", "group":"pet", "category":"Cebos", "rarity":"legendary", 
+        "location":{"exploration":[63],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4bc997526e3da97b2b170f50beb6e51a.png"
+    },
+    {"id":204, "name":"Orb of Wisdom", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[22,59,92], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0c3ec31b11a3a9d7a1ef94297571aa3f.png"
+    },
+    {"id":205, "name":"Acid Berries", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[63,69], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/84dabdc11a67d2c6e80c3409f14cbfc0.png"
+    },
+    {"id":206, "name":"Hoja roja", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[59,72,118], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ff40d3daee66ef41e73ad1c07529d90b.png"
+    },
+    {"id":207, "name":"Alga gaseosa", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[59,118], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/03c441eb666061b290e19838edcb214d.png"
+    },
+    {"id":208, "name":"Oxygen Fragments", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/e754f3bcfa423144a15f77cb795c3625.png"
+    },
+    {"id":209, "name":"Enchanted Rubber", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ae25c266a64f89cd3c03f152c18d991f.png"
+    },
+    {"id":210, "name":"Sable Cookie", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Verano"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/525392fc387f01266346252622b83b23.png"
+    },
+    {"id":211, "name":"Hourglass", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5d02bb4fe1c7ed36df9c41d7fe276a4f.png"
+    },
+    {"id":212, "name":"Glittery Clay", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[70,71], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/409315581f3d1c14cfde079c9fca8081.png"
+    },
+    {"id":213, "name":"Cloud Flask", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[21,68], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c895b9a4cf7e55c906a37b55dfdce116.png"
+    },
+    {"id":214, "name":"Glacier Star", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[68], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c9137477033012d2a5eb78d4bcf0fcf9.png"
+    },
+    {"id":215, "name":"Roche de volcan habitée (FR)", "group":"alchemy", "category":"Plantas", "rarity":"rare", 
+        "location":{"exploration":[70],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/b04080afe251802066361a4ddba08837.png"
+    },
+    {"id":216, "name":"Potted Snow", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[68], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ad0ddfcc41ddf53cb733bc0f0c287c97.png"
+    },
+    {"id":217, "name":"Volcanic Rock Droplet", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[70,72,73], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/42cffe79af6a995f2972187bbe04b0d8.png"
+    },
+    {"id":218, "name":"Aerial Rocks", "group":"pet", "category":"Cebos", "rarity":"epic", 
+        "location":{"exploration":[68], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7f94251fcd4e789d5279ccf4d818d2ce.png"
+    },
+    {"id":220, "name":"Estrella de mar con dardos", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[64], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/568dfa07b3fabc68b93a74a6e5ba9b3b.png"
+    },
+    {"id":221, "name":"Erizos de mar", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[60,156], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/e67bb1348f9ed15293496ff00ac3bcdd.png"
+    },
+    {"id":223, "name":"Red Anemone", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[69], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/632b469e640bfe3779a23e3b74a9dff5.png"
+    },
+    {"id":224, "name":"Shipwreck Debris", "group":"alchemy", "category":"Otros", "rarity":"rare",
+        "location":{"exploration":[60], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5edba1a3b7a5c4836eb4fc617495b657.png"
+    },
+    {"id":232, "name":"Caixa de tinta suspeita (BR)", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[72],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9092fad4b9635bd780713296c3d53f15.png"
+    },
+    {"id":233, "name":"Blobbydelice \u00a9", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ed3a0968d20194fc42e8a9ddacb64ffc.png"
+    },
+    {"id":234, "name":"Gill Net", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[92,103], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c1b871a7a6de26f566b7a64d8de40084.png"
+    },
+    {"id":235, "name":"Elven Grapes", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[94,103], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/fb821420d444478fe7d1fd405d020a29.png"
+    },
+    {"id":236, "name":"Yrondolet Eggs", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[95], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7f7706d2ecb8ec936cc40193b175f295.png"
+    },
+    {"id":237, "name":"Monchon Hair", "group":"alchemy", "category":"Otros", "rarity":"legendary",
+        "location":{"exploration":[94], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f1e16bbe46829512ccae7009dcb98cd3.png"
+    },
+    {"id":238, "name":"Copper Rock", "group":"alchemy", "category":"Minerales", "rarity":"rare", 
+        "location":{"exploration":[19,94], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/beb452baa1be0f19719c3e3043a38702.png"
+    },
+    {"id":241, "name":"Blue Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0e6ff92356dc828d8baab848145961da.png"
+    },
+    {"id":242, "name":"Yellow Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7e0b7895b055eacfe8a822e352dcf63f.png"
+    },
+    {"id":243, "name":"Red Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/8e68d9fc4c75b959e1686e78847a87f8.png"
+    },
+    {"id":244, "name":"Green Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/fc1b27c53af8d8d1bb767f901c541137.png"
+    },
+    {"id":245, "name":"Essence of Transmutation", "group":"alchemy", "category":"Otros", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/491b117c3f7d6cc58ccab4b6afb6b195.png"
+    },
+    {"id":250, "name":"Beginners Sewing Kit", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c4beac226116ecf1ddd71783a87f915c.png"
+    },
+    {"id":251, "name":"Qualified Sewing Kit", "group":"alchemy", "category":"Otros", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0e299db2248cbe825867c6a030ca8fad.png"
+    },
+    {"id":252, "name":"Expert Sewing Kit", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7d0bbe1dd7cbb34b5cdf5781a3af03c3.png"
+    },
+    {"id":253, "name":"Master Sewing Kit", "group":"alchemy", "category":"Otros", "rarity":"legendary",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a7bad9db0e0065d3f77c9f1a32c32a2b.png"
+    },
+    {"id":263, "name":"Luxurious Satin", "group":"alchemy", "category":"Otros", "rarity":"legendary", 
+        "location":{"exploration":[67,98,106], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/44b37f167eea159dabb010b965cbc3d2.png"
+    },
+    {"id":264, "name":"Reinforced Fabric", "group":"alchemy", "category":"Otros", "rarity":"epic", 
+        "location":{"exploration":[23,33,96,99,104], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2f9a590248951e1dfe0a99692ce9105e.png"
+    },
+    {"id":265, "name":"Solid Fabric", "group":"alchemy", "category":"Otros", "rarity":"rare", 
+        "location":{"exploration":[24,34,97], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/499e1fc3169b68e6c6bbef85302d3011.png"
+    },
+    {"id":266, "name":"Fortuna's Clover", "group":"alchemy", "category":"Plantas", "rarity":"epic",
+        "location":{"exploration":[18,97], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/969ee2c43cd3f1f0df1eda29278e356d.png"
+    },
+    {"id":267, "name":"Floco perfeito (BR)", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/be0ed375499dd1e810a22fd90b839caf.png"
+    },
+    {"id":269, "name":"Soft Cushion", "group":"pet", "category":"Cebos", "rarity":"epic", 
+        "location":{"exploration":[96,98], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4b3b0c8f4dcb658c22710babcbe3cc69.png"
+    },
+    {"id":270, "name":"Fake Shooting Star", "group":"pet", "category":"Cebos", "rarity":"epic",
+        "location":{"exploration":[98,107], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/91e490ce1f5032a215a1872986b5d465.png"
+    },
+    {"id":271, "name":"Golden Moogliz Milk", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[96], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/17e16aa48425f114c688dc2338b1f910.png"
+    },
+    {"id":272, "name":"Very Red Apple", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[97,102], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9979565445521bed1cab9aa8eec1f30b.png"
+    },
+    {"id":273, "name":"Small Experience Potion", "group":"alchemy", "category":"Pergaminos", "rarity":"common",
+        "location":{"exploration":[20], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/46961a0c065eff6f983598595c90cfe0.png"
+    },
+    {"id":274, "name":"Experience Potion", "group":"alchemy", "category":"Pergaminos", "rarity":"epic",
+        "location":{"exploration":[26], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/17aadd078472ba83b4aca30998aafa1b.png"
+    },
+    {"id":275, "name":"Small Energy Potion", "group":"alchemy", "category":"Pergaminos", "rarity":"rare", 
+        "location":{"exploration":[9,13,34], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7a9300337fa61544c0e9a2df6b036505.png"
+    },
+    {"id":277, "name":"Transmutation Essence", "group":"alchemy", "category":"Pergaminos", "rarity":"common", 
+        "location":{"exploration":[16,24,59,94], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a6f6c91701feb09fae71862bd60b99a4.png"
+    },
+    {"id":278, "name":"Companion Food Transformation", "group":"alchemy", "category":"Pergaminos", "rarity":"common",
+        "location":{"exploration":[13,16], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1f8faeb54e362f7fbe6b71d7a791d7ea.png"
+    },
+    {"id":280, "name":"Ethereal Moon Flask", "group":"alchemy", "category":"Pergaminos", "rarity":"rare",
+        "location":{"exploration":[22],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/fee3ac9d6bc75ed9db693fa1aa40307a.png"
+    },
+    {"id":281, "name":"Star Flask", "group":"alchemy", "category":"Pergaminos", "rarity":"common", 
+        "location":{"exploration":[23,24], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/dfcf572fc57bbbc8f783042eb30e703d.png"
+    },
+    {"id":287, "name":"Hand of Midas", "group":"alchemy", "category":"Pergaminos", "rarity":"legendary", 
+        "location":{"exploration":[60,64], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/511075d7c2e6d51c7035b9e77dd7501e.png"
+    },
+    {"id":293, "name":"Template Draft", "group":"alchemy", "category":"Pergaminos", "rarity":"common", 
+        "location":{"exploration":[24], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/97b1ddd7738e8ab0e9091340b0b2537e.png"
+    },
+    {"id":294, "name":"Detailed Template", "group":"alchemy", "category":"Pergaminos", "rarity":"rare", 
+        "location":{"exploration":[20,35], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a7c536ebd41a97abecfbae9fd0de6ed3.png"
+    },
+    {"id":295, "name":"Prestigious Template", "group":"alchemy", "category":"Pergaminos", "rarity":"epic",
+        "location":{"exploration":[27,105], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/11bbd28ba3158a3cfb21661a3a19e18e.png"
+    },
+    {"id":296, "name":"Perfect Template", "group":"alchemy", "category":"Pergaminos", "rarity":"legendary", 
+        "location":{"exploration":[15,104,107], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/42d84c7e3c76035642337b8fe2d83c3d.png"
+    },
+    {"id":297, "name":"Beginners Sewing Kit", "group":"alchemy", "category":"Pergaminos", "rarity":"common", 
+        "location":{"exploration":[21,28], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/fe5ef55112b040732da083b84f1e4f44.png"
+    },
+    {"id":298, "name":"Qualified Sewing Kit", "group":"alchemy", "category":"Pergaminos", "rarity":"rare", 
+        "location":{"exploration":[20,99],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d0571cf77989a8643fb7ef0c9b12a377.png"
+    },
+    {"id":299, "name":"Expert Sewing Kit", "group":"alchemy", "category":"Pergaminos", "rarity":"epic", 
+        "location":{"exploration":[100, 102],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/b483e1701dfe8c0770adb92bc2f5c884.png"
+    },
+    {"id":300, "name":"Master Sewing Kit", "group":"alchemy", "category":"Pergaminos", "rarity":"legendary", 
+        "location":{"exploration":[108], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/115a31d419c433ad7b58e6ad70b2c754.png"
+    },
+    {"id":301, "name":"Flask of Elements", "group":"pet", "category":"Alimento", "rarity":"legendary",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/20d0213acd30f5e4a07e9b8e7890aff3.png"
+    },
+    {"id":302, "name":"Leprechaun Flask", "group":"alchemy", "category":"Pergaminos", "rarity":"rare",
+        "location":{"exploration":[20],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/97762c2f49350c6df802f98fbb714dbb.png"
+    },
+    {"id":303, "name":"Chiromagnus", "group":"alchemy", "category":"Pergaminos", "rarity":"legendary", 
+        "location":{"exploration":[93], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c0fdbef146dc222b04a7660de00434d2.png"
+    },
+    {"id":305, "name":"White Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c253b14161a63078d573ea214f67149e.png"
+    },
+    {"id":306, "name":"Black Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/32c1fe5058063b5c62c8dee0028a5bc0.png"
+    },
+    {"id":319, "name":"Odyh's Heart", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[98,108], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/28d1ad1d54c970086690beaa2e5b7466.png"
+    },
+    {"id":321, "name":"Ruby Mouse", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[98,107], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/604716563c0180cde987b270f4cf4d01.png"
+    },
+    {"id":322, "name":"Golden Flute", "group":"pet", "category":"Cebos", "rarity":"epic", 
+        "location":{"exploration":[101], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/df146e748d08a4a1247ca595cf3a329f.png"
+    },
+    {"id":324, "name":"Dream Crispies", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[100,104], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5d94e8b3d6457ce3411a907a69030e03.png"
+    },
+    {"id":326, "name":"Rock key", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f9b071d38d2c297dfebf1ed7e3e4790b.png"
+    },
+    {"id":332, "name":"Rainbow Scroll", "group":"alchemy", "category":"Pergaminos", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2960cac3b3b275ab799cea4590860bd4.png"
+    },
+    {"id":335, "name":"Super Blobbydelice©", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bdd825083e80817a1223ca4eaa538529.png"
+    },
+    {"id":339, "name":"Chocolate Candy", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Pascuas"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9ee6f7c3b922767fe42dd5a44705d90c.png"
+    },
+    {"id":340, "name":"Ghost Quartz", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d6fdc5b7d999aad060a92c5320d480d7.png"
+    },
+    {"id":341, "name":"Deep-sea oyster", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Verano"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/65c0ebc1902425a4f0e96e44c668c76f.png"
+    },
+    {"id":342, "name":"Prickly star", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a69d6b46550a5f13c0dadd0cd2d6e462.png"
+    },
+    {"id":343, "name":"Rocío exótico", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Verano"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/11eac1d819fcbe62d07db4f26dd06f6f.png"
+    },
+    {"id":344, "name":"Palm leaf", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9412051df1094fba86200478e9c9ece3.png"
+    },
+    {"id":345, "name":"Edible sand", "group":"pet", "category":"Alimento", "rarity":"event",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"Verano"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1ef38794a1d8bec90b206a257a8334e9.png"
+    },
+    {"id":349, "name":"Sun Leaf", "group":"pet", "category":"Alimento", "rarity":"epic",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5c614b62b2f4b7ecdfb02b4dba2bf87f.png"
+    },
+    {"id":350, "name":"Rainbow Fragment", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[109], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f0e272569ab3d928ee4f51d95e388cd3.png"
+    },
+    {"id":351, "name":"Diurnal Water Lily", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[111], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a75fcac4aadabe7f65edc9d4d9ffba76.png"
+    },
+    {"id":353, "name":"Unstable Nebula", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[110], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/82c73139a884bdf0f52ac2addde9754e.png"
+    },
+    {"id":354, "name":"Lock of Bronze Hair", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[109], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bc8e739b61f520653a4dc53ebc5050f8.png"
+    },
+    {"id":355, "name":"Chimoglyph", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[110], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bd4dacfb99a84394e20beed47c825de7.png"
+    },
+    {"id":356, "name":"Vermilion Snail", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[109], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2c25185653bfc6e938588b4406f50362.png"
+    },
+    {"id":357, "name":"Botella en el mar", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[113], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/316d90bc2b0aab68138120393e1f2326.png"
+    },
+    {"id":358, "name":"Eucariotas acuáticas", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[110], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/e97390640afaacee30651f17ab028e91.png"
+    },
+    {"id":359, "name":"Barril metálico", "group":"pet", "category":"Alimento", "rarity":"epic",
+        "location":{"exploration":[113], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a0375c3cc38960143c685d3eec203f98.png"
+    },
+    {"id":360, "name":"Vela destrozada", "group":"pet", "category":"Cebos", "rarity":"epic", 
+        "location":{"exploration":[112], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/3cbda526a5b03ec1ac644ddec6c2176c.png"
+    },
+    {"id":362, "name":"Atmospheric Liqueur", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common", 
+        "location":{"exploration":[110], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/6ae7a5ae4b405073ad24bb7404e60330.png"
+    },
+    {"id":363, "name":"Weapon Fragments", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[109], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/02b6cec1ea0d27d183bbb2d04140e859.png"
+    },
+    {"id":364, "name":"Queso azul", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[112], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/294d7fbfb8e653a1d4130623ce16bef6.png"
+    },
+    {"id":365, "name":"Muñeco de nieve bailando", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[113,115], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9209a71fbe045c6376ef225a009725a2.png"
+    },
+    {"id":366, "name":"Succulent Leaf", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[111], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d89aca4fd3c4d217795e572e4231dd49.png"
+    },
+    {"id":367, "name":"Bowl of Drool", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[111], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/481ca5317c6e6d0c4bd91e02e2493cc1.png"
+    },
+    {"id":368, "name":"Companion Manure", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[111], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bca788edbca443c1698d9b229499045b.png"
+    },
+    {"id":369, "name":"Magnetic Rock", "group":"alchemy", "category":"Minerales", "rarity":"common",
+        "location":{"exploration":[112], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1a3e2a624b748798ed9a406c948bcd91.png"
+    },
+    {"id":370, "name":"Barnacle Shells", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[113], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/34915449d30ccd2392dcdbbfef815df7.png"
+    },
+    {"id":371, "name":"Drop of Hundred Years Salt", "group":"alchemy", "category":"Minerales", "rarity":"common",
+        "location":{"exploration":[113], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/472cea3c763d76c125ada52223bde39f.png"
+    },
+    {"id":375, "name":"Spectral Lamp", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/92ad6efa5f369d97742054f963883b25.png"
+    },
+    {"id":378, "name":"Hand Sanitizer", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/694f79c5e2672658f4146afc672e3eb5.png"
+    },
+    {"id":380, "name":"Smoking Mushroom", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[114], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/13fffa06003a8e5f6365639488cda84c.png"
+    },
+    {"id":381, "name":"Chamalove", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[], 
+            "mall":true, "bindle":false, "event":"San Valentín"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2d06f8f155646427277ab4bc3863d5a1.png"
+    },
+    {"id":382, "name":"Alga índigo", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[116],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/017205075735a52deeaa1646b1c37a70.png"
+    },
+    {"id":383, "name":"Piña de Pino luminosa", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[115],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/23f7cd15475a4508fce113a84a123f13.png"
+    },
+    {"id":384, "name":"Nieve Cristalizada", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[115],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/795404c2081b14d1901acdb70faa08aa.png"
+    },
+    {"id":385, "name":"Mosquito Arcoíris", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[114], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/02e1afa2732025b75fd7e621961318f7.png"
+    },
+    {"id":386, "name":"Fossile gelé (FR)", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[116],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/00327eb73174b04d8c000e1e040f44f1.png"
+    },
+    {"id":388, "name":"Pluma ligera", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[114], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/86524761119756be3667769c3fdde46a.png"
+    },
+    {"id":389, "name":"Arcocosse", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[114], 
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/68034af4dbb831f8cb894928499000cb.png"
+    },
+    {"id":390, "name":"Cubos letras", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/24a4d4af8d330fdf97dfe9296939addb.png"
+    },
+    {"id":391, "name":"Chocohuevo, pasado por agua", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/91e9cdd161e91709c4e48bacfd6135f7.png"
+    },
+    {"id":392, "name":"Remolino de agua", "group":"pet", "category":"Alimento", "rarity":"rare", 
+        "location":{"exploration":[115],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/b08fcf464d88206625535ab4698a557e.png"
+    },
+    {"id":393, "name":"Baya del cielo", "group":"pet", "category":"Alimento", "rarity":"epic", 
+        "location":{"exploration":[116],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ac0724f7504a396998250ae49fdf402c.png"
+    },
+    {"id":394, "name":"Flores de cristal", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":["?"],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/8d3b164a95f8c971dc243aa146ecce95.png"
+    },
+    {"id":395, "name":"Milhojas de Partituras", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/26ae53919d0996f4c74639582e76c1d7.png"
+    },
+    {"id":397, "name":"Galleta de Sol", "group":"pet", "category":"Alimento", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1520f14fc3fcdf679f796360dd293d29.png"
+    },
+    {"id":398, "name":"Minisol", "group":"pet", "category":"Alimento", "rarity":"legendary", 
+        "location":{"exploration":[18],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/faefe0d21ee898d1478dc7c885d83431.png"
+    },
+    {"id":399, "name":"Vocalización desconocida", "group":"pet", "category":"Cebos", "rarity":"event", 
+        "location":{"exploration":[],
+            "mall":false, "bindle":false, "event":"Pendiente"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ed2a051c655133952a5544ef3d4184f5.png"
+    },
+    {"id":404, "name":"Cápsula de café", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[118],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/94b01e12e3a874d75874ad7d1f9d5368.png"
+    },
+    {"id":405, "name":"Cartucho de tinta para impresora", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[118],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5e57bf91f3c842f486ef8e9a129fc7ed.png"
+    },
+    {"id":406, "name":"Bolsita de té", "group":"alchemy", "category":"Otros", "rarity":"common", 
+        "location":{"exploration":[118],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/3662e3b432c1b277eaa3ba9914bc015e.png"
+    },
+    {"id":407, "name":"Mariposa Lazulis", "group":"pet", "category":"Cebos", "rarity":"rare", 
+        "location":{"exploration":[118],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/8afddf2287fd60ce2650ae8c3905fe8d.png"
+    },
+    {"id":408, "name":"Barra de chocolate", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[118],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/02b80a0e00a3d3ce3d64245760d2f31b.png"
+    },
+    {"id":410, "name":"Zapato perdido", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[118],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/716b4d9dfbdcbda7a64eceafcac912df.png"
+    },
+    {"id":411, "name":"Poción de brillantina", "group":"alchemy", "category":"Gases y líquidos", "rarity":"rare", 
+        "location":{"exploration":[117],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a2a830f3addafbd8f23d9b68d09d2258.png"
+    },
+    {"id":412, "name":"Hola etérea", "group":"alchemy", "category":"Plantas", "rarity":"common", 
+        "location":{"exploration":[117],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/7c87e5448eac91916376aa99f8dfe3c2.png"
+    },
+    {"id":413, "name":"Roca del corazón", "group":"alchemy", "category":"Minerales", "rarity":"common", 
+        "location":{"exploration":[117],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d5f25da4b3318025648c00a6383df30e.png"
+    },
+    {"id":414, "name":"Hoja pájaro", "group":"alchemy", "category":"Plantas", "rarity":"epic", 
+        "location":{"exploration":[156],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d8e48f19fc248021ebd84552e53d6fbf.png"
+    },
+    {"id":415, "name":"Piedras Kintsugi", "group":"alchemy", "category":"Minerales", "rarity":"legendary", 
+        "location":{"exploration":[156],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/24c30a9112023562b7ffd020b89b8cc1.png"
+    },
+    {"id":416, "name":"Uvas luminosas", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[156],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a2c770c906a6f1c7507ce8e02932eff5.png"
+    },
+    {"id":418, "name":"Manzana del crepúsculo", "group":"pet", "category":"Alimento", "rarity":"common", 
+        "location":{"exploration":[117],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/2ca4e5c59cdbb7312c9079d79e1ca0dd.png"
+    },
+    {"id":419, "name":"Bola de plumas", "group":"pet", "category":"Cebos", "rarity":"common", 
+        "location":{"exploration":[117],
+            "mall":false, "bindle":false, "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/439f96b676ab2c4db36b178425ea14e5.png"
+    }
+]
