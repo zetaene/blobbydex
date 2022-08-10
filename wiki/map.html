@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
-	<title>BlobbyDex</title>
+	<title>Mapas - BlobbyDex</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya+Sans+SC&display=swap" rel="stylesheet"> 
@@ -21,9 +21,28 @@
                 <div id="header">
                     <a href="../"><h2>~ BlobbyDex ~</h2></a>
                 </div>
+                <h2>Mapas</h2>
                 <div id="content">
+                    <div id="form-container">
+                        <form onsubmit="return false">
+                            <select id="map-select">
+                                <optgroup label="The Origins">
+                                    <option value="eel">Ciudad de Eel</option>
+                                    <option value="jade">Costa de Jade</option>
+                                    <option value="fenghuang">Templo Fenghuang</option>
+                                </optgroup>
+                                <optgroup label="A New Era">
+                                    <option value="eel2">Ciudad de Eel</option>
+                                    <option value="genkaku">Montañas Genkaku</option>
+                                    <option value="terrestre">Ciudad Terrestre</option>
+                                </optgroup>
+                            </select>
+                        </form>
+                    </div>
                     <!--<ul id="card-list"></ul>-->
-                    <div id="map-section"></div>
+                    <div id="map-section">
+                        <div id="map-container"></div>
+                    </div>
                 </div>
                 <ul class="pages"></ul>
             </div>

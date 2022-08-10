@@ -1,0 +1,84 @@
+.pages a[href] {
+	color: #000;
+}
+
+.main {
+	width: 100%;
+	display: block;
+	margin-top: 0;
+	position: absolute;
+}
+
+#container {
+  width: 850px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 0px 80px 50px 80px;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  box-shadow: 1px 0 20px #dddddd;
+  position: relative;
+  display: table;
+}
+
+.wrapper {
+	display: block;
+}
+
+.pages {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  width: 850px;
+  float: left;
+}
+
+.pages li {
+	width: 50%;
+	float: left;
+	margin: 0;
+	position: relative;
+}
+
+.pages li div {
+	margin: 5px;
+	padding: 10px;
+	height: 120px;
+	background-size: cover;
+	background-position: center left;
+	border-radius: 10px;
+}
+
+.page-list span {
+	top: 43%;
+	position: absolute;
+	right: 10%;
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-shadow: 0 0 10px #333;
+}
+
+.page-list:hover {
+	box-shadow: 0px 0px 5px #000;
+}
+
+.page-list.beta span::after {
+  content: '(Beta)';
+  font-size: 16px;
+  color: crimson;
+  position: absolute;
+  right: 20px;
+  top: 24px;
+  text-shadow: 1px 1px 2px #fff;
+  font-family: consolas;
+}
+
+.page-list.inventory {background-image: url(https://www.eldarya.es/static/img/new-layout/mall/background_alchemy.jpg)}
+.page-list.maps {background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/ae496f5aef3648aa2d13900f952b64ca.jpg)}
+.page-list.pet {background-image: url(https://www.eldarya.es/static/img/new-layout/mall/background_pets.jpg)}
+.page-list.sets {background-image: url(https://www.eldarya.es/static/img/new-layout/mall/background_clothes2.jpg)}
+.page-list.illust {background-image: url(https://www.eldarya.es/assets/img/illustration/56b1d030fd62fe69f8903050b499e180.jpg)}
+.page-list.alchemy {background-image: url(https://www.eldarya.es/static/img/alchemy/background.jpg)}
+.page-list.gm {background-image: url(https://www.eldarya.es/static/img/home/adventure/background.jpg)}

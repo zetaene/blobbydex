@@ -48,7 +48,7 @@ body {
 }
 
 #container {
-    width: 650px;
+    width: 850px;
     background-color: #ffffff;
     margin: auto;
     padding: 0px 80px 0 80px;
@@ -125,7 +125,7 @@ body {
 }
 
 #content {
-    padding:15px 0;
+    /*padding:15px 0;*/
 }
 
 
@@ -134,10 +134,10 @@ body {
 
 #card-container {
     overflow-y: scroll;
-    width: 650px;
+    width: 850px;
     position: absolute;
     margin: auto;
-    top: 120px;
+    top: 170px;
     bottom: 20px;
 }
 
@@ -146,25 +146,36 @@ body {
     padding: 0;
     display: inline-block;
     position: relative;
+    width: 100%;
+    margin: 0;
 }
 
+#card-list.pet {
+    display: table;
+    width: 98%;
+    margin: 0 auto;
+}
 .card-item {
     border: 1px solid #ddd;
-    width: 305px;
+    width: 32%;
     height: 110px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #aaa;
     float: left;
     display: flex;
+    margin: 4px;
+    cursor: pointer;
+    transition: all 500ms;
 }
 
 .card-item:hover {
     background-color: #f0fbff;
 }
 
-.card-item:nth-child(2n+2) {
-    margin-left: 10px;
-    margin-bottom: 14px;
+.pet .card-item {
+    width: 126px;
+    display: grid;
+    height: 150px;
 }
 
 .abstract-icon {
@@ -174,6 +185,15 @@ body {
     width: 100px;
 }
 
+.pet .abstract-icon{
+    margin: auto;
+}
+
+.abstract-icon img {
+    width: 100px;
+    height: 100px;
+}
+
 .abstract-info {
     width: 100%;
     padding: 5px;
@@ -181,12 +201,28 @@ body {
     font-size: 15px;
     line-height: 1.35em;
     overflow: auto;
+    display: table;
+    height: 100px;
+}
+
+.pet .abstract-info {
+    height: auto;
+    width: auto;
+}
+
+.abstract-middle {
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .abstract-name {
     font-family: 'Alegreya Sans SC';
     font-size: 18px;
     border-bottom: 1px solid #ddd;
+}
+
+.pet .abstract-name {
+    border: none;
 }
 
 .rarity-marker-common, .rarity-marker-rare, .rarity-marker-epic, .rarity-marker-legendary, .rarity-marker-event, .anim-marker {
@@ -280,6 +316,11 @@ body {
     background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/a18ea87c9ed86e3e8162ddcd63220d9a.jpg);
 }
 
+.map23 {
+    /* Ciudad Terrestre */
+    background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/6d4b75327c3b4431a72a888ac6070824.jpg);
+}
+
 .map-location {
     position: absolute;
     background: url(https://www.eldarya.es/static/img/new-layout/pet/icons/picto_map.png);
@@ -315,6 +356,7 @@ body {
     height: 450px;
     width: 800px;
     position: relative;
+    margin: 20px auto;
 }
 
 .tooltip {
@@ -344,4 +386,161 @@ body {
 .title-bait, .title-food, .title-eggs, .title-clothes, .title-alchemy, .title-scrolls {
     display: block;
     width: 100%;
+}
+
+#filter-category-selector {
+
+}
+
+#filter-alchemy-type {
+    display: none;
+}
+#filter-pet-type {
+    display: none;
+}
+
+#popup-outer {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    top: 0;
+    display: none;
+
+}
+
+#popup-medium {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+#popup-inner {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    height: 300px;
+    transition: 500ms;
+    padding: 25px;
+    background-image: url("./assets/img/card-bg.png");
+    border: 2px dashed;
+    background-repeat: round;
+    box-shadow: 3px 3px 3px #222;
+    position: relative;
+    overflow: hidden;
+}
+
+#popup-inner.open {
+    width: 600px;
+    height: 300px;
+}
+
+#popup-content {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+}
+
+#first-line, #second-line, #third-line {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#first-line img {
+    background: #fff;
+    box-shadow: 2px 2px 10px #999;
+    width: 100px;
+}
+
+#first-left {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#first-right {
+    float: left;
+    width: calc(100% - 115px);
+    margin-left: 15px;
+}
+
+.pet #second-line span {
+    text-align: center;
+}
+
+.pet-image {
+    max-height: 142px;
+    max-width: 180px;
+    margin: 0 20px;
+}
+
+#popup-inner span {
+    width: 100%;
+    display: block;
+    line-height: 25px;
+}
+
+#popup-inner .rarity {
+    margin-top: -7px;
+    position: relative;
+    text-align: center;
+    font-size: 11px;
+    font-family: Consolas;
+    padding: 0;
+    box-shadow: 2px 2px 10px #999;
+    line-height: 18px;
+}
+
+.rarity.common {background-color: #aaa;}
+.rarity.rare {background-color: #1f6cff;}
+.rarity.epic {background-color: #e04cff;}
+.rarity.legendary {background-color: #f2b82f;}
+.rarity.event {background-color: #58d700;}
+
+.rarity.common::after {content: "COMÚN";}
+.rarity.rare::after {content: "RARO";}
+.rarity.epic::after {content: "ÉPICO";}
+.rarity.legendary::after {content: "LEGENDARIO";}
+.rarity.event::after {content: "EVENTO";}
+
+.pet .rarity {
+    width: 100px !important;
+    display: inline-block !important;
+    top: -4px !important;
+    margin-right: 8px;
+}
+
+#second-left, #second-middle, #second-right {
+    width: 30%;
+    display: inline-block;
+}
+
+#second-middle {
+    width: 40%;
+}
+
+.maana-section, .mo-section {
+    width: 30% !important;
+    display: inline-block !important;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.maana-section img, .mo-section img {
+    width: 15px;
+    top: 2px;
+    position: relative;
+    left: 3px;
+}
+
+.location-point {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    display: inline-block;
+    margin: 15px 2px;
+    border-radius: 50%;
 }

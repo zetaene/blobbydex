@@ -239,42 +239,56 @@
         {"id":1262},{"id":18545}
     ]},
     {"id":112, "map":21, "name":"Rock", "energy":"15", "time":"20", "style":"left: 432px;top: 149px", "clothes":[
-        {"id":2253},{"id":5221}
+        {"id":1267},{"id":2253},{"id":5221}
     ]},
     {"id":113, "map":21, "name":"Around the boat", "energy":"15", "time":"25", "style":"left: 49px;top: 241px", "clothes":[
         {"id":2250},{"id":2379},{"id":3482}
     ]},
     {"id":114, "map":21, "name":"Colorful Forest", "energy":"15", "time":"20", "style":"left: 325px;top: 309px", "clothes":[
-        {"id":2249},{"id":26618}
+        {"id":2249},{"id":26618},{"id":18536}
     ]},
-    {"id":156, "map":21, "name":"Cima de la colina", "energy":"10", "time":"15", "style":"left: 290px;top: 81px", "clothes":[]},
+    {"id":156, "map":21, "name":"Cima de la colina", "energy":"10", "time":"15", "style":"left: 290px;top: 81px", "clothes":[
+        {"id":29147},{"id":29157},{"id":29167}
+    ]},
+    {"id":164, "map":21, "name":"Claro", "energy":"10", "time":"15", "style":"left: 97px;top: 333px", "clothes":[
+        {"id":29731},{"id":29741},{"id":29751}
+    ]},
 
 
 
-    {"id":115, "map":22, "name":"Orilla helada", "energy":"30", "time":"15", "style":"left: 412px;top: 287px", "clothes":[]},
-    {"id":116, "map":22, "name":"Aguas frías", "energy":"30", "time":"15", "style":"left: 405px;top: 214px", "clothes":[]},
-    {"id":117, "map":22, "name":"Llanuras nevadas", "energy":"35", "time":"15", "style":"left: 632px;top: 279px", "clothes":[]},
-    {"id":118, "map":22, "name":"Rascacielos", "energy":"30", "time":"15", "style":"left: 581px;top: 198px", "clothes":[]}
+    {"id":115, "map":22, "name":"Orilla helada", "energy":"30", "time":"15", "style":"left: 412px;top: 287px", "clothes":[
+        {"id":25641},{"id":25642},{"id":27418},{"id":27429},{"id":27439}
+    ]},
+    {"id":116, "map":22, "name":"Aguas frías", "energy":"30", "time":"15", "style":"left: 405px;top: 214px", "clothes":[
+        {"id":25640},{"id":27449},{"id":27459},{"id":27469}
+    ]},
+    {"id":117, "map":22, "name":"Llanuras nevadas", "energy":"35", "time":"15", "style":"left: 632px;top: 279px", "clothes":[
+        {"id":29057},{"id":29067},{"id":29077}
+    ]},
+    {"id":118, "map":22, "name":"Rascacielos", "energy":"30", "time":"15", "style":"left: 581px;top: 198px", "clothes":[
+        {"id":27551},{"id":27552},{"id":28635},{"id":28645},{"id":28741}
+    ]},
+    {"id":161, "map":22, "name":"Tierra de transición", "energy":"35", "time":"15", "style":"left: 427px;top: 372px", "clothes":[
+        {"id":30294},{"id":30295},{"id":30296},{"id":30297},{"id":30555},{"id":30574},{"id":30585}
+    ]},
+
+
+
+    {"id":180, "map":23, "name":"Barrio histórico", "energy":"40", "time":"20", "style":"left: 164px;top: 116px", "clothes":[
+        {"id":30645},{"id":30646},{"id":30677},{"id":30687},{"id":30697}
+    ]},
+    {"id":181, "map":23, "name":"Centro ciudad", "energy":"45", "time":"25", "style":"left: 348px;top: 119px", "clothes":[
+        {"id":31292},{"id":31302},{"id":31312}
+    ]},
+    {"id":182, "map":23, "name":"Biblioteca", "energy":"45", "time":"20", "style":"left: 324px;top: 231px", "clothes":[
+        {"id":30614},{"id":30624},{"id":30634},{"id":31269},{"id":31271},
+        {"id":31283},{"id":31284},{"id":31288},{"id":31289},{"id":31290}
+    ]},
+    {"id":183, "map":23, "name":"Fast-Food", "energy":"45", "time":"20", "style":"left: 425px;top: 225px", "clothes":[
+        {"id":30647},{"id":30657},{"id":30667},{"id":31270},{"id":31282},
+        {"id":31285},{"id":31286},{"id":31287},{"id":31291}
+    ]},
+    {"id":184, "map":23, "name":"Mansión", "energy":"40", "time":"25", "style":"left: 637px;top: 55px", "clothes":[
+        {"id":30644},{"id":30707},{"id":30780},{"id":30790}
+    ]}
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

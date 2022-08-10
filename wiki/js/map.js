@@ -19,23 +19,7 @@ $(document).ready(function () {
 
                         expInfo.reverse();
 
-                        if (window.location.search == "") {
-                        	window.location.search = "?map=ciudadeel"
-                        }
-
-                        // Mostrar menu para cambiar de mapas 
-                        $("#map-section").append('<div id="map-menu-container"></div>');
-                        $("#map-menu-container").append('<a id="s1-ciudadeel" class="map-menu-option">Ciudad de Eel</a>');
-                        $("#map-menu-container").append('<a id="s1-costajade" class="map-menu-option">Costa de Jade</a>');
-                        $("#map-menu-container").append('<a id="s1-fenghuang" class="map-menu-option">Templo Fenghuang</a>');
-
-                        $("#map-menu-container").append('<a id="s2-ciudadeel" class="map-menu-option">Ciudad de Eel (ANE)</a>');
-                        $("#map-menu-container").append('<a id="s2-genkaku" class="map-menu-option">Montañas Genkaku</a>');
-
-                        $("#map-section").append('<div id="map-container"></div>');
-
-
-                    	cargarMapas(window.location.search);
+                    	if (window.location.search == "") cargarMapas($("#map-select").val());
                     };
                 };
             };
@@ -45,34 +29,36 @@ $(document).ready(function () {
 
 
 function cargarMapas(map) {
-    var currentMap = [];
-    map = map.replace("?map=", "");
+    $("#map-container").removeAttr("class");
+    $("#map-container").html("");
 
-    if (map == "ciudadeel") {
-    	$("#s1-ciudadeel").addClass("selected");
+
+    var currentMap = [];
+
+    if (map == "eel") {
         currentMap = mapLocations.filter(v => {return v.map == 11});
         $("#map-container").addClass("map11");
 
-    } else if (map == "costajade") {
-    	$("#s1-costajade").addClass("selected");
+    } else if (map == "jade") {
         currentMap = mapLocations.filter(v => {return v.map == 12});
         $("#map-container").addClass("map12");
 
     } else if (map == "fenghuang") {
-    	$("#s1-fenghuang").addClass("selected");
         currentMap = mapLocations.filter(v => {return v.map == 13});
         $("#map-container").addClass("map13");
 
-    } else if (map == "ciudadeel2") {
-    	$("#s2-ciudadeel").addClass("selected");
+    } else if (map == "eel2") {
         currentMap = mapLocations.filter(v => {return v.map == 21});
         $("#map-container").addClass("map21");
 
     } else if (map == "genkaku") {
-    	$("#s2-genkaku").addClass("selected");
         currentMap = mapLocations.filter(v => {return v.map == 22});
         $("#map-container").addClass("map22");
-    };
+
+    } else if (map == "terrestre") {
+        currentMap = mapLocations.filter(v => {return v.map == 23});
+        $("#map-container").addClass("map23");
+    };;
 
 
     // Dibujar puntos de exploración + tooltips
@@ -98,7 +84,7 @@ function cargarMapas(map) {
         elmnt.reverse();
         for (c = 0; c < elmnt.length; c++) {
             if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
+                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img.egg + '">');
             } else {continue};
         };
 
@@ -126,7 +112,9 @@ function cargarMapas(map) {
                 default: url += "item/player/icon/" + pIMG[0].itemURL;
             };
 
-            $(".tooltip").eq(p).append('<img title="' + pInfo[0].english + '" src="' + url + '">');
+            var nombre = (pInfo[0].english).replace("(x)", "");
+
+            $(".tooltip").eq(p).append('<img title="' + nombre + '" src="' + url + '">');
         };
 
         // Buscar Alquimia
@@ -221,24 +209,11 @@ function cargarMapas(map) {
 
 
 $(function() {
-    $("body").on("click", ".map-menu-option", function() {
-        var map = $(this).attr("id");
 
-        switch (map) {
-            case "s1-ciudadeel": history.pushState(null, "", "?map=ciudadeel"); break;
-            case "s1-costajade": history.pushState(null, "", "?map=costajade"); break;
-            case "s1-fenghuang": history.pushState(null, "", "?map=fenghuang"); break;
-            case "s2-ciudadeel": history.pushState(null, "", "?map=ciudadeel2"); break;
-            case "s2-genkaku": history.pushState(null, "", "?map=genkaku"); break;
-        };
-
-        $("#map-container").removeClass($("#map-container").attr("class"));
-        $(".map-location").remove();
-
-        cargarMapas(window.location.search);
-
-    });
-
+    $("#map-select").change(function() {
+        var mapa = $(this).val();
+        cargarMapas(mapa);
+    })
 
     $("#map-section").on("mouseenter", ".map-location", function(e) {
         var id = $(this).attr("data-id");
