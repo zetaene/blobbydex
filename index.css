@@ -10,15 +10,15 @@
 }
 
 #container {
-  width: 850px;
-  background-color: #ffffff;
-  margin: auto;
-  padding: 0px 80px 50px 80px;
-  border-right: 1px solid #cccccc;
-  border-left: 1px solid #cccccc;
-  box-shadow: 1px 0 20px #dddddd;
-  position: relative;
-  display: table;
+	width: 850px;
+	background-color: #ffffff;
+	margin: auto;
+	padding: 0px 80px 50px 80px;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	box-shadow: 1px 0 20px #dddddd;
+	position: relative;
+	display: table;
 }
 
 .wrapper {
@@ -26,11 +26,11 @@
 }
 
 .pages {
-  list-style: none;
-  padding-left: 0;
-  position: relative;
-  width: 850px;
-  float: left;
+	list-style: none;
+	padding-left: 0;
+	position: relative;
+	width: 850px;
+	float: left;
 }
 
 .pages li {
@@ -65,14 +65,14 @@
 }
 
 .page-list.beta span::after {
-  content: '(Beta)';
-  font-size: 16px;
-  color: crimson;
-  position: absolute;
-  right: 20px;
-  top: 24px;
-  text-shadow: 1px 1px 2px #fff;
-  font-family: consolas;
+	content: '(Beta)';
+	font-size: 16px;
+	color: crimson;
+	position: absolute;
+	right: 20px;
+	top: 24px;
+	text-shadow: 1px 1px 2px #fff;
+	font-family: consolas;
 }
 
 .page-list.inventory {background-image: url(https://www.eldarya.es/static/img/new-layout/mall/background_alchemy.jpg)}
@@ -82,3 +82,35 @@
 .page-list.illust {background-image: url(https://www.eldarya.es/assets/img/illustration/56b1d030fd62fe69f8903050b499e180.jpg)}
 .page-list.alchemy {background-image: url(https://www.eldarya.es/static/img/alchemy/background.jpg)}
 .page-list.gm {background-image: url(https://www.eldarya.es/static/img/home/adventure/background.jpg)}
+
+
+
+/* Mobile 1 */
+@media only screen and (max-width: 1000px) {
+
+	#header {
+		position: relative;
+	}
+
+    .wrapper {
+        width: 100%;
+    }
+    #container {
+        padding: 0 10px;
+        width: calc(100% - 20px);
+    }
+
+    .pages, .pages li {
+        width: 100%;
+    }
+
+    h2 {
+    	position: relative;
+    	top: 0;
+    }
+
+    .pages {
+    	top: 0;
+		z-index: 0;
+    }
+}

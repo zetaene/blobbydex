@@ -1564,6 +1564,11 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/9edcb93189be7414e5679d3a23818496.png"
     },
+    {"id":437, "name":"Recipiente de agua caliente", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[185],
+            "mall":["-","-"], "event":null},
+            "img":"https://www.eldarya.es/assets/img/item/consumable/6460abcbac31e4edc1839dc7a7639452.png"
+    },
     {"id":438, "name":"Trozo de alfombra", "group":"alchemy", "category":"Otros", "rarity":"common",
         "location":{"exploration":[184],
             "mall":["-","-"], "event":null},
@@ -1624,10 +1629,25 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/653b036bc761a836b22f1ce783502fa6.png"
     },
+    {"id":452, "name":"Flores secas", "group":"alchemy", "category":"Plantas", "rarity":"rare",
+        "location":{"exploration":[185],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bf9a55e720654131f3cd49b6e88fd6ef.png"
+    },
+    {"id":453, "name":"Tierra fértil", "group":"alchemy", "category":"Plantas", "rarity":"epic",
+        "location":{"exploration":[185],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/fbeda2c13fea0597b582e849a841a821.png"
+    },
     {"id":455, "name":"Juguete sandilete", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],
             "mall":[510,85], "event":"Verano"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/0a291fb10e5ff6523c9aa20f96690b20.png"
+    },
+    {"id":456, "name":"Galleta energética", "group":"pet", "category":"Alimento", "rarity":"epic",
+        "location":{"exploration":[],
+            "mall":[24,4], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/a6b2ca2111c9ec1082337846f62a0a6f.png"
     }
 ]
 

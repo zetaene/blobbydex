@@ -75,16 +75,16 @@ function cargarMapas(map) {
         elmnt.reverse();
         for (c = 0; c < elmnt.length; c++) {
             if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
+                $(".tooltip").eq(p).append('<img class="alchemy" id="' + elmnt[c].id + '" title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
             } else {continue};
         };
         
         // Buscar huevos
-        elmnt = petInfo.filter(v => {return v.category == "Huevos"});
+        elmnt = petInfo//.filter(v => {return v.category == "Huevos"});
         elmnt.reverse();
         for (c = 0; c < elmnt.length; c++) {
             if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img.egg + '">');
+                $(".tooltip").eq(p).append('<img class="egg" id="' + elmnt[c].id + '" title="' + elmnt[c].name + '" src="' + elmnt[c].img.egg + '">');
             } else {continue};
         };
 
@@ -93,7 +93,7 @@ function cargarMapas(map) {
         elmnt.reverse();
         for (c = 0; c < elmnt.length; c++) {
             if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
+                $(".tooltip").eq(p).append('<img class="pet" id="' + elmnt[c].id + '" title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
             } else {continue};
         };
 
@@ -114,7 +114,7 @@ function cargarMapas(map) {
 
             var nombre = (pInfo[0].english).replace("(x)", "");
 
-            $(".tooltip").eq(p).append('<img title="' + nombre + '" src="' + url + '">');
+            $(".tooltip").eq(p).append('<img class="clothing" title="' + nombre + '" src="' + url + '">');
         };
 
         // Buscar Alquimia
@@ -122,87 +122,9 @@ function cargarMapas(map) {
         elmnt.reverse();
         for (c = 0; c < elmnt.length; c++) {
             if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
+                $(".tooltip").eq(p).append('<img class="alchemy" id="' + elmnt[c].id + '" title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
             } else {continue};
         };
-
-        /* VERSION 1 
-
-        // Buscar cebos
-        $(".tooltip").eq(p).append('<span class="title-bait"></span>');
-        var elmnt = expInfo.filter(v => {return v.category == "Cebos"});
-        elmnt.reverse();
-        for (c = 0; c < elmnt.length; c++) {
-            if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".title-bait").eq(p).html("Cebos:");
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
-            } else {continue};
-        };
-        
-        // Buscar huevos
-        $(".tooltip").eq(p).append('<span class="title-eggs"></span>');
-        elmnt = petInfo.filter(v => {return v.category == "Huevos"});
-        elmnt.reverse();
-        for (c = 0; c < elmnt.length; c++) {
-            if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".title-eggs").eq(p).html("Huevos:");
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
-            } else {continue};
-        };
-
-        // Buscar alimento
-        $(".tooltip").eq(p).append('<span class="title-food"></span>');
-        elmnt = expInfo.filter(v => {return v.category == "Alimento"});
-        elmnt.reverse();
-        for (c = 0; c < elmnt.length; c++) {
-            if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".title-food").eq(p).html("Alimentos:");
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
-            } else {continue};
-        };
-
-        // Buscar ropa
-        $(".tooltip").eq(p).append('<span class="title-clothes"></span>');
-        for (c = 0; c < currentMap[p].clothes.length; c++) {
-            if (currentMap[p].clothes[0].id != 0) {$(".title-clothes").html("Equipo: ")} else {continue};
-            var pInfo = cInfo.filter(v => {return v.groupId == currentMap[p].clothes[c].id});
-            var pIMG = cList.filter(v => {return v.itemId == currentMap[p].clothes[c].id});
-
-              var url = "https://www.eldarya.com/assets/img/";
-
-            switch (pInfo[0].category) {
-                case "skin": url += "player/skin/icon/" + pIMG[0].itemURL; break;
-                case "mouth": url += "player/mouth/icon/" + pIMG[0].itemURL; break;
-                case "eye": url += "player/eyes/icon/" + pIMG[0].itemURL; break;
-                case "hair": url += "player/hair/icon/" + pIMG[0].itemURL; break;
-                default: url += "item/player/icon/" + pIMG[0].itemURL;
-            };
-
-            $(".tooltip").eq(p).append('<img title="' + pInfo[0].english + '" src="' + url + '">');
-        };
-
-        // Buscar Alquimia
-        $(".tooltip").eq(p).append('<span class="title-alchemy"></span>');
-        elmnt = expInfo.filter(v => {return v.group == "alchemy"});
-        //elmnt = elmnt.filter(v => {return v.category != "Pergaminos"});
-        elmnt.reverse();
-        for (c = 0; c < elmnt.length; c++) {
-            if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".title-alchemy").eq(p).html("Alquimia:");
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
-            } else {continue};
-        };
-    
-        // Buscar pergaminos
-        $(".tooltip").eq(p).append('<span class="title-scrolls"></span>');
-        elmnt = expInfo.filter(v => {return v.category == "Pergaminos"});
-        elmnt.reverse();
-        for (c = 0; c < elmnt.length; c++) {
-            if ($.inArray(currentMap[p].id, elmnt[c].location.exploration) > -1) {
-                $(".title-scrolls").eq(p).html("Pergaminos:");
-                $(".tooltip").eq(p).append('<img title="' + elmnt[c].name + '" src="' + elmnt[c].img + '">');
-            } else {continue};
-        };*/
     };
 };
 

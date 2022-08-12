@@ -1,0 +1,112 @@
+/* Mobile 1 */
+@media only screen and (max-width: 1000px) {
+    .wrapper, .main {
+        width: 100%;
+        height: auto;
+    }
+    #container {
+        padding: 0 10px 185px;
+        width: calc(100% - 20px);
+    }
+
+    .pages, .pages li {
+        width: 100%;
+    }
+
+    #card-container {
+        margin: auto;
+        position: relative;
+        top: 42px;
+    }
+
+    h2 {
+        position: fixed;
+        top: 72px;
+        background-color: #fff;
+        z-index: 2;
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 20px 11px;
+        left: 0;
+    }
+
+    #header h2 {
+        position: relative;
+        padding: 25px 0;
+        margin: 0;
+        top: 0;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 1;
+    }
+
+    #content {
+        top: 132px;
+        position: relative;
+    }
+
+    #form-container {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        padding: 0 11px 20px;
+        z-index: 2;
+        background-color: #fff;
+    }
+
+    #map-section {
+        top: 50px;
+        position: relative;
+    }
+
+    #map-container {
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .main, .wrapper {
+        position: absolute;
+        width: 100%;
+        display: block;
+    }
+
+    #container {
+        display: block;
+    }
+
+    #card-container {
+        width: 100%;
+    }
+
+    .card-item {
+        width: 48%;
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+    #map-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .card-item {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 840px) {.pet .card-item {width: 18.5%}}
+@media only screen and (max-width: 690px) {.pet .card-item {width: 23.3%}}
+@media only screen and (max-width: 600px) {.pet .card-item {width: 23%}}
+@media only screen and (max-width: 520px) {.pet .card-item {width: 31%}}
+@media only screen and (max-width: 448px) {.pet .card-item {width: 47%}}
+@media only screen and (max-width: 355px) {.pet .card-item {width: 96%}}

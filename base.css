@@ -407,7 +407,8 @@ body {
     background-color: rgba(0,0,0,.8);
     top: 0;
     display: none;
-
+    position: fixed;
+    z-index: 5;
 }
 
 #popup-medium {
@@ -475,6 +476,10 @@ body {
     max-height: 142px;
     max-width: 180px;
     margin: 0 20px;
+}
+
+.pet-image.baby {
+    max-height: 100px;
 }
 
 #popup-inner span {

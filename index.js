@@ -17,7 +17,7 @@ $(document).ready(function() {
 	for (i = 0; i < enlace.length; i++) {
 		var ext = enlace[i].src;
 		if (enlace[i].type == "local") {
-			if ((window.location.href).includes('127')) ext += ".html";
+			if ((window.location.href).includes('127') || (window.location.href).includes('192')) ext += ".html";
 			$("#local-pages").append('<li><a href="' + ext + '"><div class="page-list ' + enlace[i].class + '"><span>' + enlace[i].name + '</span></div></a></li>');
 		} else {
 			$("#external-links").append('<li><a href="' + ext + '" target="_blank"><div class="page-list ' + enlace[i].class + '"><span>' + enlace[i].name + '</span></div></a></li>');

@@ -61,7 +61,7 @@ function drawBigCard(name) {
     // Imagenes
     $("#popup-content").append('<div id="second-line"><span></span></div>');
     $("#second-line span").append('<img class="pet-image" src="' + item[0].img.egg + '">');
-    if (item[0].img.baby != "") { $("#second-line span").append('<img class="pet-image" src="' + item[0].img.baby + '">') }
+    if (item[0].img.baby != "") { $("#second-line span").append('<img class="pet-image baby" src="' + item[0].img.baby + '">') }
     if (item[0].img.adult != "") { $("#second-line span").append('<img class="pet-image" src="' + item[0].img.adult + '">') }
 
 
