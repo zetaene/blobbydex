@@ -438,16 +438,34 @@ body {
     height: 300px;
 }
 
+.pet #popup-inner { height: 470px; }
+.pet #popup-inner.open { height: 470px; }
+.pet #popup-content { height: 470px; }
+
 #popup-content {
     position: absolute;
     width: 600px;
     height: 300px;
 }
 
-#first-line, #second-line, #third-line {
+#first-line, #second-line, #third-line, #forth-line, #fifth-line, #sixth-line {
     position: relative;
     width: 100%;
     float: left;
+}
+
+.pet #forth-line {
+  position: absolute;
+  top: 197px;
+}
+
+.pet #fifth-line {
+  position: absolute;
+  top: 296px;
+}
+.pet #sixth-line {
+    position: absolute;
+    top: 370px;
 }
 
 #first-line img {
@@ -470,17 +488,42 @@ body {
 
 .pet #second-line span {
     text-align: center;
+    height: 147px;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 600px;
+}
+
+.pet #third-line {
+    position: absolute;
+    width: 54px;
+    top: 30px;
+    left: 0;
 }
 
 .pet-image {
     max-height: 142px;
     max-width: 180px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
-.pet-image.baby {
-    max-height: 100px;
+.pettitle {
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 0px 0px 2px;
+    z-index: 1;
+    position: relative;
+    line-height: 15px;
+    margin-bottom: 2px;
+    top: -8px;
 }
+
+.pet-image.egg { max-height: 50%; margin: 0;}
+.pet-image.baby { max-height: 75%; max-width: 30%;}
+.pet-image.adult { max-height: 100%; max-width: 40%;}
 
 #popup-inner span {
     width: 100%;
@@ -518,8 +561,9 @@ body {
     margin-right: 8px;
 }
 
-#second-left, #second-middle, #second-right {
-    width: 30%;
+#second-left,/* #second-middle,*/ #second-right {
+    /*width: 30%;*/
+    width: 50%;
     display: inline-block;
 }
 
@@ -548,4 +592,29 @@ body {
     display: inline-block;
     margin: 15px 2px;
     border-radius: 50%;
+}
+
+.petinfo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(211deg, #00d0ff 0%, #00ffd3 100%);
+    border: 2px solid white;
+    line-height: 48px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #321540;
+    box-shadow: 0px 0px 2px;
+}
+
+.petinfo img {
+    position: relative;
+    width: 100%;
+}
+
+#popup-content span.middle {
+    width: 50%;
+    display: inline-block;
 }

@@ -53,16 +53,123 @@ function cargarPets() {
 
 
 function drawBigCard(name) {
-    var item = petInfo.filter(v => {return v.name == name});
+    var pet = petInfo.filter(v => {return v.name == name});
 
     // Nombre y rareza
-    $("#popup-content").append('<div id="first-line"><span><span class="rarity ' + item[0].rarity + '"></span><b style="font-size: 18px">' + (item[0].name).toUpperCase() + '</b></span></div>');
+    $("#popup-content").append('<div id="first-line"><span><span class="rarity ' + pet[0].rarity + '"></span><b style="font-size: 18px">' + (pet[0].name).toUpperCase() + '</b></span></div>');
 
     // Imagenes
     $("#popup-content").append('<div id="second-line"><span></span></div>');
-    $("#second-line span").append('<img class="pet-image" src="' + item[0].img.egg + '">');
-    if (item[0].img.baby != "") { $("#second-line span").append('<img class="pet-image baby" src="' + item[0].img.baby + '">') }
-    if (item[0].img.adult != "") { $("#second-line span").append('<img class="pet-image" src="' + item[0].img.adult + '">') }
+    $("#second-line span").append('<img class="pet-image egg" src="' + pet[0].img.egg + '">');
+    if (pet[0].img.baby != "") { $("#second-line span").append('<img class="pet-image baby" src="' + pet[0].img.baby + '">') }
+    if (pet[0].img.adult != "") { $("#second-line span").append('<img class="pet-image adult" src="' + pet[0].img.adult + '">') }
+
+    // Alimento y cebo
+    $("#popup-content").append('<div id="third-line"></div>');
+    var food = expInfo.filter(v => {return v.id == pet[0].info.food});
+    if (food == "?") { // Alimento desconocido
+        $("#third-line").append('<div class="petinfo food" title="No disponible">?</div>');
+    } else {
+        $("#third-line").append('<div class="petinfo food"><img title="' + food[0].name + '" src="' + food[0].img + '"></div>');
+    }
+    $("#third-line").append('<div class="pettitle">Alimento</div>');
+
+    var bait = pet[0].info.bait;
+    if (bait == "?") { // Cebo desconocido
+        $("#third-line").append('<div class="petinfo bait" title="No disponible">?</div>');
+        $("#third-line").append('<div class="pettitle">Cebo</div>');
+    } else if (bait != null) { // Tiene cebo
+        bait = expInfo.filter(v => {return v.id == pet[0].info.bait}); 
+        $("#third-line").append('<div class="petinfo bait"><img title="' + bait[0].name + '" src="' + bait[0].img + '"></div>');
+        $("#third-line").append('<div class="pettitle">Cebo</div>');
+    }
+
+    // Información general
+    $("#popup-content").append('<div id="forth-line"></div>');
+    $("#forth-line").append('<span class="middle"><b>Tiempo de eclosión:</b> ' + pet[0].info.hatch + ' minutos.</span>');
+
+    $("#forth-line").append('<span class="middle"><b>Condiciones de evolución:</b></span>');
+    
+    var valor = "";
+    if (pet[0].info.energy.length > 1) valor = ' / ' + pet[0].info.energy[1];
+    $("#forth-line").append('<span class="middle"><b>Energía:</b> ' + pet[0].info.energy[0] + valor + '</span>');
+
+    if (pet[0].info.evolve.level != null) {
+        $("#forth-line").append('<span class="middle">Nivel ' + pet[0].info.evolve.level + ' / Afecto ' + pet[0].info.evolve.affection + '% / ' + pet[0].info.evolve.days + ' días</span>');
+    } else {
+        $("#forth-line").append('<span class="middle">-</span>');
+
+    }
+    
+    valor = "";
+    if (pet[0].info.luck.length > 1) valor = ' / ' + pet[0].info.luck[1];
+    $("#forth-line").append('<span class="middle"><b>Suerte:</b> ' + pet[0].info.luck[0] + valor + '</span>');
+
+    // Si es evento, especificar rareza real (?
+    if (pet[0].rarity == "event") {
+        $("#forth-line").append('<span class="middle"><b>Rareza:</b> <span class="rarity ' + pet[0].eventInfo[0] + '"></span></span>');
+    }
+
+    // Obtención
+    $("#popup-content").append('<div id="fifth-line"></div>');
+    $("#fifth-line").append('<span style="margin-left: 40px;">OBTENCIÓN:</span>');
+
+        // Tienda
+    var answer = (pet[0].location.mall[0] == "-" && pet[0].location.mall[1] == "-") ? "NO" : "SI";
+    if (pet[0].rarity == "event") { 
+        if (answer == "SI") { $("#fifth-line").append('<span class="middle"><b>Tienda:</b> Solo durante evento asociado.</span>');
+        } else { $("#fifth-line").append('<span class="middle"><b>Tienda:</b> NO</span>'); }
+    } else { 
+        $("#fifth-line").append('<span class="middle"><b>Tienda:</b> <span class="maana-section"></span><span class="mo-section"></span></span>');
+        $(".maana-section").eq(0).append(pet[0].location.mall[0]);
+        $(".maana-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_blue.png">');
+        $(".mo-section").eq(0).append(pet[0].location.mall[1]);
+        $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
+    }
+
+    answer = (pet[0].location.bindle) ? answer = "SI" : answer = "NO";
+    $("#fifth-line").append('<span class="middle"><b>Costal:</b> ' + answer  + '</span>');
+    $("#fifth-line").append('<span class="middle"><b>Exploración:</b></span>');
+    answer = (pet[0].location.alchemy) ? answer = "SI" : answer = "NO";
+    $("#fifth-line").append('<span class="middle"><b>Alquimia:</b> ' + answer  + '</span>'); // pendiente: linkear a receta
+
+        // Puntos de exploración
+    $("#popup-content").append('<div id="sixth-line"></div>');
+
+    if (pet[0].location.exploration.length == 0) {
+        $("#sixth-line").append('<span><br></span><span class="exploration-null"><i>— No hay puntos de exploración disponibles. —</i></span>');
+    } else {
+        for (i = 0; i < pet[0].location.exploration.length; i++) {
+            var mapa = mapLocations.filter(v => {return v.id == pet[0].location.exploration[i]});
+            var nombre = mapa[0].name;
+            switch (mapa[0].map) {
+                case 11: nombre += " - Ciudad de Eel (TO)"; break;
+                case 12: nombre += " - Costa de Jade (TO)"; break;
+                case 13: nombre += " - Templo Fenghuang (TO)"; break;
+
+                case 21: nombre += " - Ciudad de Eel (ANE)"; break;
+                case 22: nombre += " - Montañas Genkaku (ANE)"; break;
+                case 23: nombre += " - Ciudad Terrestre (ANE)"; break;
+            };
+
+            var position = mapa[0].style;
+
+            mapa = "map" + mapa[0].map;
+            position = position.replace("left: ", "-");
+            position = position.replace("top: ", "-");
+            position = position.split(";");
+            var posX = parseInt(position[0].replace("px",""));
+            var posY = parseInt(position[1].replace("px",""));
+            posX = (posX + 25) + "px ";
+            posY = (posY + 25) + "px";
+            position = posX + posY;
+
+            $("#sixth-line").append('<div class="location-point ' + mapa + '" title="' + nombre + '"></div>');
+            $(".location-point").eq(i).attr("style", "background-position: " + position);
+        }
+
+    }
+
 
 
     /*

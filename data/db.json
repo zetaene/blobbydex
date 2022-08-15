@@ -249,7 +249,7 @@
             "mall":["-",90], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/58b1658470b83ba4873097d33867703f.png"
     },
-    {"id":59, "name":"Patched Plush Bear", "group":"pet", "category":"Cebos", "rarity":"epic", 
+    {"id":59, "name":"Peluche remendado", "group":"pet", "category":"Cebos", "rarity":"epic", 
         "location":{"exploration":[20,184],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/50d74378b6772ab49076b0b0ec9c79d1.png"
@@ -1099,6 +1099,11 @@
             "mall":["-","-"], "event":"Música"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/f9b071d38d2c297dfebf1ed7e3e4790b.png"
     },
+    {"id":327, "name":"Air key", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":["-","-"], "event":"Música"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/9c5ce31c5894f227216c081783893690.png"
+    },
     {"id":332, "name":"Rainbow Scroll", "group":"alchemy", "category":"Pergaminos", "rarity":"rare",
         "location":{"exploration":[], 
             "mall":[750,125], "event":null},
@@ -1638,6 +1643,11 @@
         "location":{"exploration":[185],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/fbeda2c13fea0597b582e849a841a821.png"
+    },
+    {"id":454, "name":"Polaroid perdida", "group":"alchemy", "category":"Otros", "rarity":"legendary",
+        "location":{"exploration":[185],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/24f19fb49cf5c6c6c6ec697385a44fc2.png"
     },
     {"id":455, "name":"Juguete sandilete", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],

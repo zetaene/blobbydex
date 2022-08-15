@@ -52,87 +52,6 @@ function cargarInfo(page = "") {
         $(".abstract-name").eq(a).append(info[a].name);
         $(".abstract-category").eq(a).append('Tipo: ' + info[a].category);
 
-        /*
-        // Obtención
-        // Tienda y/o exploración
-        
-        if (info[a].location.mall == true) {
-            // Está en la tienda
-            $(".abstract-location-mall").eq(a).append("Disponible en la Tienda.");
-        };
-
-        if (info[a].location.exploration.length != 0) {
-            // Está en exploración
-            if (info[a].location.exploration.length == 1 && info[a].location.exploration[0] == "?") {
-                // Lugar desconocido
-                $(".abstract-location-map").eq(a).append("Exploración: ???");
-
-            } else {
-                // Filtrar ubicaciones s/mapas // Lista de mapas
-                var mapa = [[],[],[],[],[]];
-                var nombres = [
-                    "Ciudad de Eel (TO)",
-                    "Costa de Jade",
-                    "Templo Fenghuang",
-                    "Ciudad de Eel (ANE)",
-                    "Montañas Genkaku"
-                ];
-                
-                // mapa[0] => ciudad de eel
-                // mapa[1] => costa de jade
-                // mapa[2] => templo fenghuang
-                // mapa[3] => ciudad de eel (ane)
-                // mapa[4] => genkaku
-
-                for (p = 0; p < info[a].location.exploration.length; p++) {
-                    var getMapa = mapLocations.filter(v => {return v.id == info[a].location.exploration[p]});
-                    getMapa = getMapa[0].map;
-
-                    switch (getMapa) {
-                        case 11: mapa[0].push(info[a].location.exploration[p]); break;
-                        case 12: mapa[1].push(info[a].location.exploration[p]); break;
-                        case 13: mapa[2].push(info[a].location.exploration[p]); break;
-                        case 21: mapa[3].push(info[a].location.exploration[p]); break;
-                        case 22: mapa[4].push(info[a].location.exploration[p]); break;
-                    };
-                };
-
-                // Mostrar nombres de mapas
-                $(".abstract-location-map").eq(a).append("Exploración: ");
-                var primero = 0;
-                
-                for (m = 0; m < mapa.length; m++) {
-                    if (mapa[m].length != 0) {
-                        if (primero != m) $(".abstract-location-map").eq(a).append(", ");
-                        var mapaId = mapLocations.filter(v => {return v.id == mapa[m][0]});
-                        mapaId = mapaId[0].map;
-                        $(".abstract-location-map").eq(a).append('<span class="map-location-preview" data-mapid="' + mapaId + '" data-locationid="' + mapa[m].join("|") + '">' + nombres[m] + '</span>');
-                    } else {
-                        if (m == primero) {primero++};
-                    };
-                };
-                
-
-
-
-
-            };
-
-        };
-
-        // Costales
-        if (info[a].location.bindle == true) {
-            // Está en costales
-            $(".abstract-location-mall").eq(a).append("Disponible en costales.");
-        };
-
-        // Evento
-        if (info[a].location.event != null) {
-            // Es de evento
-            $(".abstract-location-map").eq(a).append("Evento: " + info[a].location.event);
-        };*/
-
-
         switch(info[a].rarity) {
             
             case "common": $(".card-item").eq(a).append('<div class="rarity-marker-common"></div>');break;
@@ -187,28 +106,35 @@ function drawBigCard(id) {
     $("#popup-content").append('<div id="second-line"></div>');
     $("#second-line").append('<span style="margin-left: 40px;margin-top: 25px;">OBTENCIÓN:</span>');
 
-    $("#second-line").append('<div id="second-left"></div><div id="second-middle"></div><div id="second-right"></div></id>');
-    var answer = item[0].location.exploration.length > 0 ? "SI" : "NO";
-    $("#second-left").append('<span>Exploración: ' + answer + '</span>');
-    $("#second-left").append('<span>Ubicación:</span>');
+    $("#second-line").append('<div id="second-left"></div><div id="second-right"></div></id>');
 
+        // Tienda?
     answer = (item[0].location.mall[0] == "-" && item[0].location.mall[1] == "-") ? "NO" : "SI";
-    if (answer == "SI") {
-        if (item[0].category == "Cebos" && item[0].rarity == "event") answer = ("Solo durante evento asociado.");
-    }
-    $("#second-middle").append('<span>Tienda: ' + answer + '</span>');
-    $("#second-middle").append('<span>Precio: <span class="maana-section"></span><span class="mo-section"></span></span>');
-    $(".maana-section").eq(0).append(item[0].location.mall[0]);
-    $(".maana-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_blue.png">');
-    $(".mo-section").eq(0).append(item[0].location.mall[1]);
-    $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
+    if (item[0].category == "Cebos" && item[0].rarity == "event") {
+        if (answer == "SI") { $("#second-left").append('<span><b>Tienda:</b> Solo durante evento asociado.</span>');
+        } else { $("#second-left").append('<span><b>Tienda:</b> NO</span>'); }
 
+    } else {
+        $("#second-left").append('<span><b>Tienda:</b> <span class="maana-section"></span><span class="mo-section"></span></span>');
+        $(".maana-section").eq(0).append(item[0].location.mall[0]);
+        $(".maana-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_blue.png">');
+        $(".mo-section").eq(0).append(item[0].location.mall[1]);
+        $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
+    }
+
+        // Exploración ?
+    var answer = item[0].location.exploration.length > 0 ? "SI" : "NO";
+    $("#second-left").append('<span><b>Exploración:</b></span>');
+
+        // Alquimia ?
     answer = item[0].location.alchemy;
     answer ? answer = "SI" : answer = "NO";
-    $("#second-right").append('<span>Alquimia: ' + answer + '</span>');
+    $("#second-right").append('<span><b>Alquimia:</b> ' + answer + '</span>');
+
+        // Costal ?
     answer = item[0].location.bindle;
     answer ? answer = "SI" : answer = "NO";
-    $("#second-right").append('<span>Costales: ' + answer + '</span>');
+    $("#second-right").append('<span><b>Costales:</b> ' + answer + '</span>');
 
     // Puntos de exploración
     $("#popup-content").append('<div id="third-line"></div>');

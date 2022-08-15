@@ -1,246 +1,257 @@
 [    
     {"id":84,"name":"Ailikamp", "rarity":"event", "eventInfo":["rare","Música 2019",null], "info":{
-            "bait":"?", "food":199,
+            "bait":327, "food":199,
             "hatch":90, "evolve":{"level":10, "affection":65, "days":25},
-            "energy":[100,120], "luck":["100-125","120-150"]}, 
+            "energy":[100,120], "luck":["100 a 125","120 a 150"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/c5a6f4b943e252528c976abea8b8e362.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/20610fad2695b5a2108814ce3e6b90f6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/a9a696294e27235454c7b3e3af96cfa4.png"
-        }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":15,"name":"Alcopafel", "rarity":"epic", "eventInfo":[null,null,null], "info":{
             "bait":48, "food":24,
             "hatch":300, "evolve":{"level":10, "affection":95, "days":30},
-            "energy":[80,140], "luck":["150-200","175-225"]}, 
+            "energy":[80,140], "luck":["150 a 200","175 a 225"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/780215da7a4352f4a82b1eb4a34a916b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a828aae9d36a48ef0dd2574c690e8876.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/83b48d257bc84eb389751c5082b6fa3c.png"
-        }, "location":{"exploration":[100], "mall":["-","-"], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[100], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":76,"name":"Alfeli", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":235,
             "hatch":720, "evolve":{"level":14, "affection":85, "days":30},
-            "energy":[80,150], "luck":["310-345","320-370"]}, 
+            "energy":[80,150], "luck":["310 a 345","320 a 370"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/2226cc14befb679afecacc4e6081c6e6.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/7a54491e73963eef8a5be58627775833.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/010747fde05e220c8399ae1b5c2ef547.png"
-        }, "location":{"exploration":[], "mall":["-",400], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",400], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Anadi", "rarity":"event","eventInfo":["epic","Verano 2022",null], "info":{
             "bait":455, "food":341,
             "hatch":280, "evolve":{"level":15, "affection":75, "days":40},
-            "energy":[105,115], "luck":["170-225","200-250"]}, 
+            "energy":[105,115], "luck":["170 a 225","200 a 250"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/527cf0b8984538730a088c283b2998aa.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ac3ca619d8b8772f2898a360e7852d34.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/807ff7fc274811e1bae6293d063f3a4c.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+    },
+
+    {"id":null,"name":"Aslytte", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
+            "bait":null, "food":398,
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/54ba0ddeefec5a35c9899f99f6d5fc45.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/ef999cf19d68f8da16a46886a8c78675.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/bf9ec9d02c4e9ee1d22a288ec7f63c43.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":true, "alchemy":false, "other":null}
     },
 
     {"id":77,"name":"Aurorca", "rarity":"event", "eventInfo":["legendary","Navidad 2019",null], "info":{
             "bait":268, "food":150,
             "hatch":720, "evolve":{"level":15, "affection":85, "days":40},
-            "energy":[100,150], "luck":["300-350","330-380"]}, 
+            "energy":[100,150], "luck":["300 a 350","330 a 380"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/153eb41deba8f849e22ab7da3ba769f9.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ef0d6243c75bbf9cbd34370c3bfffb1f.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/f9cdc710365d38a5309886c85b7e983d.png"
-        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Axoloveal", "rarity":"event","eventInfo":["San Valentín 2022",null,null], "info":{
+    {"id":null,"name":"Axoloveal", "rarity":"event","eventInfo":["epic","San Valentín 2022",null], "info":{
             "bait":426, "food":381,
             "hatch":259, "evolve":{"level":16, "affection":80, "days":40},
-            "energy":[115,135], "luck":["180-240","215-265"]}, 
+            "energy":[115,135], "luck":["180 a 240","215 a 265"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/0498bde7c78063b38bde63a0295639a8.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/0f84091e6f89f2452390ba928c46f118.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/c51c9cfa2a3ba067f2d0401da1414676.png"
-        }, "location":{"exploration":[-1], "mall":["-","-"], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
 
-    {"id":74,"name":"Bakhrahell", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":74,"name":"Bakhrahell", "rarity":"event", "eventInfo":["legendary","Halloween 2018",null], "info":{
             "bait":"?", "food":145,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":15, "affection":85, "days":40},
+            "energy":[110,145], "luck":["300 a 350","335 a 375"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6083c6c7ab535648cd63bf138bd82067.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/49edca7fd3f69eb50d2d9a8fab949957.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/4a4661ba752c4fb2def8727b845ff747.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Balofurr", "rarity":"legendary","eventInfo":[null,null,null], "info":{
             "bait":410, "food":393,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/91823ee30feeca6e0ade9c0c5c775571.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/286fa8c6994b1235efa9c1fa9dcd8bca.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/6ead8efa54e06c524dc57861c702526a.png"
-        }, "location":{"exploration":[161], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[161], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Banki", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":419, "food":394,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":95, "evolve":{"level":6, "affection":75, "days":15},
+            "energy":[65,110], "luck":["35 a 75","50 a 95"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/a71c71cd159fedd5127301bb787be60f.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/03ffcfc879306c843b86a63fc2d49d6e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d7dee558413e3e85ce93d932383dd3ea.png"
-        }, "location":{"exploration":[180], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[180], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":83,"name":"Beckett", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":83,"name":"Beckett", "rarity":"event", "eventInfo":["rare","Pascua 2019",null], "info":{
             "bait":323, "food":130,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":10, "affection":65, "days":25},
+            "energy":[100,130], "luck":["130 a 150","200 a 230"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/de5c304deb46629ede93cfdcc3325872.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/131c33ca0b7978d8940f1d9b50e526f3.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/48a2060522f76c6c000f5c74734bad9f.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":11,"name":"Becola", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":44, "food":35,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":15, "evolve":{"level":3, "affection":60, "days":7},
+            "energy":[60,90], "luck":["1 a 30","30 a 55"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/21b46ff690963d7f9cb7aad22edab1a4.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/efb30e1dcec38b3c9818cc8591ba3fb8.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2b2129d39ef6c2c59b6578f5873eb711.png"
-        }, "location":{"exploration":[9,16], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[9,16], "mall":[900,150], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":28,"name":"Beriflore", "rarity":"rare", "eventInfo":[null,null,null], "info":{
             "bait":61, "food":22,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":120, "evolve":{"level":9, "affection":75, "days":25},
+            "energy":[80,140], "luck":["75 a 110","85 a 120"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/92a2ed4644855fe4ce18a93fd891da55.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/cddf8e6c47a952f45d7984cdc3bd628d.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/33b0027b55fd944603210b8ae45a7890.png"
-        }, "location":{"exploration":[28], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[28], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":47,"name":"Black Gallytrot", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":186,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":480, "evolve":{"level":15, "affection":85, "days":40},
+            "energy":[110,150], "luck":["285 a 335","320 a 370"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/7ee70a47e2db69656182e7e0da7291a3.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3c6465494ef66c6beebe293d58d8483a.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/ad605519c70e21621a14eccd22488849.png"
-        }, "location":{"exploration":[-1], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",400], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":82,"name":"Blobbette", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":82,"name":"Blobbette", "rarity":"event", "eventInfo":["common","April's Fool 2019",null], "info":{
             "bait":null, "food":233,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":10, "evolve":{"level":42, "affection":101, "days":9000},
+            "energy":[10], "luck":[0]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/9d48dcac56fd02b94f312ee80754b534.png",
             "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "adult":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivOV6MbKvTCA1WsFCh-VKaj5dpLgR-I5Uq4wPCeZBInbFuFd2S6DEvzRF12FVUfUO321D7dov-3jH0cKC4HioNOc7kLKofDF_ys7L-Xu4gsE-mOWMmt4gK7DaEr_v8jsc5aDHEVQiLSnJTdT5IL8xoSnKN_enrHeoWtLNSigAgaOK3ypxWH9Tly0AsEA/s274/Blobbette.png"
+        }, "location":{"exploration":[], "mall":[180,30], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":87,"name":"Blobbiathan", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":335,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":1100, "evolve":{"level":null, "affection":null, "days":null},
+            "energy":[170], "luck":["360 a 400"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/b474d71f251e09dcb1936710dd47df5c.png",
             "baby":"",
-            "adult":""
-        }, "location":{"exploration":["Obtención: Alquimia"], "mall":false, "bindle":false, "alchemy":false} 
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/1c6521bb2a846174117468567e66ea28.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":true, "other":null} 
     },
 
-    {"id":71,"name":"Blobby", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":71,"name":"Blobby", "rarity":"event", "eventInfo":["common","April's Fool 2017",null], "info":{
             "bait":null, "food":233,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":10, "evolve":{"level":42, "affection":101, "days":9000},
+            "energy":[10], "luck":[0]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/035ba583d2674d2a1b23b69478c5ace7.png",
             "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/c381bf63de759a16440878816cab38c3.png"
+        }, "location":{"exploration":[], "mall":[180,30], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":67,"name":"Bloobun", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":67,"name":"Bloobun", "rarity":"event", "eventInfo":["rare","Navidad 2017",null], "info":{
             "bait":229, "food":158,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":6, "affection":65, "days":25},
+            "energy":[80,110], "luck":["70 a 120","110 a 140"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/bded0fa5873a88186764da2189bdc145.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/89163651934d6c425d64a7b3d9db32de.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/55129d13666e0b762406d50c00269661.png"
+        }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":107,"name":"Bhemoth", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":107,"name":"Bhemoth", "rarity":"event", "eventInfo":["epic","Halloween 2020",null], "info":{
             "bait":375, "food":161,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":9, "affection":75, "days":30},
+            "energy":[100,130], "luck":["185 a 225","215 a 250"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/91e580e46b3410e2f86168399109e425.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a2332905bfcdaf1a506879cafabe2a9f.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2f4fc3da792e906b8d66961d579fb6c1.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":51,"name":"Boltue", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":202, "food":207,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":15, "affection":85, "days":30},
+            "energy":[100,130], "luck":["295 a 355","335 a 385"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/f633b5e4af646d42e29d0d8db84be85e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/87fada19f739c7da1e09bd75d433a027.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/acb0972350674bbd2b486ad6fd16fdc4.png"
-        }, "location":{"exploration":[70], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[70], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":60,"name":"Bowsa", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":205,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":15, "affection":55, "days":15},
+            "energy":[70,100], "luck":["40 a 70","50 a 100"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6e6d777186241391e1d4b19cf57b5e30.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/c4f02d1ce75ce7d311f1e97ff5a48679.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/f85af24470e763bef3df6e7d6265b53b.png"
-        }, "location":{"exploration":["Disponible en episodio 17."], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",200], "bindle":false, "alchemy":false, "other":"Después del episodio 17 (TO)."} 
     },
 
     {"id":52,"name":"Braukwin", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":45, "food":271,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":25, "affection":85, "days":30},
+            "energy":[90,130], "luck":["280 a 350","310 a 380"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/14a13b4a60126a3c532a2e342071f0d3.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d32317a7b25622492365548137c71d9c.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/b7e2fa5ca68b20998733098d3204e237.png"
-        }, "location":{"exploration":[103], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[103], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":39,"name":"Bunraku n\u00b0JE2016", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":39,"name":"Bunraku n\u00b0JE2016", "rarity":"event", "eventInfo":["epic","Japan Expo 2016","Código especial"], "info":{
             "bait":null, "food":162,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":6, "affection":75, "days":30},
+            "energy":[100,220], "luck":["180 a 220","210 a 240"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/eb24be12c45387dfd41eff51d957f75d.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/d70736706a85cd17f37cf980730ee3f2.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/217daeca9a69e2fdc9555c90575803c2.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
     
     
@@ -251,9 +262,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/e291081e7dc48d546d5e1a7a2f03433a.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/10f473945e931bc87c045a2146712a81.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/6b9c489af95d641d5e970426c752f3f1.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":94,"name":"Candilla", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -262,9 +273,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6d500836e9df47d2054902c6b2da9836.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/2addc47a1e92d145a1e92490724a96eb.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/d0e548f3e11a002123c4a3e3af9c578c.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Cargoche", "rarity":"common","eventInfo":[null,null,null], "info":{
@@ -275,7 +286,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/81e101a255f9b814d6e6ce330392674f.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/6ea956e51bf28c7a00762cbe2a2acfaa.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/009a7cc657c35a5950d616406b10395b.png"
-        }, "location":{"exploration":[114], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[114], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":55,"name":"Catatapillar", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -286,7 +297,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/2640e20f0ed05f15d6bbc69e5fcef596.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/9f06e6885ecc8e915d4368612f84d33d.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/20c63d0524e7ecd53a1612c7a1e132d7.png"
-        }, "location":{"exploration":[69], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[69], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Cerbinille", "rarity":"legendary","eventInfo":[null,null,null], "info":{
@@ -297,7 +308,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/aaa4f100466e31c1b8855c754cddd219.png",
             "baby":"https://www.eldarya.es/assets/img/pet/portrait/45ef1dd611900f20b853f49acdab3077.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/4dd58bcfc467af3bb69ec1de8f2f63e2.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":41,"name":"Chead", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -306,9 +317,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/41354e0c027ff382cf7672c62bdb0e6b.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/4b96a56478835dd938c979501894cc98.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/a450b22ef4e36b51ed16653730dd2380.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Chevena", "rarity":"epic","eventInfo":[null,null,null], "info":{
@@ -319,7 +330,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/b4ed5588b315023d1a9a3b47cb21015b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/bc5d507f1fbca1099aeecf939040b943.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/a163e23e073006586025e779c96096ae.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":29,"name":"Chestok", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -330,7 +341,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/78697e6c6b2c1fdc027a289112d3131e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3a7c0c11bbc3a6bbeabdbeb2d4836453.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/6ad522342a26a814e40c4fb56754cb52.png"
-        }, "location":{"exploration":[25], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[25], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":103,"name":"Chimori", "rarity":"common","eventInfo":[null,null,null], "info":{
@@ -341,7 +352,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/5282d04119a34e7bb116d95d0f980283.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/567a1d0ce8432fd198d97d71b65be9f7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/baf241dafadb8131e1a46da269dfbea7.png"
-        }, "location":{"exploration":[-1], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":80,"name":"Chiromagnus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -351,8 +362,8 @@
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/65f03332d3aeb89891b002602a59121a.png",
             "baby":"",
-            "adult":""
-        }, "location":{"exploration":["Obtención: Alquimia"], "mall":false, "bindle":false, "alchemy":false} 
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/64a82f4ddd3eb9c64c7d9639717aebdb.png"
+        }, "location":{"exploration":["Obtención: Alquimia"], "mall":["-","-"], "bindle":false, "alchemy":true, "other":null} 
     },
 
     {"id":80,"name":"Chouchibou", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -363,7 +374,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/73fbe034655ed28985bf80d3555e2f42.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/57f31e3145e249c477f86759b23ed58f.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/13be5311d48f2252815528c44f0d8700.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":42,"name":"Ciralak", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -374,7 +385,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/b3437b7f52809884e0f51b3af05c0f3b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/caa173f8dd93024dff11d6be6d092705.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/e84f86bd629219b2bfc744a08f52abf2.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":13,"name":"Corko", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -385,7 +396,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/ddb49dfbffee113cf8b87f6a84530dad.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/811732fc0d54bb2c22ef64c26e1845e3.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/3356aa90deb77cf61fd49eb723d067aa.png"
-        }, "location":{"exploration":[9], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[9], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Crokataur", "rarity":"epic","eventInfo":[null,null,null], "info":{
@@ -396,7 +407,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/bd4f8cf4a0b095f8875e04c5aad982b2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/9852d452cace33a3f0fa387c1ff16232.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/937104fa276e1246b26022768f95c632.png"
-        }, "location":{"exploration":[181], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[181], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":5,"name":"Crowmero", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -407,7 +418,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/08397cff846aa02a5f4133fac5c386f2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a2cc5b12a30000f666a749b4652b80cc.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/deb90174df052f2f46c83ffbcd38c2ac.png"
-        }, "location":{"exploration":[23], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[23], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":9,"name":"Crylasm", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -418,7 +429,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/99dda3fc72c44d017fd392dc97168cbf.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8c4eb3bc02afc5942d59d045fea2cf85.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/cfe194364feff9c7c242a547db65fcba.png"
-        }, "location":{"exploration":[18,20], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[18,20], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -431,7 +442,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/602c1bf7daf775ae482f0af930d18a1a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8cbc9785d46e07d9295bc547f40bfee5.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/93dff517f89c18cea59380be6394c9ec.png"
-        }, "location":{"exploration":[-1], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":43,"name":"Danalasm", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -442,7 +453,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/f72e5c3ccf3101bdaa756090b175c8e2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dbcf9cc21c147b983171bfa06520140a.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/e6f69237778a33241e981a9d05c04bbc.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":17,"name":"Dawn Homonculus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -453,7 +464,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/2314badb79f96ad5123820eb9b0018aa.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/f100a8b458416d15bd5cbc5f98959bfa.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/8cafaf9af4ec7b8ac897a2e18967332c.png"
-        }, "location":{"exploration":[67], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[67], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":12,"name":"Draflayel", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -462,9 +473,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/27602704d8fe6b25896eba00dc65a2e8.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":["Disponible en costales."], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/4931727274289d9f826f42524692777e.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/aaf130ffc85c65e9c760bee0833bd865.png"
+        }, "location":{"exploration":["Disponible en costales."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Digrine", "rarity":"rare","eventInfo":[null,null,null], "info":{
@@ -475,7 +486,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/3eaa87c499ad282712b333fe6a5b6f6d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/0f68eaf0dfe656cfaaab30ff722c05f6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/ed83c47a31a2fa9badd9ba0a6987581b.png"
-        }, "location":{"exploration":[164], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[164], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
     
 
@@ -488,7 +499,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/488afcc1dd36766e4131964d7f470e06.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3d8703fd8bb4e026b8d74b5b707634c6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/12057620fcc88b41904428c6435d09c4.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -501,7 +512,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/665b2fdc539db406e7ef461fd6669495.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d193441c92757c4d4e16e4b5c12a102b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/3fe5aa49df36e276b71963b7dad4254f.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":59,"name":"Fenrisulfr", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -512,7 +523,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/3baa1f5b6f4d23d91c8250c5c4e9e4d3.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/08c06e1eb56c2e4cfb34b38decf698c1.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d5b80fd43468e2fb59bb51c2c723aca1.png"
-        }, "location":{"exploration":[108], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[108], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Flimko", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -523,7 +534,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/3dd6e4f9a0ed66ec6ba9a22e63b7ade4.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/0128b39bcd7c1d0184cf2b198719ddc5.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/b7f858723a4a778422c9e2fc38946b3f.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":54,"name":"Flubat", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -534,7 +545,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/65e603b0961c0f48150f450b52187690.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/22d449b791ba42c7080ce035c2aa3317.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1f22de896195879d448d1744530db1dd.png"
-        }, "location":{"exploration":[104], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[104], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Flufinec", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -545,7 +556,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/5da972fa7e0a224cee22147d83fd4d7b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/5b486e33a0d1c9a5a46b410f5932369a.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/dff1b6e008d55213668b222dea289b7d.png"
-        }, "location":{"exploration":[185], "mall":false, "bindle":false, "alchemy":false}
+        }, "location":{"exploration":[185], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":73,"name":"Galorze", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -554,9 +565,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/42adf29d2713d7832ee0d3b4b46df6e0.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/8fdbc4c05de57f6a478b50be916d36b1.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/c3e90397c7eea26193f843341f7374db.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Gladanel", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -567,7 +578,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/5ebb513b98e8495460c0466342216e0d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/1c991fcd0620a49d80797a5df45045c7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d2fa7636f2f287ad813e66b2841da6fc.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":64,"name":"Globulosaurus", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -576,9 +587,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/22aa8dce19ca6d9a52d70154c4edf370.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/51c72594f9cf4b8c3f3ae9792862d12e.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/f568f67249d263dc6bc6b9be84a66e52.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":88,"name":"Greifmar", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -589,7 +600,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/03472b87b4c8938eab761329993b06f8.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d13c5087600e0e75c1aee3e5c919c07b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/77cfebfb8119599b8bfe36343d86a0d6.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":36,"name":"Grookhan", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -600,7 +611,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/0cca1c484f00f1ee25532d5a9d71601a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/23dcf0ca9d2986f3cb0e91938a9b53a5.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d0c9b6379b65df0758db7380625a92fe.png"
-        }, "location":{"exploration":["Disponible en episodio 17."], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":["Disponible en episodio 17."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
    
 
@@ -613,7 +624,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/089115851d54c0342ad3e2a230b74a74.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/c84e6349edd6aff7ac568bdba3a9dd03.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/005c437a0425ff31fd297bb073359fa0.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Heariver", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -624,7 +635,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/4048d0468587db8ac728aa6e67991a07.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/2e97133ac1244aa8af2a009509480451.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/48a85982bb4905f47a748d899d708038.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":66,"name":"Hydracarys", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -635,7 +646,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/f58369d98dc9341ed83193ba4929e975.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/da9745b92f64ec7507328f0a81f947bd.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/f6a92c0091d24515256110dfc2363b98.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
     
     
@@ -646,9 +657,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/c0a72c1c1f0a3149de00248d359cc7db.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/bcdde25c683dbcbf4da1d40c39df483a.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/4102cc44b75da84b45d050da04d0466a.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":6,"name":"Jipinku", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -659,7 +670,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/dc4c471c29bdf1ae59feee8ec2640c56.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/cea4981698fb613ff8286e64f1c1ba15.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/09af3678b149a050298021263b43bcb6.png"
-        }, "location":{"exploration":[19], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[19], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     
@@ -672,7 +683,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/27689b35279aaca258e3bfacd34a3905.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ae21b43d49ed855da0624a851303da29.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/920f13fc5d043d2c1a7c2370f7d76bab.png"
-        }, "location":{"exploration":[32], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[32], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":86,"name":"Korivora", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -683,7 +694,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/586ee7b815301611d5ae012156f777bc.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8e5ed189931a62a734ad73e9ff8ea69b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/803ea5cd14ab487f8185215d122792cc.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Kreafire", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -694,7 +705,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/a6acf7d4ad3f98b7524ee8773a180706.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/08fdf7035296be36a60312a93f1c7561.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/207ab075a1a4e359521b4ff894a00cbe.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -707,7 +718,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/6351d0c894aafc3cadaefd63a6a2ad28.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d4a52351b5b9929816b57c282864d4cc.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/a1e1e011e9c6a9d7fee4a5e9b3e4913d.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":79,"name":"Lapy", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -718,7 +729,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/4f03d4c9253c9c534e361f4e0362cad0.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d749cc15146efac38cb74d257514f37b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/13bfaaf8a4015c293f761cee1691d019.png"
-        }, "location":{"exploration":[96], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[96], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Lezigow", "rarity":"common","eventInfo":[null,null,null], "info":{
@@ -729,7 +740,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/eb3860d05f56c3952b5a903e431ba17e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/f7d5ea536b2615f9b65cd8ec26f51f17.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1e7dad77147f0c67304244b485c554bf.png"
-        }, "location":{"exploration":[156], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[156], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":40,"name":"Libleunette", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -740,7 +751,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/52aba34eff1ff66afe0a243c4634fc23.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/18207bfe34e9c296054c4ed97e972fab.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/f0fd45611f7c0cb2f63e86a3b3c9042e.png"
-        }, "location":{"exploration":[57], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[57], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":14,"name":"Liclion", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -751,7 +762,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/61983bc9e8a3ac9dddfa8c85296a029b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ee2b9b0f3ddc4ffc827edbd1beff1a88.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/5b1cd98d2bc87ff2207d472d4d3e55c4.png"
-        }, "location":{"exploration":[14], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[14], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":114,"name":"Loutruol", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -762,7 +773,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/baae46cec00dd75f23f039d6577b3ad9.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/85610ef458d5bf83f115956efbb0073e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/cf1351ca4d7bf04645796bd17f51be42.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":53,"name":"Lovigis", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -773,7 +784,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/cf3022b276752b1d6bf42d3891848671.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/9d822257e09e944b8b8aec14d18d86b3.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d6e97a0070ab6f28dc68b67cbf60337e.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -786,7 +797,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/bb42beed5deebc30e82523f1f5cdc472.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/42eba03955bd11be7690d23677e6faa8.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/7ec90487525d15bb6d22ce8570a3f60a.png"
-        }, "location":{"exploration":[115], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[115], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":85,"name":"Marquil", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -797,7 +808,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/8d1449add813cbb85b05a5e27f6fd52a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3c19787c896783ea8d9a27b5bd490b32.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/55ece1f3b788e766d0fb047d49b1c7b2.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":35,"name":"Maulix", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -808,7 +819,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/1741a4ce3883483c849ccce546e997ed.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/2f1427ac9c1a0e8b1ecd65f723fd81f4.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2d0855c9808ee2ff765467d048d49127.png"
-        }, "location":{"exploration":[73], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[73], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":72,"name":"Meeper", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -817,9 +828,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/3284919abacb7641e8337867bacbe6cb.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/da4eed370aabb8077e432a7fd5de38eb.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/003e3d8d06fe2fff2104c3b0b39d81b9.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":61,"name":"Melomantha", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -828,9 +839,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/3477defcc2a46a56a195b60268686740.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/95b55009254dafb868c57d8f60da1bfc.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/f06534089950d45a857814e30c2fb343.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":16,"name":"Midnight Homonculus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -841,7 +852,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/599b2fd3e1a1a28d55d042cdf565e7bb.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/9442cd80175f72aa6fb6f47488c04f4c.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/eedc06ed42ca3ae5176b51ac022ec3e0.png"
-        }, "location":{"exploration":[92], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[92], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":22,"name":"Minaloo", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -852,7 +863,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/78770ac72c9c7594f1d3564eca27f279.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d688550f37f9cf527c1fa9e7dac61957.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2fa14b80e259c933a9eebefcce53ca14.png"
-        }, "location":{"exploration":["Disponible en costales."], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":["Disponible en costales."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":48,"name":"Molecat", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -863,7 +874,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/694f0696ad591928d65dcad811edf45f.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/4ae3a9e751bf28ef37acf518e89822a3.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/4787218e9935cedf63e4c8dbc2967fe8.png"
-        }, "location":{"exploration":[97], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[97], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":75,"name":"Mohmia\u00fb", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -874,7 +885,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/13f795cf137cad70f9149e2a4962785e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/bd746ed1739deafe8cc6c12b4c7ba5f1.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1252f6ce02d34f1e9dbc3ac7c077e397.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Momomuff", "rarity":"rare","eventInfo":[null,null,null], "info":{
@@ -885,7 +896,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/f0d5ef46368e80eb3d72db60acb5e40c.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/649b0704f0aceaf969c72fc059c38a24.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/9d4413622f14862aab96bda6f0f6e10f.png"
-        }, "location":{"exploration":[117], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[117], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":50,"name":"Monchon", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -896,7 +907,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/a987f468f060342a193117d06fab9d75.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/58cc5b6fa552998e04d5f9dd9878bcb7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/564700ac817c848526e222e5bb6939b7.png"
-        }, "location":{"exploration":[107], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[107], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":21,"name":"Musarose", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -907,7 +918,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/92c3f84d6772932d72bb284245ce4d32.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/b5db4aed44645c91707ba588a5b8b2be.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/98f65748c86ccf8aa5e565abac1f9fb9.png"
-        }, "location":{"exploration":[-1], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -920,7 +931,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/066c5eaa58f89032a6390cd7390aea3b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a40ad947ee3f85f2431eb1647194ea2a.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/c5de2b014a6f94794b6999503a5850a7.png"
-        }, "location":{"exploration":[11], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[11], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":18,"name":"Noon Homonculus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -931,7 +942,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/e024fd2c6bf49260525439e99fab00a2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/e38faacd9050eebd2fc79866677e0ed4.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/549b1cc13e616712c1210099134dd129.png"
-        }, "location":{"exploration":[26], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[26], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -944,7 +955,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/af20fd257de911b109d5ad13e6e79a56.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/2bf2d769feb8e0a005aa035909feae28.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/b95de151a91244071acf896e3f0c2140.png"
-        }, "location":{"exploration":[59], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[59], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":33,"name":"Ocemas", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -953,9 +964,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6227f5024b33473eddab40b8670ddc86.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/1c1a6c4cee88b76042882ec38ef95f37.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/534398be95dd5e5080c735365569c20c.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":44,"name":"Okanya", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -964,9 +975,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/eba3a5f44c36cc206aaf2aa39c7b0ec7.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/fda45411edbf0c6778630ce908b78d63.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/00c6899d40d5cbf0cafaa183703d893c.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":58,"name":"Ornak", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -977,7 +988,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/23051054a550f932a13ab10558ceed03.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/76621e03f72daed2d6c4352f206530c0.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/83cf736faedd541d6a1b961e3e72bf98.png"
-        }, "location":{"exploration":[106], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[106], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":65,"name":"Osstoplasm", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -986,9 +997,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/b450ae90ff32d4ad736d74671ce54500.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/f9a8c532ac9fdf48281f999436c6307b.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/73c6c85858f8f7a2b814bec596673c2e.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":68,"name":"Owlett", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -999,7 +1010,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/3684f626e1c9420cf1acb198faf1caf7.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/5383c8b323abf25848185a15c51ad3c8.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/11f4ecd5bab9260b03e4f3018db5d77f.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1012,7 +1023,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/e23d2bb001ecb7339979ec9f7438e24f.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/70a45d63f50dc5a5ec38b31bf8a1f498.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/20d600c2813ae2c9ff32dab5a14baf5f.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":26,"name":"Panalulu", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
@@ -1023,7 +1034,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/32fff2d017b0885287dae9744b0c7a05.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/c13265ffab2ed187cdea03e785dfa20b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2f2cc85ab70a54cfef9e79c12a2a392d.png"
-        }, "location":{"exploration":[-1], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":90,"name":"Perceed", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1032,9 +1043,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/020308cf1af1f53c0bc779e7d7b877da.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/d990db3ae0716d23049871995d7d9664.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/1be21fb8db5f2c71d19e587c0bef4db1.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Perlifynn", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -1045,7 +1056,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/da42a76d30ad5bea90b93eefa645dc91.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/e156f8c6a4c8547695b3371ef2ef4d6b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/0f38012a187a4ff38553f50b231be894.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":7,"name":"Pimpel", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -1056,7 +1067,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/d4c33b165868e49a710e7c6649175c31.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/fe55b5eaccdae83643125debac3735cb.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/e96383de09fe29807bbc8bb4afa59806.png"
-        }, "location":{"exploration":[18,21,23], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[18,21,23], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":96,"name":"Pinchou", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1065,9 +1076,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/f6d2d803bc1d7ca06809c1088c4af321.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/0a04eb7bf14e73c2b97dcbe2a3862ed4.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/59cda991fc3a1d77bdf1676d9336d207.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":37,"name":"Pinigin", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1076,9 +1087,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/48109395741d4ac36b8e1aaa0b6513e0.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/e8075906a45ed2f6f49251889204c0e7.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/9eb1e92c91133ab8ab97060d1ea47b04.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":111,"name":"Pinpipou", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1089,7 +1100,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/060b07158677ced62206b93983f86946.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/317038dc61a04007ad54bd5a4de315d7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/49939ccc09a815f431c7654b68074c70.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":109,"name":"Pirnomnom", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1100,7 +1111,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/35a9c78aaaed7c823ba375a4bc072f28.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/26d869e8151d1c75d09531062bd09961.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/87bf7515c2d8afe8db0c113e6a21a9dc.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":97,"name":"Piscxolot", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1111,7 +1122,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/fed2afc42fb1fb2cf61c3fecf6e1c1b7.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8645e83a87a6c2096ceea658cc33f50e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/72a61908d7a6d4a2a6e0aff52dcc295c.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Ploomshu", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -1122,7 +1133,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/9eb5b5344cd387e7cbea73055647037f.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/46c21302c9ceb3b77aaeb828788830aa.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/5ba1354f86248256814688cdb0818701.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":4,"name":"Plumobec", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -1133,7 +1144,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/d33dbbcb7852960ff3ede41c702f70d7.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8c2e54a2239ddb287baf590ca1c228d0.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1567f9c75420898e35edb44d405a68b1.png"
-        }, "location":{"exploration":[18], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[18], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Pluvialily", "rarity":"common","eventInfo":[null,null,null], "info":{
@@ -1144,7 +1155,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/d42eb8302b54e94d4b4be146dfd7bbc4.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dc5e3705090d313beaeeef12f641b706.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/db97ba02f360eace1e23433fbe11a658.png"
-        }, "location":{"exploration":[110], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[110], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":113,"name":"Pocoku", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -1153,9 +1164,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/2410ce91a45f63b2ad889a4542d28178.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/5d27a2c6cb5252341048e40c4f814f50.png",
+            "adult":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZjgyofpw7t76iJ8Az--Q8UKokJNTMeArRH8509e6oxvvDm251cgtz--Co_6tRops19vJrPI68GucD2lL1w3gujmH2i4raz_of1Epa8ut2Z3dLgVsL-jcTF0X9JYoKkGvo6fmICN74JHLWU-zys_HmgX0jSd6vRC_-piWSOzLwbWdyTFtoyquf-Lq5_w/s280/Pocoku2.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":78,"name":"Pomponeige", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1166,7 +1177,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/c60d22946de3b1a916f5e4e10f214ebf.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/deeec48df663f2342c654d10279f0fcc.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/f6db339b2a3c73d774e54f2bda844bbf.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":25,"name":"Poulpatata", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -1177,7 +1188,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/565ae4170005e1e2317e363a166e7ffa.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/61d07f0346f6eb4ddf9164819dd7c826.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/fed2169bab95f350d2ee0e0a18316e15.png"
-        }, "location":{"exploration":[16], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[16], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":38,"name":"Poulpatata from the Deep", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -1188,7 +1199,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/709487cfb1c544d5988f186b38e720a1.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/22053f5bcecc75074a21bb4d8b774b42.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1c1df82eda1c56a1e6101ef7f660fdc2.png"
-        }, "location":{"exploration":[27], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[27], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":89,"name":"Pterocorvus", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1199,7 +1210,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/b25c50d0945ee2468f1b61acba45e7d0.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dc3b5b34cdae69330448d6127cdf03f4.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/08183f882cf7d5f4350ea0cc5b9fa95f.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Purreko Joven", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -1210,7 +1221,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/1decc3118098d06d2e639c9f27ca788b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ba4b63384ce80df82ff989a8bd9b3328.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/af8f2356947ec288840d21254928640e.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1223,7 +1234,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/fbb859dcea3272468b89d6a7bc72a907.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/4a739ab44452a9024ac5adb798a3d6d9.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2dcc97b795079ded19fc354ea8749ab6.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":98,"name":"Regarius", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1232,9 +1243,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/3c4134ba7679af47e3af749988375775.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/2b204a0ad6983d51019d024add1499e0.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/ec6d4f0c48b3e821e2a31596d42bd122.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":70,"name":"Rowtsya", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1245,7 +1256,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/385cc14aa69fce5b2c27934651f16b57.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/b5059894ec8023d6f0bfa363a2815f0d.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/f405449149f44f8372bf6efcd8758d69.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1258,7 +1269,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/6ed7a1ffcc77b18104bb0847672adf79.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/48b7486c10ad4c5e134391e9c9f9ff43.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/31e1f7300637b7bfb0254887d883042e.png"
-        }, "location":{"exploration":[14,15], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[14,15], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Scarlry", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -1269,7 +1280,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/4410ed3a41097888735f74ae30f6726d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/f6fccbfbb38a7dcd101c2b94c0e522dc.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/7a7fcd08466a5ada9f64008bea9a3558.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Seifaun", "rarity":"epic","eventInfo":[null,null,null], "info":{
@@ -1280,7 +1291,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/99ec6d3cd78d40b1133694d1d0d8f60d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/be8993ebb126fce9684a44a981656342.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/9f2b04ba7c879544fc7d39135370ffd1.png"
-        }, "location":{"exploration":["Disponible en episodio 2 (NE)."], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":["Disponible en episodio 2 (NE)."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Sersea", "rarity":"epic","eventInfo":[null,null,null], "info":{
@@ -1291,7 +1302,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/0add64324b62297529c921deca4f49e9.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3b5375ad6faf92813edde0097168b355.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d88354919c91f6427476f1945a744112.png"
-        }, "location":{"exploration":[115], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[115], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":19,"name":"Seryphon", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -1302,7 +1313,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/5b03292164f6ed9a4a0b2f8f2db8322d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dfa12e69f2a077421a661c81c5bd98ab.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/97cd501b7df92f10e7f66606eb1d1321.png"
-        }, "location":{"exploration":[22], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[22], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":31,"name":"Sgarkellogy", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1313,7 +1324,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/739f2ec457f67c6f6a15f6d318056d3e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ba10c3e20e334604040739ed345b8168.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/616287197234382ee8166228fea880dd.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":146,"name":"Shau’kobow", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -1324,7 +1335,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/6ffff69fdfe24122b8608261e860245d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3fdb6bd279c72340858badcd7b4ea6b0.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/fc44249ef1e445c48a67b0676baae222.png"
-        }, "location":{"exploration":[-1], "mall":[1830,305], "bindle":false, "alchemy":false}
+        }, "location":{"exploration":[], "mall":[1830,305], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":91,"name":"Skanis", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1335,7 +1346,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/399fd490a1b6d7414e4e8fdeba7dcd28.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/16a30d07d29d3d40b9ed1bcffd5f8bef.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/4e697d4109b68a6138a7d3f8f1686ee7.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":45,"name":"Sitourche", "rarity":"common", "eventInfo":[null,null,null], "info":{
@@ -1346,7 +1357,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/5853fde79e2fdfb50c39f4121628b357.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/19b6d4a977f1e9d8797c61bf1e7b5651.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/63abac3b2dc5cfefb73d026a8dda231a.png"
-        }, "location":{"exploration":[62], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[62], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Sogiluv", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -1357,7 +1368,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/71bb7cbe6c872c1a443986e6733e4400.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ebc3420d654f096b087312f179db863d.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/6a4d120f4e84df7e7fbbcc24656618c8.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":34,"name":"Sowige", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1368,7 +1379,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/5895f4debd541937bb4b0f7de8e4077c.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/7b8b7a96978c33e1a2eec91f547cfcb6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/4d5d03ea8623223d4acbeb6100c96a58.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":30,"name":"Spadel", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1377,9 +1388,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/1ce67c32410baa424b06e75118be7927.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG9G5k1ah14EUcOF7RRFuEX695N7jCeUvoVgUsB6QGlI7bbUybK5Gol7CcZ9D0oHFkBJtaZR2saA-Ye1nzbsiGRjYz0frk3VpunH6TlrwFx2DqcT2sgbbMs-EcXrGtUrjcZY_hlkjrBY07mUlg_yejjrEq6HLGA_Xjg44mCS15piObSD9mxd0VS4xGrA/s173/spadel1.png",
+            "adult":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggqT8mU7amKLEOdQ3iIK_iGvlJAE_fRoChkK4msH3C-wLqPEdm-DDoT0Oe5VlGqucXAOL0EDx1h7FrgmF8QDbJw4XQp4U6sKeG0t0XgOo7wJfqF_nR6KXzff0faqupjL5MchNifksue_ywUl5Sh-XG8fCfjFp_fcXdTTPCldOev2jOEK8Io6XsN8CYBg/s320/spadel2.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1392,7 +1403,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/6f07c90bddf63fb5ec70c1d67ba7fa8a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/466bc4eccccebc1a2411b65349aafce6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/9968644cab448a3159957e5de2fe9f5a.png"
-        }, "location":{"exploration":[183], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[183], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1406,7 +1417,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/7c07798b01a3b3a59efa10cb5024ed0a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/84c4459b58dbe8c9eb633cac7c6a23a1.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1402201680d05dccafb951570ae38533.png"
-        }, "location":{"exploration":[118], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[118], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1419,7 +1430,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/aa44c4617665fa9d12acac90607fd87a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/23982a6f56fa755058a1263a8ba9f465.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/0080abd5e03ab876988d8c944120e5c3.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Voclaunn", "rarity":"event","eventInfo":[null,null,null], "info":{
@@ -1430,7 +1441,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/0b0fabd69462567f82ec9aa055f69c08.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/066e3e282830c3f9d3cc38b9881c1611.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/8aa0ee4c4221d7cf470682995d43d4eb.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":46,"name":"Verdheleon", "rarity":"epic", "eventInfo":[null,null,null], "info":{
@@ -1441,7 +1452,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/02c37b3cb63a76c4aac842b4e452ddd5.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a384fb90ccc997f85ca6c757000cd57e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/08eec3e883009fefb95bcee9e8b71a2d.png"
-        }, "location":{"exploration":[66], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[66], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
     
 
@@ -1454,7 +1465,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/35edaa5b796108e5b0381d7c08f23fea.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/e71547abe29394dcab64c30cd14180f7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/ca4916657d28805fddb7be2fe5916623.png"
-        }, "location":{"exploration":[-1], "mall":true, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":95,"name":"Wispirit", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1465,7 +1476,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/11f4bb2b92f87dae8d9b20d475ffc3f7.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dc088ebe4d9c5e8b1f9fc3b274622cf7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/3cce0b57b8a632e21d23376a9f486bc4.png"
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":63,"name":"Woolapiyou", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1474,9 +1485,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/f7b8909f87d9309fea10b01216fe5beb.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/2c8741064319324dd82eeb8f3a5ecc0e.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/9c9b0d50903b5901a2b5a4c7aa01e1be.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1484,23 +1495,23 @@
     {"id":106,"name":"Xozehf", "rarity":"event", "eventInfo":["rare","Navidad 2020",null], "info":{
             "bait":361, "food":158,
             "hatch":180, "evolve":{"level":10, "affection":80, "days":25},
-            "energy":[75,85], "luck":["115-135","130-150"]}, 
+            "energy":[75,85], "luck":["115 a 135","130 a 150"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/08ebf4698968136c7bec406e97bfb96d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/c9a7171772ca18d0accfd793eb4587bd.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/c2733bf2ff9af9d406bcce040cb08101.png"
-        }, "location":{"exploration":[], "mall":[1920,320], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":[1920,320], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Xylonoom", "rarity":"event","eventInfo":["epic","Navidad 2017",null], "info":{
             "bait":399, "food":395,
             "hatch":240, "evolve":{"level":8, "affection":75, "days":30},
-            "energy":[110,120], "luck":["185-225","215-245"]}, 
+            "energy":[110,120], "luck":["185 a 225","215 a 245"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/aad256f9976c5d96791f01ec351842fe.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a966a4b00842b4be2f84d42a3b17239e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/e2164a13b28081a7990b2c4f6e887832.png"
-        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":69,"name":"Xylvra", "rarity":"event", "eventInfo":[null,null,null], "info":{
@@ -1509,9 +1520,9 @@
             "energy":[], "luck":[null,null]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/1dfbeac44436f0151db612ba97fb2695.png",
-            "baby":"",
-            "adult":""
-        }, "location":{"exploration":[-1], "mall":false, "bindle":false, "alchemy":false} 
+            "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/3a05d623df86762729eb2a245f6704c6.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/7bf82817ba5fe76365c49446d8bcc8b3.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1519,23 +1530,23 @@
     {"id":null,"name":"Yakadlle", "rarity":"event","eventInfo":["epic","Navidad 2021",null], "info":{
             "bait":"?", "food":159,
             "hatch":315, "evolve":{"level":15, "affection":85, "days":45},
-            "energy":[120,140], "luck":["195-260","230-290"]}, 
+            "energy":[120,140], "luck":["195 a 260","230 a 290"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/16db620dd123d1654c241989c2cc8d62.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/1eff87276b1a953a3895ca3b22ad39b2.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/5966ad3cf83d3941c01158f86acec3b6.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":56,"name":"Yeti", "rarity":"rare", "eventInfo":[null,null,null], "info":{
             "bait":184, "food":217,
             "hatch":240, "evolve":{"level":22, "affection":65, "days":25},
-            "energy":[90,130], "luck":["90-110","110-130"]}, 
+            "energy":[90,130], "luck":["90-110","110 a 130"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/a3bae710d1a9b6e2bfb3ca5851a047db.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/7211d75a805af40fb6f1c7c4157fab9f.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/214441962ab0a3f084a3f45885be7d31.png"
-        }, "location":{"exploration":[75], "mall":["-","-"], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[75], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1543,11 +1554,11 @@
     {"id":81,"name":"Zarali", "rarity":"event", "eventInfo":["legendary","San Valentín 2019",null], "info":{
             "bait":37, "food":127,
             "hatch":840, "evolve":{"level":14, "affection":90, "days":40},
-            "energy":[90,160], "luck":["310-350","350-380"]}, 
+            "energy":[90,160], "luck":["310 a 350","350 a 380"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/983faa9d534a7d9e7983abc236e0ca19.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a64e042e549352e16c30aab58b8ade94.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/228488a2503e632da910bceec1d43c83.png"
-        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     }
 ]

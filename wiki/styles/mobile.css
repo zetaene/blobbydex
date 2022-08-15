@@ -104,9 +104,19 @@
     }
 }
 
+/* tarjetas pet */
 @media only screen and (max-width: 840px) {.pet .card-item {width: 18.5%}}
 @media only screen and (max-width: 690px) {.pet .card-item {width: 23.3%}}
 @media only screen and (max-width: 600px) {.pet .card-item {width: 23%}}
 @media only screen and (max-width: 520px) {.pet .card-item {width: 31%}}
 @media only screen and (max-width: 448px) {.pet .card-item {width: 47%}}
 @media only screen and (max-width: 355px) {.pet .card-item {width: 96%}}
+
+/* big card */
+@media only screen and (max-width: 662px) {
+    #popup-inner.open {
+        width: 85%;
+        overflow-x: scroll;
+    }
+}
+@media only screen and (max-width: 410px) {#popup-inner.open {width: 80%}}
