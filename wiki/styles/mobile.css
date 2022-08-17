@@ -120,3 +120,17 @@
     }
 }
 @media only screen and (max-width: 410px) {#popup-inner.open {width: 80%}}
+
+/* gallery *//*
+@media only screen and (max-width: 410px) {
+    #popup-image {
+        position: relative;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    #popup-inner-img {
+        display: flex;
+    }
+}*/

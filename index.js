@@ -3,9 +3,9 @@ $(document).ready(function() {
 		{"src":"wiki/inventory", "name":"Inventario", "class":"inventory", "type":"local"},
 		{"src":"wiki/map", "name":"Exploración", "class":"maps", "type":"local"},
 		{"src":"wiki/pet", "name":"Familiares", "class":"pet beta", "type":"local"},
+		{"src":"wiki/images", "name":"Ilustraciones", "class":"illust", "type":"local"},
 		/*{"src":"wiki/set", "name":"Conjuntos", "class":"sets"},
 		{"src":"wiki/chapter", "name":"Capítulos"},
-		{"src":"wiki/images", "name":"Ilustraciones", "class":"illust"},
 		{"src":"wiki/alchemy", "name":"Alquimia", "class":"alchemy"},
 
 		{"src":"wishlist/create", "name":"Crea tu wishlist"},
