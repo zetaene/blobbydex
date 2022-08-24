@@ -256,10 +256,10 @@
     
     
 
-    {"id":62,"name":"Calunko", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":62,"name":"Calunko", "rarity":"event", "eventInfo":["epic","Japan Expo 2017","Código especial"], "info":{
             "bait":null, "food":162,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":8, "affection":75, "days":30},
+            "energy":[85,120], "luck":["185 a 225","215 a 245"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/e291081e7dc48d546d5e1a7a2f03433a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/10f473945e931bc87c045a2146712a81.png",
@@ -267,10 +267,10 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":94,"name":"Candilla", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":94,"name":"Candilla", "rarity":"event", "eventInfo":[null,"Pascua 2020","Recarga"], "info":{
             "bait":null, "food":130,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":15, "affection":85, "days":40},
+            "energy":[110,140], "luck":["320 a 370","360 a 400"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6d500836e9df47d2054902c6b2da9836.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/2addc47a1e92d145a1e92490724a96eb.png",
@@ -280,8 +280,8 @@
 
     {"id":null,"name":"Cargoche", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":367, "food":366,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":0, "evolve":{"level":4, "affection":75, "days":10},
+            "energy":[60,90], "luck":["25 a 75","40 a 85"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/81e101a255f9b814d6e6ce330392674f.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/6ea956e51bf28c7a00762cbe2a2acfaa.png",
@@ -291,8 +291,8 @@
 
     {"id":55,"name":"Catatapillar", "rarity":"rare", "eventInfo":[null,null,null], "info":{
             "bait":232, "food":206,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":20, "affection":65, "days":25},
+            "energy":[100,120], "luck":["80 a 120","100 a 140"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/2640e20f0ed05f15d6bbc69e5fcef596.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/9f06e6885ecc8e915d4368612f84d33d.png",
@@ -300,10 +300,10 @@
         }, "location":{"exploration":[69], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Cerbinille", "rarity":"legendary","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Cerbinille", "rarity":"legendary","eventInfo":[null,null,"Recarga"], "info":{
             "bait":null, "food":127,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":565, "evolve":{"level":3, "affection":85, "days":55},
+            "energy":[155,170], "luck":["315 a 385","375 a 410"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/aaa4f100466e31c1b8855c754cddd219.png",
             "baby":"https://www.eldarya.es/assets/img/pet/portrait/45ef1dd611900f20b853f49acdab3077.png",
@@ -311,10 +311,10 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":41,"name":"Chead", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":41,"name":"Chead", "rarity":"event", "eventInfo":["epic","Halloween 2016","Exploración"], "info":{
             "bait":170, "food":161,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":300, "evolve":{"level":8, "affection":50, "days":30},
+            "energy":[90,120], "luck":["170 a 210","190 a 230"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/41354e0c027ff382cf7672c62bdb0e6b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/4b96a56478835dd938c979501894cc98.png",
@@ -322,21 +322,21 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Chevena", "rarity":"epic","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Chevena", "rarity":"epic","eventInfo":[null,null,"Costales"], "info":{
             "bait":null, "food":400,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":315, "evolve":{"level":15, "affection":85, "days":45},
+            "energy":[120,140], "luck":["195 a 260","230 a 290"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/b4ed5588b315023d1a9a3b47cb21015b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/bc5d507f1fbca1099aeecf939040b943.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/a163e23e073006586025e779c96096ae.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":true, "alchemy":false, "other":null} 
     },
 
     {"id":29,"name":"Chestok", "rarity":"epic", "eventInfo":[null,null,null], "info":{
             "bait":56, "food":27,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":9, "affection":80, "days":30},
+            "energy":[75,100], "luck":["195 a 225","220 a 255"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/78697e6c6b2c1fdc027a289112d3131e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3a7c0c11bbc3a6bbeabdbeb2d4836453.png",
@@ -346,30 +346,30 @@
 
     {"id":103,"name":"Chimori", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":null, "food":356,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":3, "affection":80, "days":14},
+            "energy":[80,120], "luck":["40 a 80","55 a 120"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/5282d04119a34e7bb116d95d0f980283.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/567a1d0ce8432fd198d97d71b65be9f7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/baf241dafadb8131e1a46da269dfbea7.png"
-        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":[1500,250], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":80,"name":"Chiromagnus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":301,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":1100, "evolve":{"level":null, "affection":null, "days":null},
+            "energy":[160], "luck":["340 a 390"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/65f03332d3aeb89891b002602a59121a.png",
             "baby":"",
             "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/64a82f4ddd3eb9c64c7d9639717aebdb.png"
-        }, "location":{"exploration":["Obtención: Alquimia"], "mall":["-","-"], "bindle":false, "alchemy":true, "other":null} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":true, "other":null} 
     },
 
-    {"id":80,"name":"Chouchibou", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":80,"name":"Chouchibou", "rarity":"event","eventInfo":["epic","Música 2022","Exploración"], "info":{
             "bait":446, "food":395,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":280, "evolve":{"level":15, "affection":80, "days":40},
+            "energy":[115,135], "luck":["180 a 240","215 a 265"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/73fbe034655ed28985bf80d3555e2f42.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/57f31e3145e249c477f86759b23ed58f.png",
@@ -377,32 +377,32 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":42,"name":"Ciralak", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":42,"name":"Ciralak", "rarity":"event", "eventInfo":["legendary","Halloween 2016","Exploración"], "info":{
             "bait":"?", "food":145,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":1080, "evolve":{"level":9, "affection":85, "days":40},
+            "energy":[110,160], "luck":["260 a 315","300 a 350"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/b3437b7f52809884e0f51b3af05c0f3b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/caa173f8dd93024dff11d6be6d092705.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/e84f86bd629219b2bfc744a08f52abf2.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":13,"name":"Corko", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":47, "food":19,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":15, "evolve":{"level":3, "affection":60, "days":7},
+            "energy":[80,100], "luck":["1 a 25","25 a 50"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/ddb49dfbffee113cf8b87f6a84530dad.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/811732fc0d54bb2c22ef64c26e1845e3.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/3356aa90deb77cf61fd49eb723d067aa.png"
-        }, "location":{"exploration":[9], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[9], "mall":[900,150], "bindle":false, "alchemy":false, "other":"Episodio 9 (TO)"} 
     },
 
     {"id":null,"name":"Crokataur", "rarity":"epic","eventInfo":[null,null,null], "info":{
             "bait":403, "food":402,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":105, "evolve":{"level":15, "affection":75, "days":40},
+            "energy":[105,115], "luck":["170 a 225","Desconocido"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/bd4f8cf4a0b095f8875e04c5aad982b2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/9852d452cace33a3f0fa387c1ff16232.png",
@@ -412,19 +412,19 @@
 
     {"id":5,"name":"Crowmero", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":41, "food":15,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":4, "affection":70, "days":15},
+            "energy":[50,100], "luck":["25 a 65","35 a 85"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/08397cff846aa02a5f4133fac5c386f2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a2cc5b12a30000f666a749b4652b80cc.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/deb90174df052f2f46c83ffbcd38c2ac.png"
-        }, "location":{"exploration":[23], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[23], "mall":["-",200], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":9,"name":"Crylasm", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":42, "food":16,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":120, "evolve":{"level":7, "affection":90, "days":20},
+            "energy":[40,120], "luck":["50 a 100","30 a 75"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/99dda3fc72c44d017fd392dc97168cbf.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8c4eb3bc02afc5942d59d045fea2cf85.png",
@@ -436,30 +436,30 @@
 
     {"id":10,"name":"Dalafa", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":43, "food":17,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":5, "affection":50, "days":20},
+            "energy":[100,100], "luck":["15 a 50","40 a 85"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/602c1bf7daf775ae482f0af930d18a1a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/8cbc9785d46e07d9295bc547f40bfee5.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/93dff517f89c18cea59380be6394c9ec.png"
-        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",200], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":43,"name":"Danalasm", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":43,"name":"Danalasm", "rarity":"event", "eventInfo":["legendary","Navidad 2016","Exploración"], "info":{
             "bait":"?", "food":150,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":9, "affection":85, "days":40},
+            "energy":[100,140], "luck":["280 a 335","320 a 370"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/f72e5c3ccf3101bdaa756090b175c8e2.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dbcf9cc21c147b983171bfa06520140a.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/e6f69237778a33241e981a9d05c04bbc.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":17,"name":"Dawn Homonculus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":51, "food":23,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":12, "affection":90, "days":45},
+            "energy":[100,120], "luck":["300 a 355","320 a 385"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/2314badb79f96ad5123820eb9b0018aa.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/f100a8b458416d15bd5cbc5f98959bfa.png",
@@ -469,19 +469,19 @@
 
     {"id":12,"name":"Draflayel", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":18,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":600, "evolve":{"level":10, "affection":80, "days":30},
+            "energy":[90,110], "luck":["285 a 345","325 a 375"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/27602704d8fe6b25896eba00dc65a2e8.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/4931727274289d9f826f42524692777e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/aaf130ffc85c65e9c760bee0833bd865.png"
-        }, "location":{"exploration":["Disponible en costales."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":true, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Digrine", "rarity":"rare","eventInfo":[null,null,null], "info":{
             "bait":407, "food":392,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":200, "evolve":{"level":10, "affection":80, "days":25},
+            "energy":[100,125], "luck":["65 a 135","100 a 150"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/3eaa87c499ad282712b333fe6a5b6f6d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/0f68eaf0dfe656cfaaab30ff722c05f6.png",
@@ -491,23 +491,23 @@
     
 
 
-    {"id":92,"name":"Etheralm", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":92,"name":"Etheralm", "rarity":"event", "eventInfo":["rare","San Valentín 2020",null], "info":{
             "bait":57, "food":339,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":10, "affection":65, "days":25},
+            "energy":[90,125], "luck":["80 a 120","115 a 140"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/488afcc1dd36766e4131964d7f470e06.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3d8703fd8bb4e026b8d74b5b707634c6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/12057620fcc88b41904428c6435d09c4.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":[1800,300], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
 
-    {"id":null,"name":"Fabibi", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Fabibi", "rarity":"event","eventInfo":["epic","Pascua 2022",null], "info":{
             "bait":430, "food":391,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":280, "evolve":{"level":15, "affection":75, "days":40},
+            "energy":[105,125], "luck":["170 a 225","200 a 250"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/665b2fdc539db406e7ef461fd6669495.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d193441c92757c4d4e16e4b5c12a102b.png",
@@ -517,8 +517,8 @@
 
     {"id":59,"name":"Fenrisulfr", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":54, "food":319,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":15, "affection":85, "days":40},
+            "energy":[130,160], "luck":["300 a 350","330 a 380"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/3baa1f5b6f4d23d91c8250c5c4e9e4d3.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/08c06e1eb56c2e4cfb34b38decf698c1.png",
@@ -526,10 +526,10 @@
         }, "location":{"exploration":[108], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Flimko", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Flimko", "rarity":"event","eventInfo":["legendary","Música 2022","Barra colectiva"], "info":{
             "bait":null, "food":199,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/3dd6e4f9a0ed66ec6ba9a22e63b7ade4.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/0128b39bcd7c1d0184cf2b198719ddc5.png",
@@ -539,19 +539,19 @@
 
     {"id":54,"name":"Flubat", "rarity":"epic", "eventInfo":[null,null,null], "info":{
             "bait":270, "food":324,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":330, "evolve":{"level":28, "affection":85, "days":30},
+            "energy":[100,140], "luck":["180 a 210","220 a 250"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/65e603b0961c0f48150f450b52187690.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/22d449b791ba42c7080ce035c2aa3317.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1f22de896195879d448d1744530db1dd.png"
-        }, "location":{"exploration":[104], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[104], "mall":[1650,275], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":null,"name":"Flufinec", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":417, "food":418,
             "hatch":105, "evolve":{"level":7, "affection":85, "days":15},
-            "energy":[], "luck":[]},
+            "energy":[70,"Desconocido"], "luck":["40 a 85","Desconocido"]},
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/5da972fa7e0a224cee22147d83fd4d7b.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/5b486e33a0d1c9a5a46b410f5932369a.png",
@@ -559,10 +559,12 @@
         }, "location":{"exploration":[185], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
-    {"id":73,"name":"Galorze", "rarity":"event", "eventInfo":[null,null,null], "info":{
+
+
+    {"id":73,"name":"Galorze", "rarity":"event", "eventInfo":["legendary","Música 2018","Misiones"], "info":{
             "bait":null, "food":199,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":720, "evolve":{"level":10, "affection":85, "days":40},
+            "energy":[100,140], "luck":["275 a 335","335 a 385"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/42adf29d2713d7832ee0d3b4b46df6e0.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/8fdbc4c05de57f6a478b50be916d36b1.png",
@@ -570,10 +572,10 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Gladanel", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Gladanel", "rarity":"event","eventInfo":["legendary","Navidad 2021","Barra colectiva"], "info":{
             "bait":null, "food":150,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/5ebb513b98e8495460c0466342216e0d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/1c991fcd0620a49d80797a5df45045c7.png",
@@ -581,37 +583,37 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":64,"name":"Globulosaurus", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":64,"name":"Globulosaurus", "rarity":"event", "eventInfo":["rare","Halloween 2017",null], "info":{
             "bait":228, "food":160,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":6, "affection":65, "days":25},
+            "energy":[90,110], "luck":["70 a 110","95 a 135"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/22aa8dce19ca6d9a52d70154c4edf370.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/51c72594f9cf4b8c3f3ae9792862d12e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/f568f67249d263dc6bc6b9be84a66e52.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":88,"name":"Greifmar", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":88,"name":"Greifmar", "rarity":"event", "eventInfo":["legendary","Halloween 2019",null], "info":{
             "bait":null, "food":145,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":750, "evolve":{"level":15, "affection":90, "days":40},
+            "energy":[115,150], "luck":["310 a 355","340 a 380"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/03472b87b4c8938eab761329993b06f8.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/d13c5087600e0e75c1aee3e5c919c07b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/77cfebfb8119599b8bfe36343d86a0d6.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":36,"name":"Grookhan", "rarity":"rare", "eventInfo":[null,null,null], "info":{
             "bait":136, "food":132,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":10, "affection":10, "days":10},
+            "energy":[100,100], "luck":["70 a 110","80 a 125"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/0cca1c484f00f1ee25532d5a9d71601a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/23dcf0ca9d2986f3cb0e91938a9b53a5.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d0c9b6379b65df0758db7380625a92fe.png"
-        }, "location":{"exploration":["Disponible en episodio 17."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":"Episodio 12 (TO)"} 
     },
    
 

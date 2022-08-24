@@ -291,5 +291,7 @@
     {"id":184, "map":23, "name":"Mansión", "energy":"40", "time":"25", "style":"left: 637px;top: 55px", "clothes":[
         {"id":30644},{"id":30707},{"id":30780},{"id":30790}
     ]},
-    {"id":185, "map":23, "name":"Jardín botánico", "energy":"45","time":"25", "style":"left: 241px;top: 309px", "clothes":[]}
+    {"id":185, "map":23, "name":"Jardín botánico", "energy":"45","time":"25", "style":"left: 241px;top: 309px", "clothes":[
+        {"id":31893},{"id":31903},{"id":31913}
+    ]}
 ]
