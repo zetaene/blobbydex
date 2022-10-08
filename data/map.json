@@ -293,5 +293,12 @@
     ]},
     {"id":185, "map":23, "name":"Jardín botánico", "energy":"45","time":"25", "style":"left: 241px;top: 309px", "clothes":[
         {"id":31893},{"id":31903},{"id":31913}
+    ]},
+
+
+
+    {"id":188, "map":24, "name":"Desierto civilizado", "energy":"45","time":"25", "style":"left: 337px;top: 136px", "clothes":[
+        {"id":32156},{"id":32157},{"id":32158},{"id":32159},{"id":32160},{"id":32161},
+        {"id":32162},{"id":32163},{"id":32843},{"id":32853},{"id":32863}
     ]}
 ]

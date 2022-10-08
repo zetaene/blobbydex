@@ -58,7 +58,10 @@ function cargarMapas(map) {
     } else if (map == "terrestre") {
         currentMap = mapLocations.filter(v => {return v.map == 23});
         $("#map-container").addClass("map23");
-    };;
+    } else if (map == "yaqut") {
+        currentMap = mapLocations.filter(v => {return v.map == 24});
+        $("#map-container").addClass("map24");
+    };
 
 
     // Dibujar puntos de exploración + tooltips
@@ -104,13 +107,15 @@ function cargarMapas(map) {
 
               var url = "https://www.eldarya.com/assets/img/";
 
-            switch (pInfo[0].category) {
-                case "skin": url += "player/skin/icon/" + pIMG[0].itemURL; break;
-                case "mouth": url += "player/mouth/icon/" + pIMG[0].itemURL; break;
-                case "eye": url += "player/eyes/icon/" + pIMG[0].itemURL; break;
-                case "hair": url += "player/hair/icon/" + pIMG[0].itemURL; break;
-                default: url += "item/player/icon/" + pIMG[0].itemURL;
-            };
+            try {
+                switch (pInfo[0].category) {
+                    case "skin": url += "player/skin/icon/" + pIMG[0].itemURL; break;
+                    case "mouth": url += "player/mouth/icon/" + pIMG[0].itemURL; break;
+                    case "eye": url += "player/eyes/icon/" + pIMG[0].itemURL; break;
+                    case "hair": url += "player/hair/icon/" + pIMG[0].itemURL; break;
+                    default: url += "item/player/icon/" + pIMG[0].itemURL;
+                };
+            } catch {};
 
             var nombre = (pInfo[0].english).replace("(x)", "");
 

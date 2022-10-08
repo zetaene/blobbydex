@@ -63,10 +63,11 @@ function cargarImages() {
 
 		} else if (filtro == "event") {
 			// Evento
-			var fechaInicio = 2016;
-			var fechaFin = 2022;
+			var fechaInicio = imgList.event.filter(v => v.name == "sv");
+			fechaInicio = fechaInicio[fechaInicio.length -1].year;
+			var fechaFin = 2016;
 			var e = 0;
-			var anio = 2016;
+			var anio = fechaInicio;
 
 			do {
 				lista = imgList.event.filter(v => {return v.year == anio});
@@ -78,7 +79,7 @@ function cargarImages() {
 					for (i = 0; i < lista.length; i++) {
 						$(".chapter-images").eq(e).append('<div class="image-container"><img title="' + getName(lista[i].name) + '" class="ch-image" src="' + lista[i].url + '"></div>');
 					}
-					e++;anio++;
+					e++;anio--;
 				}
 			} while (lista.length > 0);
 

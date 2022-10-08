@@ -1154,6 +1154,11 @@
             "mall":[18,3], "event":"Verano"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/1ef38794a1d8bec90b206a257a8334e9.png"
     },
+    {"id":348, "name":"Obsidiana caoba", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":["-","-"], "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f1949c00436503fbc3c2177e27e7bf54.png"
+    },
     {"id":349, "name":"Sun Leaf", "group":"pet", "category":"Alimento", "rarity":"epic",
         "location":{"exploration":[], 
             "mall":[24,4], "event":null},
@@ -1264,10 +1269,10 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/472cea3c763d76c125ada52223bde39f.png"
     },
-    {"id":372, "name":"Obsidiana caoba", "group":"pet", "category":"Cebos", "rarity":"event",
+    {"id":372, "name":"Larva Real", "group":"pet", "category":"Alimento", "rarity":"common",
         "location":{"exploration":[],
-            "mall":["-","-"], "event":"Halloween"},
-        "img":"https://www.eldarya.es/assets/img/item/consumable/f1949c00436503fbc3c2177e27e7bf54.png"
+            "mall":[12,2], "event":null},
+            "img":"https://www.eldarya.es/assets/img/item/consumable/0b77febe856c5dcbe0f22785a049e6f8.png"
     },
     {"id":373, "name":"Shining Hook", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],
@@ -1565,7 +1570,7 @@
         "img":"https://www.eldarya.es/assets/img/item/consumable/c54c38ec0198a8f932bbde2c037d53fb.png"
     },
     {"id":436, "name":"Restos no identificados", "group":"pet", "category":"Alimento", "rarity":"rare",
-        "location":{"exploration":[161],
+        "location":{"exploration":[161,188],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/9edcb93189be7414e5679d3a23818496.png"
     },
@@ -1658,7 +1663,20 @@
         "location":{"exploration":[],
             "mall":[24,4], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/a6b2ca2111c9ec1082337846f62a0a6f.png"
+    },
+    {"id":459, "name":"Concha de hueso", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[188],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/acf5e2f0d6b3dde2f33b4c1fdabef71b.png"
+    },
+    {"id":460, "name":"Lazo del desierto", "group":"alchemy", "category":"Otros", "rarity":"rare",
+        "location":{"exploration":[188],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/bf9f3a6d649fd8fede0c80972f07a6a5.png"
+    },
+    {"id":461, "name":"Arena de cuerno", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[188],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/37ffbcfec6475065e7c9e1ff901224ce.png"
     }
 ]
-
-

@@ -321,6 +321,11 @@ body {
     background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/6d4b75327c3b4431a72a888ac6070824.jpg);
 }
 
+.map24 {
+    /* Yaqut */
+    background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/c309f54c3ac7e662dac4fd5ed9b5fb16.jpg);
+}
+
 .map-location {
     position: absolute;
     background: url(https://www.eldarya.es/static/img/new-layout/pet/icons/picto_map.png);
