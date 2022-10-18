@@ -124,7 +124,9 @@ $(function() {
 			$("#popup-outer").fadeIn(300).css("display", "table");
 			$("#popup-inner").addClass("open");
 		} else {
-			window.open(enlaceFormulario, '_blank');
+			if (confirm('¿Desea aportar esta imagen?')) {
+				window.open(enlaceFormulario, '_blank');
+			};
 		}
 	});
 

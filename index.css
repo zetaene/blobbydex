@@ -94,7 +94,7 @@
 }
 
 #footer.hidden {
-	bottom: -120px;
+	bottom: -200px;
 }
 
 #footer-in {
@@ -122,6 +122,7 @@
 
 #footer-in p {
 	clear: left;
+	width: 85%;
 }
 
 .footer-close-button {
@@ -176,9 +177,16 @@
 
 @media only screen and (max-width: 600px) {
     #footer-in {
-        width: 100%;
-        border-radius: 0;
-        border-left: 0;
-        border-right: 0;
+        width: calc(100% - 42px);
+		border-radius: 0;
+		border-left: 0;
+		border-right: 0;
+		margin-left: 0;
     }
+
+
+	#footer-in p {
+		width: 75%;
+	}
+
 }
