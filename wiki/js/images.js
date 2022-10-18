@@ -1,4 +1,5 @@
 var imgList = [];
+var enlaceFormulario = "https://forms.gle/ifD1qejpqBfid5ai7";
 /*illust leiftan
 https://www.eldarya.fr/forum/t186,1-fan-club-leiftan-artemis.htm
 ======================================================*/
@@ -15,6 +16,7 @@ $(document).ready(function () {
 function cargarImages() {
 
 	$("#card-list").html(""); // limpiar todo
+	$(".unselected-option").remove();
 	
 	
 	// Filtros
@@ -43,7 +45,11 @@ function cargarImages() {
 				$(".chapter-container").eq(c - 1).append('<div class="chapter-images"></div>');
 
 				for (i = 0; i < images.length; i++) {
-					$(".chapter-images").eq(c - 1).append('<div class="image-container"><img class="ch-image" src="' + images[i].url + '"></div>');
+					if (images[i].url != "") {
+						$(".chapter-images").eq(c - 1).append('<div class="image-container"><img class="ch-image" src="' + images[i].url + '"></div>');
+					} else {
+						$(".chapter-images").eq(c - 1).append('<div class="image-container"><div class="ch-image missing" title="Haz clic para aportar esta imagen"></div></div>');
+					}
 				}
 			}
 
@@ -84,6 +90,8 @@ function cargarImages() {
 			} while (lista.length > 0);
 
 		}
+	} else {
+		$("#card-container").prepend('<span class="unselected-option"><i>Seleccione una opción de la lista.</i></span>')
 	};
 
 };
@@ -109,11 +117,15 @@ $(function() {
 	})
 
 	$("#card-list").on("click", ".ch-image", function() {
-		var img = $(this).attr("src");
-		$("#popup-image").attr("src",img);
+		if (!($(this).hasClass("missing"))) {
+			var img = $(this).attr("src");
+			$("#popup-image").attr("src",img);
 
-		$("#popup-outer").fadeIn(300).css("display", "table");
-		$("#popup-inner").addClass("open");
+			$("#popup-outer").fadeIn(300).css("display", "table");
+			$("#popup-inner").addClass("open");
+		} else {
+			window.open(enlaceFormulario, '_blank');
+		}
 	});
 
 

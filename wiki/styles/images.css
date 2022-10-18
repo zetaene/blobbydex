@@ -1,3 +1,11 @@
+.unselected-option {
+	color: #999;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
 .chapter-images {
 	display: inline-block;
 	position: relative;
@@ -25,6 +33,13 @@
 	transition: all 200ms;
 	box-shadow: 0px 0px 5px;
 }
+
+.ch-image.missing {
+	width: 200px;
+	height: 135px;
+	background: url(https://www.eldarya.es/static/img/new-layout/library/pictures/lock.png) center no-repeat, url(https://www.eldarya.es/static/img/new-layout/library/locked-illu.jpg);
+	background-size: 30px, cover;
+	text-align: center;}
 
 #popup-inner-img {
 	transition: 500ms;

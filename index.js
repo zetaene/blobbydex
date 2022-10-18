@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	var enlace = [
-		{"src":"wiki/inventory", "name":"Inventario", "class":"inventory", "type":"local"},
+		// añadir "beta" a la clase si la página está en beta
+
+		{"src":"wiki/inventory", "name":"Inventario", "class":"inventory beta", "type":"local"},
 		{"src":"wiki/map", "name":"Exploración", "class":"maps", "type":"local"},
 		{"src":"wiki/pet", "name":"Familiares", "class":"pet beta", "type":"local"},
 		{"src":"wiki/images", "name":"Ilustraciones", "class":"illust", "type":"local"},
@@ -10,6 +12,7 @@ $(document).ready(function() {
 
 		{"src":"wishlist/create", "name":"Crea tu wishlist"},
 		{"src":"wishlist/view", "name":"Mi Wishlist"},*/
+		{"src":"help", "name":"Colaborar", "class":"help", "type":"local"},
 
 		{"src":"https://gardiemaker.github.io/", "name":"GardieMaker", "class":"gm", "type":"external"}
 	]
@@ -28,4 +31,12 @@ $(document).ready(function() {
 		//	$(".pages").append('<li><div><a>' + enlace[i].name + '</a></div></li>');
 		//};
 	};
+
+	$("#footer").removeClass("hidden");
 })
+
+$(function () {
+	$(".footer-close-button").click(function () {
+		$("#footer").addClass("hidden");
+	})
+});

@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    <title>BlobbyDex - Enlaces</title>
+    <title>BlobbyDex - Colaborar</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+    <script src="home.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya+Sans+SC&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="index.css">
+    <style type="text/css">
+    	#thanks-banner {
+    		width: 100%;
+			background-image: url(assets/img/thanks.png);
+			background-size: cover;
+			height: 400px;
+			color: #fff;
+			text-align: center;
+			background-position: center;
+    	}
+    	#thanks-banner p {
+    		padding: 30px;
+			font-size: 24px;
+    	}
+    </style>
     
 </head>
 <body>
@@ -20,32 +34,21 @@
 		<div class="wrapper">
 		    <div id="container">
 		        <div id="header">
-		            <h2>~ BlobbyDex ~</h2>
+		            <a href="./"><h2>~ BlobbyDex ~</h2></a>
 		        </div>
 		        <!-- Cargar contenido -->
-				<ul class="pages">
-					<div id="local-pages">
-						<h2>Navegación</h2>
-						
+		        <h2>Zona de aportes y reportes</h2>
+				<div class="content">
+					<div id="thanks-banner">
+						<p><b>¡Muchas gracias por tu ayuda!</b></p>
 					</div>
-				</ul>
-				<ul class="pages">
-					<div id="external-links">
-						<h2>Enlaces externos</h2>
-						
-					</div>
-				</ul>
+					<p>Para aporta contenido faltante, reportar un error o simplemente dejar una sugerencia, solo tienes que rellenar <a href="https://forms.gle/ifD1qejpqBfid5ai7" target="_blank">este formulario</a>.</p>
+				</div>
 		    </div>
 
 		</div>
 
 	</div>
-
-	<div id="footer" class="hidden"><div id="footer-in">
-		<span class="footer-title">Advertencia</span>
-		<span class="footer-close-button"></span>
-		<p>Esta página está en desarrollo y aún hay información faltante.<br>Disculpe las molestias.</p>
-	</div></div>
 
 </body>
 </html>

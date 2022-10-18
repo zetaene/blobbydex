@@ -153,6 +153,7 @@ function drawBigCard(id) {
                 case 21: nombre += " - Ciudad de Eel (ANE)"; break;
                 case 22: nombre += " - Montañas Genkaku (ANE)"; break;
                 case 23: nombre += " - Ciudad Terrestre (ANE)"; break;
+                case 24: nombre += " - Yaqut (ANE)"; break;
             };
 
             var position = mapa[0].style;
