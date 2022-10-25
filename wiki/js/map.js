@@ -61,6 +61,9 @@ function cargarMapas(map) {
     } else if (map == "yaqut") {
         currentMap = mapLocations.filter(v => {return v.map == 24});
         $("#map-container").addClass("map24");
+    } else {
+        // Si es valentin, easter, music, summer, halloween, christmas 
+        currentMap = mapLocations.filter(v => {return v.map == map});
     };
 
 

@@ -326,6 +326,10 @@ body {
     background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/c309f54c3ac7e662dac4fd5ed9b5fb16.jpg);
 }
 
+.map.halloween {
+    background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/ef10bce043a756148827ff2eb050abb3.jpg);
+}
+
 .map-location {
     position: absolute;
     background: url(https://www.eldarya.es/static/img/new-layout/pet/icons/picto_map.png);
