@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 		{"src":"wishlist/create", "name":"Crea tu wishlist"},
 		{"src":"wishlist/view", "name":"Mi Wishlist"},*/
-		{"src":"help", "name":"Colaborar", "class":"help", "type":"local"},
+		//{"src":"help", "name":"Colaborar", "class":"help", "type":"local"},
 
 		{"src":"https://gardiemaker.github.io/", "name":"GardieMaker", "class":"gm", "type":"external"}
 	]

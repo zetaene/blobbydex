@@ -1,0 +1,19 @@
+[
+    {"id":36, "map":"halloween", "name":"Mansión laboratorio", "energy":"10", "time":"10", "style":"left: 117px;top: 73px", "totalItems":294},
+    {"id":37, "map":"halloween", "name":"Cementerio abandonado", "energy":"10", "time":"10", "style":"left: 327px;top: 67px", "totalItems":251},
+    {"id":38, "map":"halloween", "name":"Bosque de las zarzas", "energy":"10", "time":"10", "style":"left: 264px;top: 133px", "totalItems":281},
+    {"id":39, "map":"halloween", "name":"Aldea de los condenados", "energy":"10", "time":"15", "style":"left: 152px;top: 237px", "totalItems":164},
+    {"id":40, "map":"halloween", "name":"Senda de las calabazas", "energy":"10", "time":"15", "style":"left: 211px;top: 171px", "totalItems":286},
+    {"id":41, "map":"halloween", "name":"Altar demoníaco", "energy":"10", "time":"15", "style":"left: 378px;top: 160px", "totalItems":272},
+    {"id":42, "map":"halloween", "name":"Caldero de la bruja", "energy":"10", "time":"15", "style":"left: 361px;top: 278px", "totalItems":352},
+    {"id":43, "map":"halloween", "name":"Bosque encantado", "energy":"15", "time":"20", "style":"left: 294px;top: 299px", "totalItems":199},
+    {"id":44, "map":"halloween", "name":"Grietas de lava", "energy":"15", "time":"20", "style":"left: 714px;top: 249px", "totalItems":167},
+    {"id":45, "map":"halloween", "name":"Castillo Fénix", "energy":"15", "time":"20", "style":"left: 491px;top: 87px", "totalItems":127},
+    {"id":76, "map":"halloween", "name":"Ópera de Odessa", "energy":"15", "time":"20", "style":"left: 129px;top: 358px", "totalItems":218},
+    {"id":77, "map":"halloween", "name":"Isla de las muñecas", "energy":"10", "time":"15", "style":"left: 323px;top: 382px", "totalItems":187},
+    {"id":78, "map":"halloween", "name":"Árbol del ahorcado", "energy":"10", "time":"15", "style":"left: 482px;top: 382px", "totalItems":189},
+    {"id":79, "map":"halloween", "name":"Pozo de los espíritus", "energy":"10", "time":"10", "style":"left: 649px;top: 329px", "totalItems":239},
+    {"id":80, "map":"halloween", "name":"Barco fantasma", "energy":"10", "time":"15", "style":"left: 497px;top: 318px", "totalItems":166},
+    {"id":81, "map":"halloween", "name":"Laberinto de las almas perdidas", "energy":"15", "time":"20", "style":"left: 684px;top: 139px", "totalItems":234},
+    {"id":82, "map":"halloween", "name":"Pirámide de las trampas", "energy":"10", "time":"15", "style":"left: 665px;top: 72px", "totalItems":391}
+]
