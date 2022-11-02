@@ -11,7 +11,7 @@
         {"id":4668, "tag":"frankenstein", "name":"Frankenstein Skin", "variations":10, "location":0, "url":"https://www.eldarya.es/assets/img/player/skin/icon/d68a73e0a6170d3dac274ac88ccac708.png"},
         {"id":4678, "tag":"frankenstein", "name":"Frankenstein Leather Ankle Cuffs", "variations":12, "location":37, "url":"https://www.eldarya.es/assets/img/item/player/icon/ba34746baa4df8d6938d10214dc5cd08.png"},
         {"id":4690, "tag":"frankenstein", "name":"Frankenstein Leather Cuffs", "variations":12, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/54db8cdcead95add0fcab9b918cbf37e.png"},
-        {"id":4702, "tag":"frankenstein", "name":"Frankenstein Necklace", "variations":12, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/839d25bf7dce1f1d81f29428910cb46b.png"},
+        {"id":4702, "tag":"frankenstein", "name":"Frankenstein Necklace", "variations":12, "location":43, "url":"https://www.eldarya.es/assets/img/item/player/icon/839d25bf7dce1f1d81f29428910cb46b.png"},
         {"id":4714, "tag":"frankenstein", "name":"Frankenstein Dress", "variations":12, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/2966ca6e05d3f5d529811fd6bc642d77.png"},
 
         {"id":4767, "tag":"bloody_countess", "name":"Bloody Countess Cape", "variations":14, "location":43, "url":"https://www.eldarya.es/assets/img/item/player/icon/25f3285107c34dfab8e5f3c7eec4a97f.png"},
@@ -51,7 +51,7 @@
         {"id":5290, "name":"Horrifying", "variations":1, "location":0, "url":"https://www.eldarya.es/assets/img/player/mouth/icon/d715f78dd5c601db86fe8c811920ed06.png"},
 
         {"id":5291, "name":"Lost Bride Veil", "variations":12, "location":41, "url":"https://www.eldarya.es/assets/img/item/player/icon/8da46733b31e4cb4cb058ec519ca65e8.png"},
-        {"id":5303, "name":"Lost Bride Splatters", "variations":12, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/10b251aa32ba76c60076e2c833a10590.png"},
+        {"id":5303, "name":"Lost Bride Splatters", "variations":12, "location":43, "url":"https://www.eldarya.es/assets/img/item/player/icon/10b251aa32ba76c60076e2c833a10590.png"},
         {"id":5315, "name":"Lost Bride Bustier", "variations":12, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/4cf9ba2513da90a6b767375ec98c329c.png"},
         {"id":5327, "name":"Lost Bride Skirt", "variations":12, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/d62334965234cba3816db31e032e0dab.png"},
         {"id":5339, "name":"Lost Bride Garter", "variations":12, "location":78, "url":"https://www.eldarya.es/assets/img/item/player/icon/32c2bf6293ddfd4524673edc2b00dcad.png"},
@@ -85,7 +85,7 @@
 
         {"id":8542, "name":"Mysterious Enchantress Scepter", "variations":15, "location":37, "url":"https://www.eldarya.es/assets/img/item/player/icon/73b201f71994111e1799a6bff2cf8735.png"},
         {"id":8543, "name":"Mysterious Enchantress Mask", "variations":15, "location":45, "url":"https://www.eldarya.es/assets/img/item/player/icon/67d72180913f44b1ba282f4987547c21.png"},
-        {"id":8544, "name":"Mysterious Enchantress Veil", "variations":15, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/d57bcf396afe4b6a01aafd34e6a14892.png"},
+        {"id":8544, "name":"Mysterious Enchantress Veil", "variations":15, "location":42, "url":"https://www.eldarya.es/assets/img/item/player/icon/d57bcf396afe4b6a01aafd34e6a14892.png"},
         {"id":8545, "name":"Mysterious Enchantress Necklace", "variations":15, "location":76, "url":"https://www.eldarya.es/assets/img/item/player/icon/26eb94bad42b8a86241bebfcfb6e5983.png"},
         {"id":8546, "name":"Mysterious Enchantress Top", "variations":15, "location":37, "url":"https://www.eldarya.es/assets/img/item/player/icon/9ae04688082328be39efe9cf91c4237c.png"},
         {"id":8547, "name":"Mysterious Enchantress Dress", "variations":15, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/bdeb00a41179ae8350b78886bf41b548.png"},
@@ -118,9 +118,9 @@
         {"id":8570, "name":"Sweet Mourne Booties", "variations":15, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/3410fb7916c628db2cd4fb75eac9c71e.png"},
         {"id":8571, "name":"Sweet Mourne Gloves", "variations":15, "location":79, "url":"https://www.eldarya.es/assets/img/item/player/icon/379c503dec0297322526ac7e3ec06250.png"},
         {"id":8572, "name":"Sweet Mourne Necklace", "variations":15, "location":43, "url":"https://www.eldarya.es/assets/img/item/player/icon/cd125b8fa96d266897de369d5cd1213a.png"},
-        {"id":8573, "name":"Sweet Mourne Bags under Eyes", "variations":15, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/ac04df67614d5818aefffbc278b44d33.png"},
+        {"id":8573, "name":"Sweet Mourne Bags under Eyes", "variations":15, "location":44, "url":"https://www.eldarya.es/assets/img/item/player/icon/ac04df67614d5818aefffbc278b44d33.png"},
         {"id":8574, "name":"Sweet Mourne Open Wounds", "variations":1, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/6ef9f23295a5f2ed0ecf66fb5ab7ac23.png"},
-        {"id":8575, "name":"Sweet Mourne Nail Polish", "variations":15, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/d32cb53ed97350d97dd8fd21c601ff7d.png"},
+        {"id":8575, "name":"Sweet Mourne Nail Polish", "variations":15, "location":44, "url":"https://www.eldarya.es/assets/img/item/player/icon/d32cb53ed97350d97dd8fd21c601ff7d.png"},
 
         {"id":8576, "name":"Stealth Crow Hood", "variations":15, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/ccb1bccbb065a8e51eb5ba3bf5f2ddea.png"},
         {"id":8577, "name":"Stealth Crow Cape", "variations":15, "location":39, "url":"https://www.eldarya.es/assets/img/item/player/icon/ac194f375de20a75bb50a94b34e8f79e.png"},
