@@ -18,6 +18,12 @@ $(document).ready(function () {
                 $("#filter-search").val("");
 
                 cargarInfo();
+
+                if (getSearch() != null) {
+                    drawBigCard(getSearch());
+                    $("#popup-outer").fadeIn(300).css("display", "table");
+                    $("#popup-inner").addClass("open");
+                };
             };
         };
     };
@@ -90,14 +96,22 @@ function drawBigCard(id) {
     };
 
     var asociatedList = "";
+    var enlace = window.location.href;
+    if (enlace.includes("?s=")) { 
+        enlace = enlace.split("?s=");
+        enlace = enlace[0];
+    };
+
+    (item[0].group == "pet") ? enlace = enlace.replace("inventory", "pet") : enlace = enlace.replace("inventory", "alchemy");
+
 
     for (i = 0; i < filterList.length; i++) {
-        asociatedList += filterList[i].name;
+        var dinamicLink = enlace + "?s=" + filterList[i].name;
+        asociatedList += '<a href="' + dinamicLink + '" target="_blank">' + filterList[i].name + '</a>';
         if (i != filterList.length - 1) {
             asociatedList += ", "
         };
     };
-
     if (asociatedList == "") asociatedList = "?????";
 
     $("#first-right").append('<span>' + abstractText + asociatedList + '</span>');
@@ -279,8 +293,8 @@ $(function() {
         }
     });
 
-    $("#popup-inner").click(function() {
-
+    $("#popup-inner").click(function(event) {
+        event.stopPropagation();
     });
 });
 

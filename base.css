@@ -326,8 +326,25 @@ body {
     background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/c309f54c3ac7e662dac4fd5ed9b5fb16.jpg);
 }
 
+.map.svalentin {
+    background-image: url(assets/maps/svalentin.jpg);
+}
+.map.easter {
+    background-image: url(assets/maps/easter.jpg);
+}
+.map.music {
+    background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/1bfabece16a2be415203ee32beeec513.jpg);
+}
+.map.summer {
+    background-image: url(assets/maps/summer.jpg);
+}
+
 .map.halloween {
     background-image: url(https://www.eldarya.es/assets/img/minigames/treasurehunt/ef10bce043a756148827ff2eb050abb3.jpg);
+}
+
+.map.christmas {
+    background-image: url(https://3.bp.blogspot.com/-nu2MeutUn4Y/WFPp_seW9AI/AAAAAAAADyg/Ufu5gVEPvD8Pucmrmc9qgh5OAK9BJ57lACLcB/s1600/Mapa_Navidad.jpg);
 }
 
 .map-location {
@@ -603,6 +620,17 @@ body {
     border-radius: 50%;
 }
 
+.location-event-point {
+    width: 135px;
+    height: 76px;
+    background-size: cover;
+    border-radius: 20%;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 10px 2px;
+    text-align: center;
+}
+
 .petinfo {
     display: inline-block;
     width: 50px;
@@ -621,6 +649,11 @@ body {
 .petinfo img {
     position: relative;
     width: 100%;
+}
+
+.petinfo:hover {
+    background: linear-gradient(211deg, #00ffd3 0%, #00d0ff 100%);
+    box-shadow: 0px 0px 5px;
 }
 
 #popup-content span.middle {

@@ -51,8 +51,8 @@ function cargarMapas(map) {
         $("#map-container").append('<div class="map-location" data-id="' + currentMap[p].id + '" style="' + currentMap[p].style + '"></div>');
         $(".map-location").eq(p).append('<div id="location-' + currentMap[p].id + '" class="tooltip"></div>');
         $(".tooltip").eq(p).append('<span class="map-name">' + currentMap[p].name 
-            + '<br>  <span class="fa fa-bolt"></span> ' + currentMap[p].energy + ' &emsp; '
-            + '<span class="far fa-clock"></span> ' + currentMap[p].time + ' &emsp; '
+            + '<br>  <span class="fa fa-bolt energy-color"></span> ' + currentMap[p].energy + ' &emsp; '
+            + '<span class="far fa-clock time-color"></span> ' + currentMap[p].time + ' &emsp; '
             + '<span class="fas fa-tshirt"></span> ' + contador + ' / ' + currentMap[p].totalItems + '</span>');
 
         // V1

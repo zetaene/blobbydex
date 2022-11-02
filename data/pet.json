@@ -130,7 +130,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/21b46ff690963d7f9cb7aad22edab1a4.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/efb30e1dcec38b3c9818cc8591ba3fb8.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2b2129d39ef6c2c59b6578f5873eb711.png"
-        }, "location":{"exploration":[9,16], "mall":[900,150], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[9,16], "mall":[900,150], "bindle":false, "alchemy":false, "other":"Episodio 3 (TO)"} 
     },
 
     {"id":28,"name":"Beriflore", "rarity":"rare", "eventInfo":[null,null,null], "info":{
@@ -311,7 +311,7 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":41,"name":"Chead", "rarity":"event", "eventInfo":["epic","Halloween 2016","Exploración"], "info":{
+    {"id":41,"name":"Chead", "rarity":"event", "eventInfo":["epic","Halloween 2016",null], "info":{
             "bait":170, "food":161,
             "hatch":300, "evolve":{"level":8, "affection":50, "days":30},
             "energy":[90,120], "luck":["170 a 210","190 a 230"]}, 
@@ -366,7 +366,7 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":true, "other":null} 
     },
 
-    {"id":80,"name":"Chouchibou", "rarity":"event","eventInfo":["epic","Música 2022","Exploración"], "info":{
+    {"id":80,"name":"Chouchibou", "rarity":"event","eventInfo":["epic","Música 2022",null], "info":{
             "bait":446, "food":395,
             "hatch":280, "evolve":{"level":15, "affection":80, "days":40},
             "energy":[115,135], "luck":["180 a 240","215 a 265"]}, 
@@ -377,7 +377,7 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":42,"name":"Ciralak", "rarity":"event", "eventInfo":["legendary","Halloween 2016","Exploración"], "info":{
+    {"id":42,"name":"Ciralak", "rarity":"event", "eventInfo":["legendary","Halloween 2016",null], "info":{
             "bait":"?", "food":145,
             "hatch":1080, "evolve":{"level":9, "affection":85, "days":40},
             "energy":[110,160], "luck":["260 a 315","300 a 350"]}, 
@@ -396,7 +396,7 @@
             "egg":"https://www.eldarya.es/assets/img/item/egg/ddb49dfbffee113cf8b87f6a84530dad.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/811732fc0d54bb2c22ef64c26e1845e3.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/3356aa90deb77cf61fd49eb723d067aa.png"
-        }, "location":{"exploration":[9], "mall":[900,150], "bindle":false, "alchemy":false, "other":"Episodio 9 (TO)"} 
+        }, "location":{"exploration":[9], "mall":[900,150], "bindle":false, "alchemy":false, "other":"Episodio 3 (TO)"} 
     },
 
     {"id":null,"name":"Crokataur", "rarity":"epic","eventInfo":[null,null,null], "info":{
@@ -445,7 +445,7 @@
         }, "location":{"exploration":[], "mall":["-",200], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":43,"name":"Danalasm", "rarity":"event", "eventInfo":["legendary","Navidad 2016","Exploración"], "info":{
+    {"id":43,"name":"Danalasm", "rarity":"event", "eventInfo":["legendary","Navidad 2016",null], "info":{
             "bait":"?", "food":150,
             "hatch":720, "evolve":{"level":9, "affection":85, "days":40},
             "energy":[100,140], "luck":["280 a 335","320 a 370"]}, 
@@ -595,7 +595,7 @@
     },
 
     {"id":88,"name":"Greifmar", "rarity":"event", "eventInfo":["legendary","Halloween 2019",null], "info":{
-            "bait":null, "food":145,
+            "bait":333, "food":145,
             "hatch":750, "evolve":{"level":15, "affection":90, "days":40},
             "energy":[115,150], "luck":["310 a 355","340 a 380"]}, 
         "img":{
@@ -700,7 +700,7 @@
     },
 
     {"id":null,"name":"Kreafire", "rarity":"event","eventInfo":["epic","Halloween 2021",null], "info":{
-            "bait":348, "food":160,
+            "bait":352, "food":160,
             "hatch":280, "evolve":{"level":15, "affection":75, "days":40},
             "energy":[105,125], "luck":["170 a 225","200 a 250"]}, 
         "img":{
@@ -778,8 +778,8 @@
         }, "location":{"exploration":[], "mall":["-",380], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":53,"name":"Lovigis", "rarity":"event", "eventInfo":["legendary","San Valentín 2017",null], "info":{
-            "bait":null, "food":127,
+    {"id":53,"name":"Lovigis", "rarity":"event", "eventInfo":["legendary","San Valentín 2017","Misiones"], "info":{
+            "bait":37, "food":127,
             "hatch":720, "evolve":{"level":10, "affection":85, "days":35},
             "energy":[90,110], "luck":["285 a 345","325 a 375"]}, 
         "img":{
@@ -971,7 +971,7 @@
         }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":44,"name":"Okanya", "rarity":"event", "eventInfo":["epic","Navidad 2016","Exploración"], "info":{
+    {"id":44,"name":"Okanya", "rarity":"event", "eventInfo":["epic","Navidad 2016",null], "info":{
             "bait":"?", "food":159,
             "hatch":240, "evolve":{"level":8, "affection":75, "days":30},
             "energy":[90,120], "luck":["170 a 200","195 a 235"]}, 
@@ -993,7 +993,7 @@
         }, "location":{"exploration":[106], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":65,"name":"Osstoplasm", "rarity":"event", "eventInfo":["epic","Halloween 2017","Exploración"], "info":{
+    {"id":65,"name":"Osstoplasm", "rarity":"event", "eventInfo":["epic","Halloween 2017",null], "info":{
             "bait":227, "food":161,
             "hatch":240, "evolve":{"level":8, "affection":75, "days":30},
             "energy":[100,120], "luck":["175 a 215","210 a 240"]}, 
@@ -1004,7 +1004,7 @@
         }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":68,"name":"Owlett", "rarity":"event", "eventInfo":["legendary","Navidad 2017","Exploración"], "info":{
+    {"id":68,"name":"Owlett", "rarity":"event", "eventInfo":["legendary","Navidad 2017",null], "info":{
             "bait":231, "food":150,
             "hatch":720, "evolve":{"level":10, "affection":85, "days":40},
             "energy":[110,140], "luck":["295 a 335","335 a 375"]}, 
@@ -1050,7 +1050,7 @@
         }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":90,"name":"Perceed", "rarity":"event", "eventInfo":["rare","Navidad 2019","Exploración"], "info":{
+    {"id":90,"name":"Perceed", "rarity":"event", "eventInfo":["rare","Navidad 2019",null], "info":{
             "bait":333, "food":158,
             "hatch":90, "evolve":{"level":10, "affection":65, "days":25},
             "energy":[90,125], "luck":["80 a 120","115 a 140"]}, 
@@ -1061,7 +1061,7 @@
         }, "location":{"exploration":[], "mall":[2100,350], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Perlifynn", "rarity":"event","eventInfo":["epic","Verano 2021","Exploración"], "info":{
+    {"id":null,"name":"Perlifynn", "rarity":"event","eventInfo":["epic","Verano 2021",null], "info":{
             "bait":401, "food":341,
             "hatch":280, "evolve":{"level":15, "affection":75, "days":40},
             "energy":[105,125], "luck":["170 a 225","200 a 250"]}, 
@@ -1083,7 +1083,7 @@
         }, "location":{"exploration":[18,21,23], "mall":["-",200], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":96,"name":"Pinchou", "rarity":"event", "eventInfo":["rare","Verano 2020","Exploración"], "info":{
+    {"id":96,"name":"Pinchou", "rarity":"event", "eventInfo":["rare","Verano 2020",null], "info":{
             "bait":344, "food":345,
             "hatch":120, "evolve":{"level":10, "affection":70, "days":25},
             "energy":[110,135], "luck":["85 a 130","125 a 150"]}, 
@@ -1094,7 +1094,7 @@
         }, "location":{"exploration":[], "mall":[1950,325], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":37,"name":"Pinigin", "rarity":"event", "eventInfo":["rare","Navidad 2015","Exploración"], "info":{
+    {"id":37,"name":"Pinigin", "rarity":"event", "eventInfo":["rare","Navidad 2015",null], "info":{
             "bait":153, "food":158,
             "hatch":90, "evolve":{"level":5, "affection":65, "days":25},
             "energy":[80,110], "luck":["80 a 115","110 a 140"]}, 
@@ -1105,7 +1105,7 @@
         }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":111,"name":"Pinpipou", "rarity":"event", "eventInfo":["rare","Navidad 2020","Exploración"], "info":{
+    {"id":111,"name":"Pinpipou", "rarity":"event", "eventInfo":["rare","Navidad 2020",null], "info":{
             "bait":374, "food":159,
             "hatch":225, "evolve":{"level":3, "affection":75, "days":10},
             "energy":[70,80], "luck":["110 a 125","125 a 140"]}, 
@@ -1116,7 +1116,7 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":109,"name":"Pirnomnom", "rarity":"event", "eventInfo":["rare","Halloween 2020","Exploración"], "info":{
+    {"id":109,"name":"Pirnomnom", "rarity":"event", "eventInfo":["rare","Halloween 2020",null], "info":{
             "bait":373, "food":160,
             "hatch":120, "evolve":{"level":10, "affection":75, "days":25},
             "energy":[95,130], "luck":["85 a 125","120 a 140"]}, 
@@ -1127,7 +1127,7 @@
         }, "location":{"exploration":[], "mall":[2010,335], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":97,"name":"Piscxolot", "rarity":"event", "eventInfo":["epic","Verano 2020","Exploración"], "info":{
+    {"id":97,"name":"Piscxolot", "rarity":"event", "eventInfo":["epic","Verano 2020",null], "info":{
             "bait":342, "food":341,
             "hatch":240, "evolve":{"level":10, "affection":75, "days":30},
             "energy":[100,130], "luck":["185 a 225","215 a 250"]}, 
@@ -1138,7 +1138,7 @@
         }, "location":{"exploration":[], "mall":["-",375], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Ploomshu", "rarity":"event","eventInfo":["epic","Pascua 2021","Exploración"], "info":{
+    {"id":null,"name":"Ploomshu", "rarity":"event","eventInfo":["epic","Pascua 2021",null], "info":{
             "bait":390, "food":391,
             "hatch":300, "evolve":{"level":10, "affection":80, "days":30},
             "energy":[100,120], "luck":["160 a 210","190 a 235"]}, 
@@ -1182,7 +1182,7 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":"Exploración especial"} 
     },
 
-    {"id":78,"name":"Pomponeige", "rarity":"event", "eventInfo":["epic","Navidad 2018","Exploración"], "info":{
+    {"id":78,"name":"Pomponeige", "rarity":"event", "eventInfo":["epic","Navidad 2018",null], "info":{
             "bait":267, "food":159,
             "hatch":240, "evolve":{"level":9, "affection":75, "days":30},
             "energy":[90,120], "luck":["170 a 230","195 a 250"]}, 
@@ -1215,7 +1215,7 @@
         }, "location":{"exploration":[27], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":89,"name":"Pterocorvus", "rarity":"event", "eventInfo":["rare","Halloween 2019","Exploración"], "info":{
+    {"id":89,"name":"Pterocorvus", "rarity":"event", "eventInfo":["rare","Halloween 2019",null], "info":{
             "bait":"?", "food":160,
             "hatch":90, "evolve":{"level":10, "affection":75, "days":25},
             "energy":[95,130], "luck":["85 a 125","120 a 145"]}, 
@@ -1239,7 +1239,7 @@
 
 
 
-    {"id":32,"name":"Rawist", "rarity":"event", "eventInfo":["legendary","Halloween 2015","Exploración"], "info":{
+    {"id":32,"name":"Rawist", "rarity":"event", "eventInfo":["legendary","Halloween 2015",null], "info":{
             "bait":"?", "food":145,
             "hatch":1080, "evolve":{"level":9, "affection":85, "days":40},
             "energy":[110,160], "luck":["260 a 315","300 a 350"]}, 
@@ -1261,8 +1261,8 @@
         }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":70,"name":"Rowtsya", "rarity":"event", "eventInfo":["legendary","San Valentín 2018","Exploración"], "info":{
-            "bait":null, "food":127,
+    {"id":70,"name":"Rowtsya", "rarity":"event", "eventInfo":["legendary","San Valentín 2018","Misiones"], "info":{
+            "bait":37, "food":127,
             "hatch":720, "evolve":{"level":10, "affection":75, "days":35},
             "energy":[100,140], "luck":["275 a 335","300 a 375"]}, 
         "img":{
@@ -1276,19 +1276,19 @@
 
     {"id":8,"name":"Sabali", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":40, "food":14,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":15, "evolve":{"level":3, "affection":60, "days":7},
+            "energy":[70,110], "luck":["1 a 20","20 a 45"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6ed7a1ffcc77b18104bb0847672adf79.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/48b7486c10ad4c5e134391e9c9f9ff43.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/31e1f7300637b7bfb0254887d883042e.png"
-        }, "location":{"exploration":[14,15], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[14,15], "mall":[900,150], "bindle":false, "alchemy":false, "other":"Episodio 3 (TO)"} 
     },
 
-    {"id":null,"name":"Scarlry", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Scarlry", "rarity":"event","eventInfo":["legendary","Verano 2021","Barra colectiva"], "info":{
             "bait":null, "food":343,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":565, "evolve":{"level":23, "affection":85, "days":55},
+            "energy":[155,170], "luck":["315 a 385","375 a 410"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/4410ed3a41097888735f74ae30f6726d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/f6fccbfbb38a7dcd101c2b94c0e522dc.png",
@@ -1298,30 +1298,30 @@
 
     {"id":null,"name":"Seifaun", "rarity":"epic","eventInfo":[null,null,null], "info":{
             "bait":null, "food":349,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":3, "affection":80, "days":25},
+            "energy":[80,140], "luck":["150 a 200","175 a 225"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/99ec6d3cd78d40b1133694d1d0d8f60d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/be8993ebb126fce9684a44a981656342.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/9f2b04ba7c879544fc7d39135370ffd1.png"
-        }, "location":{"exploration":["Disponible en episodio 2 (NE)."], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":"Episodio 2 (ANE)"} 
     },
 
     {"id":null,"name":"Sersea", "rarity":"epic","eventInfo":[null,null,null], "info":{
             "bait":360, "food":359,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":270, "evolve":{"level":4, "affection":85, "days":35},
+            "energy":[105,125], "luck":["165 a 220","195 a 245"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/0add64324b62297529c921deca4f49e9.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3b5375ad6faf92813edde0097168b355.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/d88354919c91f6427476f1945a744112.png"
-        }, "location":{"exploration":[115], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[115], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
     {"id":19,"name":"Seryphon", "rarity":"epic", "eventInfo":[null,null,null], "info":{
             "bait":50, "food":26,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":8, "affection":70, "days":20},
+            "energy":[85,120], "luck":["165 a 215","195 a 245"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/5b03292164f6ed9a4a0b2f8f2db8322d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dfa12e69f2a077421a661c81c5bd98ab.png",
@@ -1329,21 +1329,21 @@
         }, "location":{"exploration":[22], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":31,"name":"Sgarkellogy", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":31,"name":"Sgarkellogy", "rarity":"event", "eventInfo":["epic","Halloween 2015",null], "info":{
             "bait":"?", "food":161,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":300, "evolve":{"level":8, "affection":50, "days":30},
+            "energy":[90,120], "luck":["170 a 210","190 a 230"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/739f2ec457f67c6f6a15f6d318056d3e.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ba10c3e20e334604040739ed345b8168.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/616287197234382ee8166228fea880dd.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":146,"name":"Shau’kobow", "rarity":"epic", "eventInfo":[null,null,null], "info":{
+    {"id":146,"name":"Shau'kobow", "rarity":"epic", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":456,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]},
+            "hatch":280, "evolve":{"level":15, "affection":90, "days":35},
+            "energy":[120,250], "luck":["150 a 200","200 a 225"]},
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6ffff69fdfe24122b8608261e860245d.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/3fdb6bd279c72340858badcd7b4ea6b0.png",
@@ -1351,21 +1351,21 @@
         }, "location":{"exploration":[], "mall":[1830,305], "bindle":false, "alchemy":false, "other":null}
     },
 
-    {"id":91,"name":"Skanis", "rarity":"event", "eventInfo":[null,null,null], "info":{
-            "bait":null, "food":150,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+    {"id":null,"name":"Shawbabat", "rarity":"event", "eventInfo":["epic","Halloween 2022",null], "info":{
+            "bait":457, "food":161,
+            "hatch":295, "evolve":{"level":16, "affection":80, "days":40},
+            "energy":[115,135], "luck":["180 a 240","215 a 265"]},
         "img":{
-            "egg":"https://www.eldarya.es/assets/img/item/egg/399fd490a1b6d7414e4e8fdeba7dcd28.png",
-            "baby":"https://www.eldarya.es/assets/img/pet/library/16a30d07d29d3d40b9ed1bcffd5f8bef.png",
-            "adult":"https://www.eldarya.es/assets/img/pet/library/4e697d4109b68a6138a7d3f8f1686ee7.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+            "egg":"https://www.eldarya.es/assets/img/item/egg/3e27887c8a658734da69e8b472acc507.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/259b1fa58b3577dabafb2fc93cc2b84a.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/2194083e8ea04af48f7b899ecf7ef50b.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":45,"name":"Sitourche", "rarity":"common", "eventInfo":[null,null,null], "info":{
             "bait":178, "food":34,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":5, "affection":70, "days":15},
+            "energy":[60,100], "luck":["30 a 70","45 a 90"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/5853fde79e2fdfb50c39f4121628b357.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/19b6d4a977f1e9d8797c61bf1e7b5651.png",
@@ -1373,10 +1373,32 @@
         }, "location":{"exploration":[62], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Sogiluv", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":91,"name":"Skanis", "rarity":"event", "eventInfo":["legendary","Navidad 2019",null], "info":{
+            "bait":null, "food":150,
+            "hatch":270, "evolve":{"level":14, "affection":90, "days":40},
+            "energy":[110,140], "luck":["300 a 350","340 a 370"]}, 
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/399fd490a1b6d7414e4e8fdeba7dcd28.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/16a30d07d29d3d40b9ed1bcffd5f8bef.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/4e697d4109b68a6138a7d3f8f1686ee7.png"
+        }, "location":{"exploration":[], "mall":["-",300], "bindle":false, "alchemy":false, "other":null} 
+    },
+
+    {"id":null,"name":"Sleipnhorz", "rarity":"event", "eventInfo":["legendary", "Halloween 2022", "Barra colectiva"], "info":{
+            "bait":null, "food":145,
+            "hatch":565, "evolve":{"level":23, "affection":85, "days":55},
+            "energy":[155,170], "luck":["315 a 385","375 a 410"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/874695e864917d03854de9a661d8c943.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/c90c5e414afe39df2f70aefab82567e2.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/6387e32cc2f5a6bcc546dffce6bb1c0c.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
+    },
+
+    {"id":null,"name":"Sogiluv", "rarity":"event","eventInfo":["legendary","San Valentín 2021","Barra colectiva"], "info":{
             "bait":null, "food":127,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":475, "evolve":{"level":10, "affection":85, "days":45},
+            "energy":[110,125], "luck":["260 a 335","310 a 360"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/71bb7cbe6c872c1a443986e6733e4400.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/ebc3420d654f096b087312f179db863d.png",
@@ -1384,34 +1406,34 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":34,"name":"Sowige", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":34,"name":"Sowige", "rarity":"event", "eventInfo":["epic","Navidad 2015",null], "info":{
             "bait":152, "food":159,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":7, "affection":75, "days":30},
+            "energy":[90,120], "luck":["170 a 200","200 a 230"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/5895f4debd541937bb4b0f7de8e4077c.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/7b8b7a96978c33e1a2eec91f547cfcb6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/4d5d03ea8623223d4acbeb6100c96a58.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":30,"name":"Spadel", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":30,"name":"Spadel", "rarity":"event", "eventInfo":["rare","Halloween 2015",null], "info":{
             "bait":"?", "food":160,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":7, "affection":50, "days":25},
+            "energy":[90,120], "luck":["70 a 120","90 a 135"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/1ce67c32410baa424b06e75118be7927.png",
             "baby":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG9G5k1ah14EUcOF7RRFuEX695N7jCeUvoVgUsB6QGlI7bbUybK5Gol7CcZ9D0oHFkBJtaZR2saA-Ye1nzbsiGRjYz0frk3VpunH6TlrwFx2DqcT2sgbbMs-EcXrGtUrjcZY_hlkjrBY07mUlg_yejjrEq6HLGA_Xjg44mCS15piObSD9mxd0VS4xGrA/s173/spadel1.png",
             "adult":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggqT8mU7amKLEOdQ3iIK_iGvlJAE_fRoChkK4msH3C-wLqPEdm-DDoT0Oe5VlGqucXAOL0EDx1h7FrgmF8QDbJw4XQp4U6sKeG0t0XgOo7wJfqF_nR6KXzff0faqupjL5MchNifksue_ywUl5Sh-XG8fCfjFp_fcXdTTPCldOev2jOEK8Io6XsN8CYBg/s320/spadel2.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
 
     {"id":null,"name":"Trakoon", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":409, "food":408,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":100, "evolve":{"level":6, "affection":80, "days":15},
+            "energy":[65,110], "luck":["35 a 80","50 a 100"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/6f07c90bddf63fb5ec70c1d67ba7fa8a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/466bc4eccccebc1a2411b65349aafce6.png",
@@ -1424,32 +1446,32 @@
 
     {"id":null,"name":"Urigloo", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":365, "food":364,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":100, "evolve":{"level":6, "affection":80, "days":15},
+            "energy":[65,110], "luck":["35 a 80","50 a 100"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/7c07798b01a3b3a59efa10cb5024ed0a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/84c4459b58dbe8c9eb633cac7c6a23a1.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/1402201680d05dccafb951570ae38533.png"
-        }, "location":{"exploration":[118], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[118], "mall":[1200,200], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
 
-    {"id":20,"name":"Valuret", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":20,"name":"Valuret", "rarity":"event", "eventInfo":["legendary","San Valentín 2015",null], "info":{
             "bait":"?", "food":127,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":7, "affection":85, "days":40},
+            "energy":[75,100], "luck":["310 a 360","335 a 385"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/aa44c4617665fa9d12acac90607fd87a.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/23982a6f56fa755058a1263a8ba9f465.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/0080abd5e03ab876988d8c944120e5c3.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Voclaunn", "rarity":"event","eventInfo":[null,null,null], "info":{
+    {"id":null,"name":"Voclaunn", "rarity":"event","eventInfo":["legendary","Música 2021","Barra colectiva"], "info":{
             "bait":null, "food":199,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/0b0fabd69462567f82ec9aa055f69c08.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/066e3e282830c3f9d3cc38b9881c1611.png",
@@ -1459,8 +1481,8 @@
 
     {"id":46,"name":"Verdheleon", "rarity":"epic", "eventInfo":[null,null,null], "info":{
             "bait":59, "food":133,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":300, "evolve":{"level":9, "affection":80, "days":30},
+            "energy":[100,120], "luck":["180 a 220","210 a 240"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/02c37b3cb63a76c4aac842b4e452ddd5.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/a384fb90ccc997f85ca6c757000cd57e.png",
@@ -1472,35 +1494,35 @@
 
     {"id":102,"name":"Warrifang", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":null, "food":353,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":90, "evolve":{"level":3, "affection":75, "days":12},
+            "energy":[70,110], "luck":["35 a 80","50 a 110"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/35edaa5b796108e5b0381d7c08f23fea.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/e71547abe29394dcab64c30cd14180f7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/ca4916657d28805fddb7be2fe5916623.png"
-        }, "location":{"exploration":[], "mall":true, "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":[1200,200], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":95,"name":"Wispirit", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":95,"name":"Wispirit", "rarity":"event", "eventInfo":["rare","Música 2020",null], "info":{
             "bait":340, "food":199,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":120, "evolve":{"level":10, "affection":70, "days":25},
+            "energy":[110,135], "luck":["85 a 130","125 a 150"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/11f4bb2b92f87dae8d9b20d475ffc3f7.png",
             "baby":"https://www.eldarya.es/assets/img/pet/library/dc088ebe4d9c5e8b1f9fc3b274622cf7.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/3cce0b57b8a632e21d23376a9f486bc4.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":[1800,300], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":63,"name":"Woolapiyou", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":63,"name":"Woolapiyou", "rarity":"event", "eventInfo":["epic","Verano 2017",null], "info":{
             "bait":211, "food":210,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":8, "affection":75, "days":30},
+            "energy":[100,120], "luck":["180 a 220","210 a 240"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/f7b8909f87d9309fea10b01216fe5beb.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/2c8741064319324dd82eeb8f3a5ecc0e.png",
             "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/9c9b0d50903b5901a2b5a4c7aa01e1be.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
 
@@ -1527,15 +1549,15 @@
         }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":69,"name":"Xylvra", "rarity":"event", "eventInfo":[null,null,null], "info":{
+    {"id":69,"name":"Xylvra", "rarity":"event", "eventInfo":["epic","Navidad 2017",null], "info":{
             "bait":230, "food":159,
-            "hatch":0, "evolve":{"level":0, "affection":0, "days":0},
-            "energy":[], "luck":[null,null]}, 
+            "hatch":240, "evolve":{"level":8, "affection":75, "days":30},
+            "energy":[110,120], "luck":["185 a 225","215 a 245"]}, 
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/1dfbeac44436f0151db612ba97fb2695.png",
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/3a05d623df86762729eb2a245f6704c6.png",
             "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/7bf82817ba5fe76365c49446d8bcc8b3.png"
-        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+        }, "location":{"exploration":[], "mall":["-",350], "bindle":false, "alchemy":false, "other":null} 
     },
 
 

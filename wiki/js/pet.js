@@ -10,6 +10,12 @@ $(document).ready(function () {
                 mapLocations = requestMap.response; expInfo = requestExp.response;petInfo = requestPet.response;
 
                 cargarPets();
+
+                if (getSearch() != null) {
+                    drawBigCard(getSearch());
+                    $("#popup-outer").fadeIn(300).css("display", "table");
+                    $("#popup-inner").addClass("open");
+                };
             };
         };
     };
@@ -69,8 +75,16 @@ function drawBigCard(name) {
     var food = expInfo.filter(v => {return v.id == pet[0].info.food});
     if (food == "?") { // Alimento desconocido
         $("#third-line").append('<div class="petinfo food" title="No disponible">?</div>');
+
     } else {
-        $("#third-line").append('<div class="petinfo food"><img title="' + food[0].name + '" src="' + food[0].img + '"></div>');
+        var enlace = window.location.href;
+        if (enlace.includes("?s=")) { 
+            enlace = enlace.split("?s=");
+            enlace = enlace[0];
+        };
+        enlace = enlace.replace("pet", "inventory");
+        enlace += "?s=" + pet[0].info.food;
+        $("#third-line").append('<a href="' + enlace + '" target="_blank"><div class="petinfo food"><img title="' + food[0].name + '" src="' + food[0].img + '"></div></a>');
     }
     $("#third-line").append('<div class="pettitle">Alimento</div>');
 
@@ -80,7 +94,16 @@ function drawBigCard(name) {
         $("#third-line").append('<div class="pettitle">Cebo</div>');
     } else if (bait != null) { // Tiene cebo
         bait = expInfo.filter(v => {return v.id == pet[0].info.bait}); 
-        $("#third-line").append('<div class="petinfo bait"><img title="' + bait[0].name + '" src="' + bait[0].img + '"></div>');
+
+        var enlace = window.location.href;
+        if (enlace.includes("?s=")) { 
+            enlace = enlace.split("?s=");
+            enlace = enlace[0];
+        };
+        enlace = enlace.replace("pet", "inventory");
+        enlace += "?s=" + pet[0].info.bait;
+
+        $("#third-line").append('<a href="' + enlace + '" target="_blank"><div class="petinfo bait"><img title="' + bait[0].name + '" src="' + bait[0].img + '"></div></a>');
         $("#third-line").append('<div class="pettitle">Cebo</div>');
     }
 
@@ -112,60 +135,98 @@ function drawBigCard(name) {
 
     // Obtención
     $("#popup-content").append('<div id="fifth-line"></div>');
-    $("#fifth-line").append('<span style="margin-left: 40px;">OBTENCIÓN:</span>');
 
-        // Tienda
-    var answer = (pet[0].location.mall[0] == "-" && pet[0].location.mall[1] == "-") ? "NO" : "SI";
-    if (pet[0].rarity == "event") { 
-        if (answer == "SI") { $("#fifth-line").append('<span class="middle"><b>Tienda:</b> Solo durante evento asociado.</span>');
-        } else { $("#fifth-line").append('<span class="middle"><b>Tienda:</b> NO</span>'); }
-    } else { 
-        $("#fifth-line").append('<span class="middle"><b>Tienda:</b> <span class="maana-section"></span><span class="mo-section"></span></span>');
-        $(".maana-section").eq(0).append(pet[0].location.mall[0]);
-        $(".maana-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_blue.png">');
-        $(".mo-section").eq(0).append(pet[0].location.mall[1]);
-        $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
+    if (pet[0].rarity == "event") {
+        $("#fifth-line").append('<span style="margin-left: 40px;">OBTENCIÓN: (Solo durante evento asociado.)</span>');
+    } else {
+        $("#fifth-line").append('<span style="margin-left: 40px;">OBTENCIÓN:</span>');
     }
 
-    answer = (pet[0].location.bindle) ? answer = "SI" : answer = "NO";
-    $("#fifth-line").append('<span class="middle"><b>Costal:</b> ' + answer  + '</span>');
-    $("#fifth-line").append('<span class="middle"><b>Exploración:</b></span>');
-    answer = (pet[0].location.alchemy) ? answer = "SI" : answer = "NO";
-    $("#fifth-line").append('<span class="middle"><b>Alquimia:</b> ' + answer  + '</span>'); // pendiente: linkear a receta
+    // Tienda
+    $("#fifth-line").append('<span class="middle"><b>Tienda:</b> <span class="maana-section"></span><span class="mo-section"></span></span>');
+    $(".maana-section").eq(0).append(pet[0].location.mall[0]);
+    $(".maana-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_blue.png">');
+    $(".mo-section").eq(0).append(pet[0].location.mall[1]);
+    $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
 
-        // Puntos de exploración
-    $("#popup-content").append('<div id="sixth-line"></div>');
+    if (pet[0].rarity != "event") {
+        var answer = (pet[0].location.bindle) ? answer = "SI" : answer = "NO";
+        $("#fifth-line").append('<span class="middle"><b>Costal:</b> ' + answer  + '</span>');
+        $("#fifth-line").append('<span class="middle"><b>Exploración:</b></span>');
+        answer = (pet[0].location.alchemy) ? answer = "SI" : answer = "NO";
+        $("#fifth-line").append('<span class="middle"><b>Alquimia:</b> ' + answer  + '</span>'); // pendiente: linkear a receta
 
-    if (pet[0].location.exploration.length == 0) {
-        $("#sixth-line").append('<span><br></span><span class="exploration-null"><i>— No hay puntos de exploración disponibles. —</i></span>');
+            // Puntos de exploración
+        $("#popup-content").append('<div id="sixth-line"></div>');
+
+        if (pet[0].location.exploration.length == 0) {
+            $("#sixth-line").append('<span><br></span><span class="exploration-null"><i>— No hay puntos de exploración disponibles. —</i></span>');
+        } else {
+            for (i = 0; i < pet[0].location.exploration.length; i++) {
+                var mapa = mapLocations.filter(v => {return v.id == pet[0].location.exploration[i]});
+                var nombre = mapa[0].name;
+                switch (mapa[0].map) {
+                    case 11: nombre += " - Ciudad de Eel (TO)"; break;
+                    case 12: nombre += " - Costa de Jade (TO)"; break;
+                    case 13: nombre += " - Templo Fenghuang (TO)"; break;
+
+                    case 21: nombre += " - Ciudad de Eel (ANE)"; break;
+                    case 22: nombre += " - Montañas Genkaku (ANE)"; break;
+                    case 23: nombre += " - Ciudad Terrestre (ANE)"; break;
+                    case 24: nombre += " - Yaqut (ANE)"; break;
+                };
+
+                var position = mapa[0].style;
+
+                mapa = "map" + mapa[0].map;
+                position = position.replace("left: ", "-");
+                position = position.replace("top: ", "-");
+                position = position.split(";");
+                var posX = parseInt(position[0].replace("px",""));
+                var posY = parseInt(position[1].replace("px",""));
+                posX = (posX + 25) + "px ";
+                posY = (posY + 25) + "px";
+                position = posX + posY;
+
+                $("#sixth-line").append('<div class="location-point ' + mapa + '" title="' + nombre + '"></div>');
+                $(".location-point").eq(i).attr("style", "background-position: " + position);
+            }
+
+        }
+
+
+
     } else {
-        for (i = 0; i < pet[0].location.exploration.length; i++) {
-            var mapa = mapLocations.filter(v => {return v.id == pet[0].location.exploration[i]});
-            var nombre = mapa[0].name;
-            switch (mapa[0].map) {
-                case 11: nombre += " - Ciudad de Eel (TO)"; break;
-                case 12: nombre += " - Costa de Jade (TO)"; break;
-                case 13: nombre += " - Templo Fenghuang (TO)"; break;
+        $("#fifth-line").append('<span class="middle"><b>Evento:</b> ' + pet[0].eventInfo[1] + '</span>');
+        $("#fifth-line").append('<span class="middle"><b>Exploración:</b></span>');
 
-                case 21: nombre += " - Ciudad de Eel (ANE)"; break;
-                case 22: nombre += " - Montañas Genkaku (ANE)"; break;
-                case 23: nombre += " - Ciudad Terrestre (ANE)"; break;
-            };
+        if (pet[0].eventInfo[2] != null) {
+            $("#fifth-line").append('<span class="middle"><b>Otros: </b>' + pet[0].eventInfo[2] + '</span>')
+        };
 
-            var position = mapa[0].style;
+        $("#popup-content").append('<div id="sixth-line"></div>');
 
-            mapa = "map" + mapa[0].map;
-            position = position.replace("left: ", "-");
-            position = position.replace("top: ", "-");
-            position = position.split(";");
-            var posX = parseInt(position[0].replace("px",""));
-            var posY = parseInt(position[1].replace("px",""));
-            posX = (posX + 25) + "px ";
-            posY = (posY + 25) + "px";
-            position = posX + posY;
+        if (pet[0].info.bait != null) {
+            // Tiene cebo, es de exploración
+            var evento = pet[0].eventInfo[1];
+            evento = evento.split(" ");
+            evento = evento[0];
+            var clase = "map ";
 
-            $("#sixth-line").append('<div class="location-point ' + mapa + '" title="' + nombre + '"></div>');
-            $(".location-point").eq(i).attr("style", "background-position: " + position);
+            switch (evento) {
+                case "San": clase += "svalentin";break;
+                case "Pascua": clase += "easter";break;
+                case "Música": clase += "music";break;
+                case "Verano": clase += "summer";break;
+                case "Halloween": clase += "halloween";break;
+                case "Navidad": clase += "christmas";break;
+            }
+            $("#sixth-line").append('<div class="location-event-point ' + clase + '"></div>');
+            //$(".location-point").eq(i).attr("style", "background-position: " + position);
+
+        } else {
+            // No es de exploración
+            $("#sixth-line").append('<span><br></span><span class="exploration-null"><i>— No hay puntos de exploración disponibles. —</i></span>');
         }
 
     }
@@ -314,6 +375,10 @@ $(function() {
                 $("#popup-content").html('');
             }, 500)
         }
+    });
+
+    $("#popup-inner").click(function(event) {
+        event.stopPropagation();
     });
 });
 

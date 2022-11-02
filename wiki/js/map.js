@@ -72,8 +72,8 @@ function cargarMapas(map) {
         $("#map-container").append('<div class="map-location" data-id="' + currentMap[p].id + '" style="' + currentMap[p].style + '"></div>');
         $(".map-location").eq(p).append('<div id="location-' + currentMap[p].id + '" class="tooltip"></div>');
         $(".tooltip").eq(p).append('<span class="map-name">' + currentMap[p].name 
-            + '  ( <span class="fa fa-bolt"> ' + currentMap[p].energy + '</span>  /  '
-            + '<span class="fa fa-clock-o"> ' + currentMap[p].time + '</span> )</span>');
+            + '<br><span class="fa fa-bolt energy-color"></span> ' + currentMap[p].energy + ' &emsp; '
+            + '<span class="far fa-clock time-color"></span> ' + currentMap[p].time + '</span>');
 
         // VERSION 2
         // Buscar cebos

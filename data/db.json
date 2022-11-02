@@ -1154,11 +1154,6 @@
             "mall":[18,3], "event":"Verano"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/1ef38794a1d8bec90b206a257a8334e9.png"
     },
-    {"id":348, "name":"Obsidiana caoba", "group":"pet", "category":"Cebos", "rarity":"event",
-        "location":{"exploration":[],
-            "mall":["-","-"], "event":"Halloween"},
-        "img":"https://www.eldarya.es/assets/img/item/consumable/f1949c00436503fbc3c2177e27e7bf54.png"
-    },
     {"id":349, "name":"Sun Leaf", "group":"pet", "category":"Alimento", "rarity":"epic",
         "location":{"exploration":[], 
             "mall":[24,4], "event":null},
@@ -1173,6 +1168,11 @@
         "location":{"exploration":[111], 
             "mall":[12,2], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/a75fcac4aadabe7f65edc9d4d9ffba76.png"
+    },
+    {"id":352, "name":"Obsidiana caoba", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[420,70], "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f1949c00436503fbc3c2177e27e7bf54.png"
     },
     {"id":353, "name":"Unstable Nebula", "group":"pet", "category":"Alimento", "rarity":"common", 
         "location":{"exploration":[110], 
@@ -1365,7 +1365,7 @@
         "img":"https://www.eldarya.es/assets/img/item/consumable/ac0724f7504a396998250ae49fdf402c.png"
     },
     {"id":394, "name":"Flores de cristal", "group":"pet", "category":"Alimento", "rarity":"common", 
-        "location":{"exploration":["?"],
+        "location":{"exploration":[115],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/8d3b164a95f8c971dc243aa146ecce95.png"
     },
@@ -1663,6 +1663,11 @@
         "location":{"exploration":[],
             "mall":[24,4], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/a6b2ca2111c9ec1082337846f62a0a6f.png"
+    },
+    {"id":457, "name":"Ratón esquelético", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[540,90], "event":"Halloween 2022"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/514f5fb74433e9dd572b80f37e1da17e.png"
     },
     {"id":459, "name":"Concha de hueso", "group":"alchemy", "category":"Otros", "rarity":"epic",
         "location":{"exploration":[188],
