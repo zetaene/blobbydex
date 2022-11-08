@@ -77,7 +77,7 @@ function drawBigCard(id) {
     grupo == "pet" ? grupo = "FAMILIAR # " : grupo = "ALQUIMIA # ";
 
     // Info general
-    $("#popup-content").append('<div id="first-line"></div>');
+    $("#popup-content").append('<div id="first-line" style="height: 125px;"></div>');
     $("#first-line").append('<div id="first-left"></div><div id="first-right"></div>');
     $("#first-left").append('<img src="' + item[0].img + '">');
     $("#first-left").append('<span class="rarity ' + item[0].rarity + '"></span>');
@@ -107,7 +107,7 @@ function drawBigCard(id) {
 
     for (i = 0; i < filterList.length; i++) {
         var dinamicLink = enlace + "?s=" + filterList[i].name;
-        asociatedList += '<a href="' + dinamicLink + '" target="_blank">' + filterList[i].name + '</a>';
+        asociatedList += '<a href="' + dinamicLink + '">' + filterList[i].name + '</a>';
         if (i != filterList.length - 1) {
             asociatedList += ", "
         };
@@ -118,9 +118,35 @@ function drawBigCard(id) {
 
     // Obtención
     $("#popup-content").append('<div id="second-line"></div>');
-    $("#second-line").append('<span style="margin-left: 40px;margin-top: 25px;">OBTENCIÓN:</span>');
+    if (item[0].rarity != "event") {
+        $("#second-line").append('<span style="margin-left: 40px;">OBTENCIÓN:</span>');
+    } else {
+        $("#second-line").append('<span style="margin-left: 40px;">OBTENCIÓN: (Solo durante evento asociado.)</span>');
+    }
 
-    $("#second-line").append('<div id="second-left"></div><div id="second-right"></div></id>');
+    // Tienda 
+    $("#second-line").append('<span class="middle"><b>Tienda:</b> <span class="maana-section"></span><span class="mo-section"></span></span>');
+    $(".maana-section").eq(0).append(item[0].location.mall[0]);
+    $(".maana-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_blue.png">');
+    $(".mo-section").eq(0).append(item[0].location.mall[1]);
+    $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
+
+    // Alquimia
+    var answer = item[0].location.alchemy;
+    answer ? answer = "SI" : answer = "NO";
+    $("#second-line").append('<span class="middle"><b>Alquimia:</b> ' + answer + '</span>');
+
+    // Exploración
+    $("#second-line").append('<span class="middle"><b>Exploración:</b></span>');
+
+    // Costales
+    answer = item[0].location.bindle;
+    answer ? answer = "SI" : answer = "NO";
+    $("#second-line").append('<span class="middle"><b>Costales:</b> ' + answer + '</span>');
+
+    
+/*
+    //$("#second-line").append('<div id="second-left"></div><div id="second-right"></div></id>');
 
         // Tienda?
     answer = (item[0].location.mall[0] == "-" && item[0].location.mall[1] == "-") ? "NO" : "SI";
@@ -136,12 +162,8 @@ function drawBigCard(id) {
         $(".mo-section").eq(0).append(' <img src="https://www.eldarya.es/static/img/coin_gold.png">');
     }
 
-        // Exploración ?
-    var answer = item[0].location.exploration.length > 0 ? "SI" : "NO";
-    $("#second-left").append('<span><b>Exploración:</b></span>');
-
         // Alquimia ?
-    answer = item[0].location.alchemy;
+    var answer = item[0].location.alchemy;
     answer ? answer = "SI" : answer = "NO";
     $("#second-right").append('<span><b>Alquimia:</b> ' + answer + '</span>');
 
@@ -149,7 +171,7 @@ function drawBigCard(id) {
     answer = item[0].location.bindle;
     answer ? answer = "SI" : answer = "NO";
     $("#second-right").append('<span><b>Costales:</b> ' + answer + '</span>');
-
+*/
     // Puntos de exploración
     $("#popup-content").append('<div id="third-line"></div>');
 
@@ -172,7 +194,7 @@ function drawBigCard(id) {
 
             var position = mapa[0].style;
 
-            mapa = "map" + mapa[0].map;
+            var mapaId = "map" + mapa[0].map;
             position = position.replace("left: ", "-");
             position = position.replace("top: ", "-");
             position = position.split(";");
@@ -182,7 +204,8 @@ function drawBigCard(id) {
             posY = (posY + 25) + "px";
             position = posX + posY;
 
-            $("#third-line").append('<div class="location-point ' + mapa + '" title="' + nombre + '"></div>');
+            $("#third-line").append('<div class="location-point ' + mapaId + '" title="' + nombre + '"></div>');
+            $(".location-point").eq(i).attr("data-locationid", mapa[0].id);
             $(".location-point").eq(i).attr("style", "background-position: " + position);
         }
 
@@ -230,8 +253,9 @@ function mapPreview(map, location) {
 
 }
 
-
-
+// ---------------------------------------------------
+// ---------------------------------------------------
+// ---------------------------------------------------
 
 
 $(function() {
@@ -289,13 +313,14 @@ $(function() {
             $("#popup-inner").removeClass("open");
             setTimeout(function() {
                 $("#popup-content").html('');
-            }, 500)
+            }, 500);
         }
     });
 
     $("#popup-inner").click(function(event) {
         event.stopPropagation();
     });
+
 });
 
 function updateStuff() {

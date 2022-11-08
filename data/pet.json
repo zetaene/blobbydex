@@ -79,7 +79,7 @@
 
 
     {"id":74,"name":"Bakhrahell", "rarity":"event", "eventInfo":["legendary","Halloween 2018",null], "info":{
-            "bait":"?", "food":145,
+            "bait":240, "food":145,
             "hatch":720, "evolve":{"level":15, "affection":85, "days":40},
             "energy":[110,145], "luck":["300 a 350","335 a 375"]}, 
         "img":{

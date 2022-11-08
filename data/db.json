@@ -406,12 +406,12 @@
     },
     {"id":123, "name":"Small Energy Potion", "group":"alchemy", "category":"Pociones", "rarity":"rare",
         "location":{"exploration":[],
-            "mall":["-",30], "event":null, "alchemy":true},
+            "mall":["-",30], "event":null, "alchemy":true, "bindle":true},
         "img":"https://www.eldarya.es/assets/img/item/consumable/f1d4681a7cf0590d3178bcf0017a5f7c.png"
     },
     {"id":124, "name":"Energy Potion", "group":"alchemy", "category":"Pociones", "rarity":"epic",
         "location":{"exploration":[],
-            "mall":["-",50], "event":null, "alchemy":true},
+            "mall":["-",50], "event":null, "alchemy":true, "bindle":true},
         "img":"https://www.eldarya.es/assets/img/item/consumable/43c96cc59a45a4317dc211de9f3bd7f4.png"
     },
     {"id":125, "name":"Special Candy", "group":"pet", "category":"Alimento", "rarity":"legendary",
@@ -834,6 +834,13 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/beb452baa1be0f19719c3e3043a38702.png"
     },
+
+    {"id":240, "name":"Bezoar", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":["-","-"], "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/d2d32fe07d698487207bf9a9f2de7cbf.png"
+    },
+
     {"id":241, "name":"Blue Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
         "location":{"exploration":[], 
             "mall":[30,5], "event":null},

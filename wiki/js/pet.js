@@ -84,7 +84,7 @@ function drawBigCard(name) {
         };
         enlace = enlace.replace("pet", "inventory");
         enlace += "?s=" + pet[0].info.food;
-        $("#third-line").append('<a href="' + enlace + '" target="_blank"><div class="petinfo food"><img title="' + food[0].name + '" src="' + food[0].img + '"></div></a>');
+        $("#third-line").append('<a href="' + enlace + '"><div class="petinfo food"><img title="' + food[0].name + '" src="' + food[0].img + '"></div></a>');
     }
     $("#third-line").append('<div class="pettitle">Alimento</div>');
 
