@@ -834,13 +834,16 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/beb452baa1be0f19719c3e3043a38702.png"
     },
-
+    {"id":239, "name":"Ball of Bandages", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":["-","-"], "event":"Halloween"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/288bfe06a66b9173da7d9d638e1210b4.png"
+    },
     {"id":240, "name":"Bezoar", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],
             "mall":["-","-"], "event":"Halloween"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/d2d32fe07d698487207bf9a9f2de7cbf.png"
     },
-
     {"id":241, "name":"Blue Coloring", "group":"alchemy", "category":"Otros", "rarity":"common",
         "location":{"exploration":[], 
             "mall":[30,5], "event":null},
@@ -1493,7 +1496,7 @@
     },
     {"id":418, "name":"Manzana del crepúsculo", "group":"pet", "category":"Alimento", "rarity":"common", 
         "location":{"exploration":[117],
-            "mall":["-","-"], "event":null},
+            "mall":[12,2], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/2ca4e5c59cdbb7312c9079d79e1ca0dd.png"
     },
     {"id":419, "name":"Bola de plumas", "group":"pet", "category":"Cebos", "rarity":"common", 
@@ -1568,7 +1571,7 @@
     },
     {"id":434, "name":"Bubble tea", "group":"pet", "category":"Alimento", "rarity":"epic",
         "location":{"exploration":[184],
-            "mall":["-","-"], "event":null},
+            "mall":[12,2], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/2013be30b5a19834ab4c57f731f84880.png"
     },
     {"id":435, "name":"Pelota de tenis", "group":"pet", "category":"Cebos", "rarity":"epic",
@@ -1578,7 +1581,7 @@
     },
     {"id":436, "name":"Restos no identificados", "group":"pet", "category":"Alimento", "rarity":"rare",
         "location":{"exploration":[161,188],
-            "mall":["-","-"], "event":null},
+            "mall":[12,2], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/9edcb93189be7414e5679d3a23818496.png"
     },
     {"id":437, "name":"Recipiente de agua caliente", "group":"pet", "category":"Cebos", "rarity":"common",
@@ -1615,6 +1618,12 @@
         "location":{"exploration":[183],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/8cdcff5c61fd33dd3bd53cbcb24fda64.png"
+    },
+
+    {"id":445, "name":"Mochi vegetal", "group":"pet", "category":"Alimento", "rarity":"legendary",
+        "location":{"exploration":[187],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/e55b56424935e341e0bd7618f88420b1.png"
     },
     {"id":446, "name":"Roca lunar", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],
@@ -1690,5 +1699,21 @@
         "location":{"exploration":[188],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/37ffbcfec6475065e7c9e1ff901224ce.png"
+    },
+
+    {"id":475, "name":"Té de menta", "group":"alchemy", "category":"Gases y líquidos", "rarity":"rare",
+        "location":{"exploration":[187],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0ca3beae316a3502852cb2a366f8834d.png"
+    },
+    {"id":476, "name":"Flor de Kaqu'tu", "group":"alchemy", "category":"Plantas", "rarity":"common",
+        "location":{"exploration":[187],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/c576fd3aa4712463993fbbd104b4c8f1.png"
+    },
+    {"id":477, "name":"Evapoté", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common",
+        "location":{"exploration":[187],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/4d087ee3e424e39283f388bcab159241.png"
     }
 ]

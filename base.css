@@ -68,6 +68,14 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
+#header div {
+    min-height: 72px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
 #menu-list {
     list-style: none;
     display: inline-block;
@@ -659,4 +667,11 @@ body {
 #popup-content span.middle {
     width: 50%;
     display: inline-block;
+}
+
+
+@media only screen and (max-width: 320px) {
+    #header div {
+        background-size: 100%;
+    }
 }

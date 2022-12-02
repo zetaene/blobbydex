@@ -880,7 +880,7 @@
     },
 
     {"id":75,"name":"Mohmia\u00fb", "rarity":"event", "eventInfo":["epic","Halloween 2018",null], "info":{
-            "bait":"?", "food":161,
+            "bait":239, "food":161,
             "hatch":240, "evolve":{"level":9, "affection":75, "days":30},
             "energy":[100,130], "luck":["185 a 225","215 a 250"]}, 
         "img":{
@@ -1259,6 +1259,17 @@
             "baby":"https://www.eldarya.es/assets/img/pet/mood/profile/2b204a0ad6983d51019d024add1499e0.png",
             "adult":"https://www.eldarya.es/assets/img/pet/mood/profile/ec6d4f0c48b3e821e2a31596d42bd122.png"
         }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
+    },
+
+    {"id":null, "name":"Rookh", "rarity":"common", "eventInfo":[null, null, null], "info":{
+            "bait":437, "food":436,
+            "hatch":105, "evolve":{"level":7, "affection":85, "days":15},
+            "energy":[70,"?"], "luck":["40 a 85","?"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/2cd2e3dc963ea765143009e20b19a1e5.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/c5cabc850b5c264135bc18ad694501b4.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/5c149a2c16d2ca30d027735ef852745e.png"
+        }, "location":{"exploration":[187], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":70,"name":"Rowtsya", "rarity":"event", "eventInfo":["legendary","San Valentín 2018","Misiones"], "info":{

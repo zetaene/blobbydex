@@ -300,5 +300,7 @@
     {"id":188, "map":24, "name":"Desierto civilizado", "energy":"45","time":"25", "style":"left: 337px;top: 136px", "clothes":[
         {"id":32156},{"id":32157},{"id":32158},{"id":32159},{"id":32160},{"id":32161},
         {"id":32162},{"id":32163},{"id":32843},{"id":32853},{"id":32863}
+    ]},
+    {"id":187, "map":24, "name":"Bosque rocoso", "energy":"50", "time":"25", "style":"left: 127px;top: 393px", "clothes":[
     ]}
 ]
