@@ -105,24 +105,29 @@ function cargarMapas(map) {
 
         // Buscar ropa
         for (c = 0; c < currentMap[p].clothes.length; c++) {
-            var pInfo = cInfo.filter(v => {return v.groupId == currentMap[p].clothes[c].id});
-            var pIMG = cList.filter(v => {return v.itemId == currentMap[p].clothes[c].id});
+            if (!isNaN(currentMap[p].clothes[c].id)) {
+                var pInfo = cInfo.filter(v => {return v.groupId == currentMap[p].clothes[c].id});
+                var pIMG = cList.filter(v => {return v.itemId == currentMap[p].clothes[c].id});
 
-              var url = "https://www.eldarya.com/assets/img/";
+                  var url = "https://www.eldarya.com/assets/img/";
 
-            try {
-                switch (pInfo[0].category) {
-                    case "skin": url += "player/skin/icon/" + pIMG[0].itemURL; break;
-                    case "mouth": url += "player/mouth/icon/" + pIMG[0].itemURL; break;
-                    case "eye": url += "player/eyes/icon/" + pIMG[0].itemURL; break;
-                    case "hair": url += "player/hair/icon/" + pIMG[0].itemURL; break;
-                    default: url += "item/player/icon/" + pIMG[0].itemURL;
-                };
-            } catch {};
+                try {
+                    switch (pInfo[0].category) {
+                        case "skin": url += "player/skin/icon/" + pIMG[0].itemURL; break;
+                        case "mouth": url += "player/mouth/icon/" + pIMG[0].itemURL; break;
+                        case "eye": url += "player/eyes/icon/" + pIMG[0].itemURL; break;
+                        case "hair": url += "player/hair/icon/" + pIMG[0].itemURL; break;
+                        default: url += "item/player/icon/" + pIMG[0].itemURL;
+                    };
+                } catch {};
 
-            var nombre = (pInfo[0].english).replace("(x)", "");
+                var nombre = (pInfo[0].english).replace("(x)", "");
 
-            $(".tooltip").eq(p).append('<img class="clothing" title="' + nombre + '" src="' + url + '">');
+                $(".tooltip").eq(p).append('<img class="clothing" title="' + nombre + '" src="' + url + '">');
+            } else {
+                $(".tooltip").eq(p).append('<img class="clothing" src="' + currentMap[p].clothes[c].id + '">');
+
+            }
         };
 
         // Buscar Alquimia
