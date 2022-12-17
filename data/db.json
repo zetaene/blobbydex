@@ -1509,6 +1509,11 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/2ffd8b6d87b8fbe7e34aceb05f8c4356.png"
     },
+    {"id":422, "name":"Hoja helada", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[450,75], "event":"Navidad 2021"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/952fbb61d260885e929fce879cf3c46d.png"
+    },
     {"id":421, "name":"Vela negra", "group":"alchemy", "category":"Otros", "rarity":"rare",
         "location":{"exploration":[164],
             "mall":["-","-"], "event":null},
@@ -1699,6 +1704,12 @@
         "location":{"exploration":[188],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/37ffbcfec6475065e7c9e1ff901224ce.png"
+    },
+
+    {"id":470, "name":"Lazo de Navidad", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[540,90], "event":"Navidad 2022"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/302a60e79841120d5a8e91356ca43561.png"
     },
 
     {"id":475, "name":"Té de menta", "group":"alchemy", "category":"Gases y líquidos", "rarity":"rare",

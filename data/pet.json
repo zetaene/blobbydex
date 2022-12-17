@@ -846,6 +846,17 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
+    {"id":null,"name":"Mictfig", "rarity":"event", "eventInfo":["epic", "Navidad 2022", "Exploración"], "info":{
+            "bait":470, "food":159,
+            "hatch":295, "evolve":{"level":16, "affection":80, "days":40},
+            "energy":["?","?"], "luck":["?","?"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/f9946059c65db3fda1e54675a62622cf.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/0d7051f0bb72b90552ac7c9e376e57cc.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/117cccbeacb76deb011a845674dc1b7a.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
+    },
+
     {"id":16,"name":"Midnight Homonculus", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":49, "food":21,
             "hatch":720, "evolve":{"level":12, "affection":90, "days":45},
@@ -1574,7 +1585,7 @@
 
 
     {"id":null,"name":"Yakadlle", "rarity":"event","eventInfo":["epic","Navidad 2021",null], "info":{
-            "bait":"?", "food":159,
+            "bait":422, "food":159,
             "hatch":315, "evolve":{"level":15, "affection":85, "days":45},
             "energy":[120,140], "luck":["195 a 260","230 a 290"]}, 
         "img":{
