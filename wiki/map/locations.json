@@ -15,5 +15,26 @@
     {"id":79, "map":"halloween", "name":"Pozo de los espíritus", "energy":"10", "time":"10", "style":"left: 649px;top: 329px", "totalItems":239},
     {"id":80, "map":"halloween", "name":"Barco fantasma", "energy":"10", "time":"15", "style":"left: 497px;top: 318px", "totalItems":196},
     {"id":81, "map":"halloween", "name":"Laberinto de las almas perdidas", "energy":"15", "time":"20", "style":"left: 684px;top: 139px", "totalItems":350},
-    {"id":82, "map":"halloween", "name":"Pirámide de las trampas", "energy":"10", "time":"15", "style":"left: 665px;top: 72px", "totalItems":391}
+    {"id":82, "map":"halloween", "name":"Pirámide de las trampas", "energy":"10", "time":"15", "style":"left: 665px;top: 72px", "totalItems":391},
+
+    {"id":46, "map":"christmas", "name":"Castillo de la reina de las nieves", "energy":"15", "time":"25", "style":"left: 198px;top: 70px", "totalItems":225},
+    {"id":47, "map":"christmas", "name":"Tormenta de copos", "energy":"15", "time":"20", "style":"left: 105px;top: 84px", "totalItems":119},
+    {"id":48, "map":"christmas", "name":"Saco en preparación", "energy":"15", "time":"20", "style":"left: 504px;top: 30px", "totalItems":281},
+    {"id":49, "map":"christmas", "name":"Fábrica de juguetes", "energy":"15", "time":"20", "style":"left: 678px;top: 135px", "totalItems":267},
+    {"id":50, "map":"christmas", "name":"Árbol helado", "energy":"10", "time":"15", "style":"left: 66px;top: 272px", "totalItems":169},
+    {"id":51, "map":"christmas", "name":"Casa de pan de jengibre", "energy":"10", "time":"10", "style":"left: 260px;top: 284px", "totalItems":216},
+    {"id":52, "map":"christmas", "name":"Bosque de guirnaldas", "energy":"10", "time":"10", "style":"left: 395px;top: 391px", "totalItems":265},
+    {"id":53, "map":"christmas", "name":"Abeto gigante decorado", "energy":"10", "time":"10", "style":"left: 348px;top: 214px", "totalItems":160},
+    {"id":54, "map":"christmas", "name":"Lago helado", "energy":"10", "time":"15", "style":"left: 568px;top: 252px", "totalItems":245},
+    {"id":55, "map":"christmas", "name":"Cuadra de renos", "energy":"10", "time":"15", "style":"left: 679px;top: 241px", "totalItems":118},
+    {"id":56, "map":"christmas", "name":"Isla del Grunch", "energy":"10", "time":"15", "style":"left: 678px;top: 398px", "totalItems":187},
+    {"id":83, "map":"christmas", "name":"Bosque de caramelo", "energy":"10", "time":"15", "style":"left: 195px;top: 223px", "totalItems":272},
+    {"id":84, "map":"christmas", "name":"Taller de reparación de trineos", "energy":"15", "time":"25", "style":"left: 553px;top: 165px", "totalItems":185},
+    {"id":85, "map":"christmas", "name":"Choza de los duendes", "energy":"10", "time":"15", "style":"left: 440px;top: 170px", "totalItems":104},
+    {"id":86, "map":"christmas", "name":"Pistas nevadas", "energy":"15", "time":"20", "style":"left: 437px;top: 113px", "totalItems":201},
+    {"id":87, "map":"christmas", "name":"Mar de las estrellas", "energy":"15", "time":"25", "style":"left: 37px;top: 330px", "totalItems":194},
+    {"id":88, "map":"christmas", "name":"Desierto boreal", "energy":"10", "time":"15", "style":"left: 109px;top: 153px", "totalItems":267},
+    {"id":89, "map":"christmas", "name":"Chalet de la familia Navidad", "energy":"10", "time":"15", "style":"left: 287px;top: 123px", "totalItems":311},
+    {"id":90, "map":"christmas", "name":"Mesa del festín", "energy":"20", "time":"15", "style":"left: 396px;top: 282px", "totalItems":274},
+    {"id":91, "map":"christmas", "name":"Muñeco de nieve", "energy":"15", "time":"25", "style":"left: 185px;top: 373px", "totalItems":142}
 ]

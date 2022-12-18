@@ -28,21 +28,62 @@
                         <form onsubmit="return false">
                             <select id="map-select">
                                 <optgroup label="Evento">
-                                    <option value="halloween">Halloween 2022</option>
+                                    <option value="christmas">Navidad 2022</option>
+                                    <!--<option value="halloween">Halloween 2022</option>-->
                                 </optgroup>
                             </select>
-                            <select id="set-select" style="display:none">
+                            <!--<select id="set-select" style="display: none;">
                                 <option value="none">Filtrar por conjunto</option>
-                            </select>
+                            </select>-->
                         </form>
                     </div>
                     <!--<ul id="card-list"></ul>-->
-                    <div id="map-section">
+                    <div id="map-section" style="min-height: auto;">
                         <div id="map-container"></div>
+                        <div id="attribution"><p>Todos los créditos a <a href="https://www.facebook.com/bugmoov" target="_blank">Bugmoov Otomes</a>.</p></div>
                     </div>
                 </div>
                 <ul class="pages"></ul>
+
+                <div id="comment-section">
+                    <div id="graphcomment"></div>
+                        <script type="text/javascript">
+
+                          /* - - - CONFIGURATION VARIABLES - - - */
+
+                          var __semio__params = {
+                            graphcommentId: "blobbydex", // make sure the id is yours
+
+                            behaviour: {
+                              // HIGHLY RECOMMENDED
+                              //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+                            },
+
+                            // configure your variables here
+
+                          }
+
+                          /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+                          function __semio__onload() {
+                            __semio__gc_graphlogin(__semio__params)
+                          }
+
+
+                          (function() {
+                            var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+                            gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+                          })();
+                          
+
+                        </script>
+
+                    <br>
+                </div>
             </div>
+
+
 
         </div>
 
