@@ -53,7 +53,7 @@ function cargarMapas(map) {
         $(".tooltip").eq(p).append('<span class="map-name">' + currentMap[p].name 
             + '<br>  <span class="fa fa-bolt energy-color"></span> ' + currentMap[p].energy + ' &emsp; '
             + '<span class="far fa-clock time-color"></span> ' + currentMap[p].time + ' &emsp; '
-            + '<span class="fas fa-tshirt"></span> ' + contador + ' / ' + currentMap[p].totalItems + '</span>');
+            + '<span class="fas fa-tshirt cloth-color"></span> ' + contador + ' / ' + currentMap[p].totalItems + '</span>');
 
         // V1
         

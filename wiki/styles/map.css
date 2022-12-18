@@ -1,7 +1,23 @@
 .energy-color {
-  color: #ffc800;
+    color: #ffc800;
 }
 
 .time-color {
-  color: #05f1cd;
+    color: #05f1cd;
+}
+
+.cloth-color {
+    color: #ea7baf;
+}
+
+#special-map {
+    background-color: crimson;
+    color: #fff;
+    padding: 2px 10px;
+    border: 1px solid crimson;
+}
+
+#special-map:hover {
+    background-color: #fff;
+    color: crimson;
 }

@@ -412,7 +412,7 @@
         {"id":6479, "name":"Pantalón North Savage", "variations":8, "location":54, "url":"https://www.eldarya.es/assets/img/item/player/icon/43662cf8e8a6262cc1ef0ee627a8b06a.png"},
         {"id":6487, "name":"Cinturón North Savage", "variations":8, "location":86, "url":"https://www.eldarya.es/assets/img/item/player/icon/7051ab1cbc3463f31406516e31cf5f9c.png"},
         {"id":6495, "name":"Botas North Savage", "variations":8, "location":85, "url":"https://www.eldarya.es/assets/img/item/player/icon/d951a5286c2ba3faf080fb8b39fe9970.png"},
-        {"id":6503, "name":"Brazaletes North Savage", "variations":8, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/9b7c12fae7f3dcb6544046ab804bb369.png"},
+        {"id":6503, "name":"Brazaletes North Savage", "variations":8, "location":54, "url":"https://www.eldarya.es/assets/img/item/player/icon/9b7c12fae7f3dcb6544046ab804bb369.png"},
         {"id":6511, "name":"Bufanda con collar North Savage", "variations":8, "location":87, "url":"https://www.eldarya.es/assets/img/item/player/icon/4819b1607274f2d2e3f1384af3277e68.png"},
         {"id":6519, "name":"Bufanda North Savage", "variations":8, "location":88, "url":"https://www.eldarya.es/assets/img/item/player/icon/65d73f8a64be1f18fceefdb67d636fa8.png"},
         {"id":6527, "name":"Vestido Shiny Lady", "variations":13, "location":49, "url":"https://www.eldarya.es/assets/img/item/player/icon/72dafe8b21ac89f7a178cf8a97653695.png"},
