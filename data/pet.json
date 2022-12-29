@@ -572,6 +572,17 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
+    {"id":null, "name":"Gindeerbreyd", "rarity":"event", "eventInfo":["legendary","Navidad 2022","Barra colectiva"], "info":{
+            "bait":null, "food":159,
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/455542e7c1be2f532de13eb181472ea6.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/42dfd41fc2f9f24d6f38c92d4b18e1b9.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/ad7caf69af16191533246032c30d4957.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
+    },
+
     {"id":null,"name":"Gladanel", "rarity":"event","eventInfo":["legendary","Navidad 2021","Barra colectiva"], "info":{
             "bait":null, "food":150,
             "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
@@ -846,7 +857,7 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":null,"name":"Mictfig", "rarity":"event", "eventInfo":["epic", "Navidad 2022", "Exploración"], "info":{
+    {"id":null,"name":"Mictfig", "rarity":"event", "eventInfo":["epic","Navidad 2022","Exploración"], "info":{
             "bait":470, "food":159,
             "hatch":295, "evolve":{"level":16, "affection":80, "days":40},
             "energy":[115,135], "luck":["180 a 240","215 a 265"]},

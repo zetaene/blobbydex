@@ -362,7 +362,7 @@
         {"id":5729, "name":"Parque de la fuente", "variations":1, "location":50, "url":"https://www.eldarya.es/assets/img/item/player/icon/edaeb34f6eb20536fca46cbe445a6ddf.jpg"},
         {"id":5744, "name":"Bufanda de guirnalda", "variations":14, "location":52, "url":"https://www.eldarya.es/assets/img/item/player/icon/2e238f4dc26c8681fca80be21b1b1f7f.png"},
         {"id":5758, "name":"Ártemis", "variations":41, "location":48, "url":"https://www.eldarya.es/assets/img/player/hair/icon/78ccc5de1b0945fec753b49cfc99f837.png"},
-        {"id":5799, "name":"Sendero de Arcos", "variations":1, "location":0, "url":"https://www.eldarya.es/assets/img/item/player/icon/d396609e1661b12fe919acd29a3de5ec.jpg"},
+        {"id":5799, "name":"Sendero de Arcos", "variations":1, "location":48, "url":"https://www.eldarya.es/assets/img/item/player/icon/d396609e1661b12fe919acd29a3de5ec.jpg"},
         {"id":5821, "name":"Louisón", "variations":41, "location":46, "url":"https://www.eldarya.es/assets/img/player/hair/icon/0f8a90c79d4f4d274a7923183257c790.png"},
         {"id":5862, "name":"Louisón nevado", "variations":41, "location":90, "url":"https://www.eldarya.es/assets/img/player/hair/icon/4f6d312f45cd60ffd931db5c26b3dc44.png"},
         {"id":5903, "name":"Ygritte", "variations":41, "location":52, "url":"https://www.eldarya.es/assets/img/player/hair/icon/08acc8a28a9176f69aaaee6528022e70.png"},
