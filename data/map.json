@@ -297,11 +297,22 @@
 
 
 
+    {"id":187, "map":24, "name":"Bosque rocoso", "energy":"50", "time":"25", "style":"left: 127px;top: 393px", "clothes":[
+        {"id":32722},{"id":32732},{"id":32742}
+    ]},
     {"id":188, "map":24, "name":"Desierto civilizado", "energy":"45","time":"25", "style":"left: 337px;top: 136px", "clothes":[
         {"id":32156},{"id":32157},{"id":32158},{"id":32159},{"id":32160},{"id":32161},
         {"id":32162},{"id":32163},{"id":32843},{"id":32853},{"id":32863}
     ]},
-    {"id":187, "map":24, "name":"Bosque rocoso", "energy":"50", "time":"25", "style":"left: 127px;top: 393px", "clothes":[
-        {"id":32722},{"id":32732},{"id":32742}
+
+    {"id":190, "map":24, "name":"Oasis imaginario", "energy":"50", "time":"25", "style":"left: 598px;top: 372px", "clothes":[
+        {"id":"https://www.eldarya.es/assets/img/player/hair/icon/6918dfa7822d172420da733534661bdd.png"},
+        {"id":"https://www.eldarya.es/assets/img/item/player/icon/1634ea0f1608a039a70f8d7460841720.png"},
+        {"id":"https://www.eldarya.es/assets/img/item/player/icon/1f0e00c90c3e74e4ee4664c82ca11df2.png"}
+    ]},
+    
+    {"id":192, "map":24, "name":"Caravana de comerciantes", "energy":"50", "time":"25", "style":"left: 359px;top: 247px", "clothes":[
+        {"id":32781},{"id":32791},{"id":32801}
     ]}
+    
 ]

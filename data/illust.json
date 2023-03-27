@@ -193,9 +193,17 @@
 		{"ch":15, "url":""},
 
 		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/bb07b268d1adc8b5326e9deaba203c66.jpg"},
-		{"ch":16, "url":"https://www.eldarya.fr/assets/img/illustration/7091cdf18852665938c91596882a95e5.jpg"},
+		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/7091cdf18852665938c91596882a95e5.jpg"},
 		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/94c6191aa39dec198b980d39b7d48fbd.jpg"},
-		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/9188c06ff7902eb69c041d7e511f9d41.jpg"}
+		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/9188c06ff7902eb69c041d7e511f9d41.jpg"},
+
+		{"ch":17, "url":"https://www.eldarya.es/assets/img/illustration/a46735a0d0fae4701ec89408311b6db3.jpg"},
+		{"ch":17, "url":"https://www.eldarya.es/assets/img/illustration/76b9a8a57d9c1a240cf1372ab983da08.jpg"},
+		{"ch":17, "url":"https://www.eldarya.es/assets/img/illustration/ab3ac9561eedd8fe27fd153ffac20a6c.jpg"},
+		{"ch":17, "url":"https://www.eldarya.es/assets/img/illustration/b01530011d3930b798d936bf21fb4893.jpg"},
+
+		{"ch":18, "url":"https://www.eldarya.es/assets/img/illustration/38b457feb618bf406d989104aa43b43b.jpg"},
+		{"ch":18, "url":"https://www.eldarya.es/assets/img/illustration/43fd5322759f1980c7277169fc4ecb3f.jpg"}
 	],
 
 	"spinoff":[
@@ -220,6 +228,7 @@
 		{"name":"sv", "year":2022, "url":"https://www.eldarya.es/assets/img/illustration/1431068f8a936336a26feabc2d4b48ca.jpg"},
 		{"name":"sv", "year":2022, "url":"https://www.eldarya.es/assets/img/illustration/26d8d2c9f5ec1bc5d755badabbb9c5e7.jpg"},
 		{"name":"sv", "year":2022, "url":"https://www.eldarya.es/assets/img/illustration/300b6cd1561af6d51b71a261d0b85e8a.jpg"},
+		{"name":"sv", "year":2023, "url":"https://www.eldarya.es/assets/img/illustration/d5bf3d1e1e93dbc0aca92a022dfc24a0.jpg"},
 
 		{"name":"easter", "year":2017, "url":"https://www.eldarya.es/assets/img/illustration/08171ddbb0bf8f2ccaa26740faab8abc.jpg"},
 		{"name":"easter", "year":2018, "url":"https://www.eldarya.es/assets/img/illustration/0916bd43a13c8ddeb40d33cc657fa1b8.jpg"},

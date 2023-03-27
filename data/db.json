@@ -729,13 +729,13 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/42cffe79af6a995f2972187bbe04b0d8.png"
     },
-    {"id":218, "name":"Aerial Rocks", "group":"pet", "category":"Cebos", "rarity":"epic", 
+    {"id":218, "name":"Rocas aéreas", "group":"pet", "category":"Cebos", "rarity":"epic", 
         "location":{"exploration":[68], 
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/7f94251fcd4e789d5279ccf4d818d2ce.png"
     },
-    {"id":219, "name":"Serpentine Patterned Pebbles", "group":"pet", "category":"Cebos", "rarity":"common",
-        "location":{"exploration":[],
+    {"id":219, "name":"Piedras con motivos sinuosos", "group":"pet", "category":"Cebos", "rarity":"common",
+        "location":{"exploration":[70,192],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/b95ed726c9940d5a432417f1e810bf25.png"
     },
@@ -1657,7 +1657,7 @@
     },
     {"id":451, "name":"Macetero con tierra", "group":"pet", "category":"Cebos", "rarity":"rare",
         "location":{"exploration":[183],
-            "mall":["-","-"], "event":null},
+            "mall":[420,70], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/653b036bc761a836b22f1ce783502fa6.png"
     },
     {"id":452, "name":"Flores secas", "group":"alchemy", "category":"Plantas", "rarity":"rare",
@@ -1705,6 +1705,27 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/37ffbcfec6475065e7c9e1ff901224ce.png"
     },
+    {"id":462, "name":"Brote incandescente", "group":"alchemy", "category":"Plantas", "rarity":"common",
+        "location":{"exploration":[192],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/83da94a99b45480c23bb136477461480.png"
+    },
+    {"id":463, "name":"Insecto chupador de agua", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[192],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/af7699fa4df60774ea6fa479d393259d.png"
+    },
+    {"id":464, "name":"Baya bien protegida", "group":"alchemy", "category":"Plantas", "rarity":"rare",
+        "location":{"exploration":[192],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/db6c4ad45b81170af8abf1d8e9d79288.png"
+    },
+
+    {"id":465, "name":"Pelota que rebota", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[540,90], "event":"San Valentín 2023"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/ace5e43b2463ea5bb34197059ae0499d.png"
+    },
 
     {"id":470, "name":"Lazo de Navidad", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],
@@ -1726,5 +1747,23 @@
         "location":{"exploration":[187],
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/4d087ee3e424e39283f388bcab159241.png"
+    },
+
+    {"id":478, "name":"Bola de arena", "group":"pet", "category":"Cebos", "rarity":"rare",
+        "location":{"exploration":[190],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/344e067e09643632573a1965a5daf4d7.png"
+    },
+
+    {"id":479, "name":"Néctar del desierto", "group":"pet", "category":"Alimento", "rarity":"common",
+        "location":{"exploration":[190],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/24020204aca4815908afb6ca91d61d73.png"
+    },
+
+    {"id":483, "name":"Burbuja del desierto", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[],
+            "mall":[18,3], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/dfc1cf589ee79fbdc41a1d97a4b82635.png"
     }
 ]
