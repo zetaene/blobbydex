@@ -46,7 +46,7 @@
     },
     {"id":18, "name":"Golden Nectar", "group":"pet", "category":"Alimento", "rarity":"legendary", 
         "location":{"exploration":[23], 
-            "mall":["-","-"], "event":null},
+            "mall":[12,2], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/016ba2afe43a957f793696343f37ed1f.png"
     },
     {"id":19, "name":"Sweetened Egg", "group":"pet", "category":"Alimento", "rarity":"common", 
@@ -696,7 +696,7 @@
     },
     {"id":211, "name":"Hourglass", "group":"pet", "category":"Cebos", "rarity":"event", 
         "location":{"exploration":[],
-            "mall":["-","-"], "event":"Pendiente"},
+            "mall":[600,100], "event":"Verano"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/5d02bb4fe1c7ed36df9c41d7fe276a4f.png"
     },
     {"id":212, "name":"Glittery Clay", "group":"alchemy", "category":"Otros", "rarity":"common",
@@ -1146,7 +1146,7 @@
     },
     {"id":342, "name":"Prickly star", "group":"pet", "category":"Cebos", "rarity":"event", 
         "location":{"exploration":[],
-            "mall":["-","-"], "event":"Verano"},
+            "mall":[540,90], "event":"Verano"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/a69d6b46550a5f13c0dadd0cd2d6e462.png"
     },
     {"id":343, "name":"Rocío exótico", "group":"pet", "category":"Alimento", "rarity":"event",
@@ -1156,7 +1156,7 @@
     },
     {"id":344, "name":"Palm leaf", "group":"pet", "category":"Cebos", "rarity":"event", 
         "location":{"exploration":[],
-            "mall":["-","-"], "event":"Verano"},
+            "mall":[420,70], "event":"Verano"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/9412051df1094fba86200478e9c9ece3.png"
     },
     {"id":345, "name":"Edible sand", "group":"pet", "category":"Alimento", "rarity":"event",
@@ -1690,6 +1690,11 @@
             "mall":[540,90], "event":"Halloween 2022"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/514f5fb74433e9dd572b80f37e1da17e.png"
     },
+    {"id":458, "name":"Licor de pulgón", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[540,90], "event":"Pascua"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/dd845e3170238226b6215447f85af465.png"
+    },
     {"id":459, "name":"Concha de hueso", "group":"alchemy", "category":"Otros", "rarity":"epic",
         "location":{"exploration":[188],
             "mall":["-","-"], "event":null},
@@ -1720,11 +1725,25 @@
             "mall":["-","-"], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/db6c4ad45b81170af8abf1d8e9d79288.png"
     },
-
     {"id":465, "name":"Pelota que rebota", "group":"pet", "category":"Cebos", "rarity":"event",
         "location":{"exploration":[],
             "mall":[540,90], "event":"San Valentín 2023"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/ace5e43b2463ea5bb34197059ae0499d.png"
+    },
+    {"id":466, "name":"Estrella del desierto", "group":"alchemy", "category":"Gases y líquidos", "rarity":"common",
+        "location":{"exploration":[189],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/f50ca90345e343056ad8c33e89d86e60.png"
+    },
+    {"id":467, "name":"Moneda vieja y abollada", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[189],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/1f94b4f122bc13b853a5c3307e6b5dbb.png"
+    },
+    {"id":468, "name":"Tormenta de arena", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[189],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/5663149858060d3f31f4cfcf3f3c18fe.png"
     },
 
     {"id":470, "name":"Lazo de Navidad", "group":"pet", "category":"Cebos", "rarity":"event",
@@ -1765,5 +1784,17 @@
         "location":{"exploration":[],
             "mall":[18,3], "event":null},
         "img":"https://www.eldarya.es/assets/img/item/consumable/dfc1cf589ee79fbdc41a1d97a4b82635.png"
+    }, 
+
+    {"id":487, "name":"Brújula del viajero", "group":"pet", "category":"Cebos", "rarity":"rare",
+        "location":{"exploration":[],
+            "mall":[300,50], "event":null},
+            "img":"https://www.eldarya.es/assets/img/item/consumable/331e97e93dd5d0ae1a579aa87fe41949.png"
+    },
+
+    {"id":490, "name":"Partitura original de Beylanelle", "group":"pet", "category":"Cebos", "rarity":"event",
+        "location":{"exploration":[],
+            "mall":[540,90], "event":"Música"},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/afbe15c0b1dea66531894d03be9380f7.png"
     }
 ]

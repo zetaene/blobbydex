@@ -36,5 +36,18 @@
     {"id":88, "map":"christmas", "name":"Desierto boreal", "energy":"10", "time":"15", "style":"left: 109px;top: 153px", "totalItems":267},
     {"id":89, "map":"christmas", "name":"Chalet de la familia Navidad", "energy":"10", "time":"15", "style":"left: 287px;top: 123px", "totalItems":311},
     {"id":90, "map":"christmas", "name":"Mesa del festín", "energy":"20", "time":"15", "style":"left: 396px;top: 282px", "totalItems":274},
-    {"id":91, "map":"christmas", "name":"Muñeco de nieve", "energy":"15", "time":"25", "style":"left: 185px;top: 373px", "totalItems":142}
+    {"id":91, "map":"christmas", "name":"Muñeco de nieve", "energy":"15", "time":"25", "style":"left: 185px;top: 373px", "totalItems":142},
+
+    {"id":144, "map":"summer", "name":"Arena de oro", "energy":"10", "time":"15", "style":"left: 197px;top: 237px", "totalItems":58},
+    {"id":145, "map":"summer", "name":"Agua clara", "energy":"10", "time":"15", "style":"left: 112px;top: 344px", "totalItems":46},
+    {"id":146, "map":"summer", "name":"Arenas artísticas", "energy":"10", "time":"15", "style":"left: 326px;top: 272px", "totalItems":106},
+    {"id":147, "map":"summer", "name":"Yate privado", "energy":"20", "time":"25", "style":"left: 669px;top: 386px", "totalItems":57},
+    {"id":148, "map":"summer", "name":"Bar de cócteles", "energy":"15", "time":"15", "style":"left: 416px;top: 318px", "totalItems":23},
+    {"id":149, "map":"summer", "name":"Baño de sol", "energy":"15", "time":"20", "style":"left: 566px;top: 59px", "totalItems":65},
+    {"id":150, "map":"summer", "name":"Playa de los Perlifynns", "energy":"15", "time":"15", "style":"left: 274px;top: 138px", "totalItems":33},
+    {"id":151, "map":"summer", "name":"Area de juegos", "energy":"10", "time":"10", "style":"left: 78px;top: 185px", "totalItems":42},
+    {"id":152, "map":"summer", "name":"Cascada de burbujas", "energy":"15", "time":"20", "style":"left: 372px;top: 171px", "totalItems":47},
+    {"id":153, "map":"summer", "name":"Descanso a la sombra", "energy":"10", "time":"10", "style":"left: 496px;top: 214px", "totalItems":72},
+    {"id":154, "map":"summer", "name":"Palmera centenaria", "energy":"15", "time":"15", "style":"left: 243px;top: 83px", "totalItems":42},
+    {"id":155, "map":"summer", "name":"Piscina natural olvidada", "energy":"25", "time":"25", "style":"left: 429px;top: 98px", "totalItems":46}
 ]

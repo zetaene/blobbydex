@@ -305,10 +305,12 @@
         {"id":32162},{"id":32163},{"id":32843},{"id":32853},{"id":32863}
     ]},
 
+    {"id":189, "map":24, "name":"Pequeño oasis", "energy":"50", "time":"25", "style":"left: 188px;top: 103px", "clothes":[
+        {"id":32811},{"id":32821},{"id":32831}
+    ]},
+
     {"id":190, "map":24, "name":"Oasis imaginario", "energy":"50", "time":"25", "style":"left: 598px;top: 372px", "clothes":[
-        {"id":"https://www.eldarya.es/assets/img/player/hair/icon/6918dfa7822d172420da733534661bdd.png"},
-        {"id":"https://www.eldarya.es/assets/img/item/player/icon/1634ea0f1608a039a70f8d7460841720.png"},
-        {"id":"https://www.eldarya.es/assets/img/item/player/icon/1f0e00c90c3e74e4ee4664c82ca11df2.png"}
+        {"id":32697},{"id":32761},{"id":32771}
     ]},
     
     {"id":192, "map":24, "name":"Caravana de comerciantes", "energy":"50", "time":"25", "style":"left: 359px;top: 247px", "clothes":[

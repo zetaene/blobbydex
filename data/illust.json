@@ -180,7 +180,7 @@
 
 		{"ch":13, "url":"https://www.eldarya.es/assets/img/illustration/325fc4dfb913c0ec86d458fa188fbb9a.jpg"},
 		{"ch":13, "url":"https://www.eldarya.es/assets/img/illustration/a2fa84e5b1829f07a1d93b9b89e9a3bd.jpg"},
-		{"ch":13, "url":""},
+		{"ch":13, "url":"https://www.eldarya.es/assets/img/illustration/2a1779423a819a4802e180cc96ea573d.jpg"},
 
 		{"ch":14, "url":"https://www.eldarya.es/assets/img/illustration/012981077077f1b8057695739f2d1eb7.jpg"},
 		{"ch":14, "url":"https://www.eldarya.es/assets/img/illustration/4662d74450c2ccaeb36b4416c1711d04.jpg"},
@@ -190,7 +190,7 @@
 		{"ch":15, "url":"https://www.eldarya.es/assets/img/illustration/eb15faa579d44dfc72584663857c2586.jpg"},
 		{"ch":15, "url":"https://www.eldarya.es/assets/img/illustration/a4997483b7d59dca6f726ba63edba9e3.jpg"},
 		{"ch":15, "url":""},
-		{"ch":15, "url":""},
+		{"ch":15, "url":"https://www.eldarya.es/assets/img/illustration/a3aa51859f4e35386116da92b49900cf.jpg"},
 
 		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/bb07b268d1adc8b5326e9deaba203c66.jpg"},
 		{"ch":16, "url":"https://www.eldarya.es/assets/img/illustration/7091cdf18852665938c91596882a95e5.jpg"},
@@ -203,7 +203,12 @@
 		{"ch":17, "url":"https://www.eldarya.es/assets/img/illustration/b01530011d3930b798d936bf21fb4893.jpg"},
 
 		{"ch":18, "url":"https://www.eldarya.es/assets/img/illustration/38b457feb618bf406d989104aa43b43b.jpg"},
-		{"ch":18, "url":"https://www.eldarya.es/assets/img/illustration/43fd5322759f1980c7277169fc4ecb3f.jpg"}
+		{"ch":18, "url":"https://www.eldarya.es/assets/img/illustration/43fd5322759f1980c7277169fc4ecb3f.jpg"},
+
+		{"ch":19, "url":"https://www.eldarya.es/assets/img/illustration/c8ae6f1342e8ac669e0cd9f96ab62ab9.jpg"},
+		{"ch":19, "url":"https://www.eldarya.es/assets/img/illustration/c0b1dabd8e6acbc7b1e26fa9670d99b5.jpg"},
+		{"ch":19, "url":""},
+		{"ch":19, "url":"https://www.eldarya.es/assets/img/illustration/f262e4af6b9b6b76455e08d6d46a8c07.jpg"}
 	],
 
 	"spinoff":[
@@ -236,12 +241,17 @@
 		{"name":"easter", "year":2020, "url":"https://www.eldarya.es/assets/img/illustration/b5af9b94920a11fc05978d85441ccabe.jpg"},
 		{"name":"easter", "year":2021, "url":"https://www.eldarya.es/assets/img/illustration/5a2944096001627377fe5d6d154d2151.jpg"},
 		{"name":"easter", "year":2022, "url":"https://www.eldarya.es/assets/img/illustration/f9460d575e95112d21235ee656370e9a.jpg"},
+		{"name":"easter", "year":2023, "url":"https://www.eldarya.es/assets/img/illustration/42447a1be91f4ccdd605c86b86115e7d.jpg"},
+		{"name":"easter", "year":2023, "url":"https://www.eldarya.es/assets/img/illustration/a234e63e2075315a1e3d098cfe3969e6.jpg"},
+		{"name":"easter", "year":2023, "url":"https://www.eldarya.es/assets/img/illustration/f1726f8b3b9ed2d33700220322564455.jpg"},
+		{"name":"easter", "year":2023, "url":"https://www.eldarya.es/assets/img/illustration/c58a30950280fd97d8eed9eb4631598f.jpg"},
 
 		{"name":"music", "year":2018, "url":"https://www.eldarya.es/assets/img/illustration/f2ad9760886c4523e22922f5bae10b30.jpg"},
 		{"name":"music", "year":2019, "url":"https://www.eldarya.es/assets/img/illustration/58c63d5fad6f00c7dc136ddaf3fe56f0.jpg"},
 		{"name":"music", "year":2020, "url":"https://www.eldarya.es/assets/img/illustration/c078fce1ecf488b3f48384dccd236656.jpg"},
 		{"name":"music", "year":2021, "url":"https://www.eldarya.es/assets/img/illustration/8c926a901fcde926e88ca61bae8cf537.jpg"},
 		{"name":"music", "year":2022, "url":"https://www.eldarya.es/assets/img/illustration/fba7da95ac63783d93529d9f4c7a4e90.jpg"},
+		{"name":"music", "year":2023, "url":"https://www.eldarya.es/assets/img/illustration/394bacb727aef1475b63b4126471d684.jpg"},
 
 		{"name":"summer", "year":2018, "url":"https://www.eldarya.es/assets/img/illustration/a148a62113c436b9043f82836184fdb9.jpg"},
 		{"name":"summer", "year":2018, "url":"https://www.eldarya.es/assets/img/illustration/02aa50b1beb57afd99106804e8d77818.jpg"},

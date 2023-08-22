@@ -43,6 +43,17 @@
         }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
+    {"id":null,"name":"Anntago", "rarity":"common","eventInfo":[null,null,null], "info":{
+            "bait":478, "food":479,
+            "hatch":100, "evolve":{"level":6, "affection":80, "days":15},
+            "energy":[65,110], "luck":["?","?"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/library/f96e455a5b550afdb208f504444e275c.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/0ca8dd6ad6221835470fcc47dc47fda6.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/65b1c6ea25b689b13be9144b26e95e8a.png"
+        }, "location":{"exploration":[189], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
+    },
+
     {"id":null,"name":"Aslytte", "rarity":"legendary", "eventInfo":[null,null,null], "info":{
             "bait":null, "food":398,
             "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
@@ -721,7 +732,7 @@
         }, "location":{"exploration":[32], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
     },
 
-    {"id":86,"name":"Korivora", "rarity":"event", "eventInfo":["rare","Música 2019",null], "info":{
+    {"id":86,"name":"Korivora", "rarity":"event", "eventInfo":["rare","Música 2019","Exploración"], "info":{
             "bait":325, "food":199,
             "hatch":90, "evolve":{"level":10, "affection":65, "days":25},
             "energy":[90,120], "luck":["90 a 125","120 a 150"]}, 
@@ -730,6 +741,17 @@
             "baby":"https://www.eldarya.es/assets/img/pet/library/8e5ed189931a62a734ad73e9ff8ea69b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/803ea5cd14ab487f8185215d122792cc.png"
         }, "location":{"exploration":[], "mall":["-",250], "bindle":false, "alchemy":false, "other":null} 
+    },
+
+    {"id":null,"name":"Koxae", "rarity":"event", "eventInfo":["epic","Pascua 2023","Exploración"], "info":{
+            "bait":458, "food":391,
+            "hatch":280, "evolve":{"level":15, "affection":75, "days":40},
+            "energy":[105,125], "luck":["170 a 225","?"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/8790381ae676b83d128b088161a541e8.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/f5da5fbb076c6df6736a461f6a061bf0.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/f7744d0fbda4e851fc89ae25c26cfa99.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":null,"name":"Kreafire", "rarity":"event","eventInfo":["epic","Halloween 2021",null], "info":{
@@ -962,8 +984,8 @@
             "energy":[120,140], "luck":["?","?"]},
         "img":{
             "egg":"https://www.eldarya.es/assets/img/item/egg/8ce2902f03cc08c5b8a88103ddca15dc.png",
-            "baby":"",
-            "adult":""
+            "baby":"https://www.eldarya.es/assets/img/pet/library/adfb2e37087b9fad6bb0281f9843fd78.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/b475ba7256fcde39f485e6413075b89a.png"
         }, "location":{"exploration":[190], "mall":["-","-"], "bindle":false, "alchemy":false, "othe":null}
     },
     
@@ -1103,6 +1125,17 @@
             "baby":"https://www.eldarya.es/assets/img/pet/library/c13265ffab2ed187cdea03e785dfa20b.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/2f2cc85ab70a54cfef9e79c12a2a392d.png"
         }, "location":{"exploration":[], "mall":["-",450], "bindle":false, "alchemy":false, "other":null} 
+    },
+
+    {"id":null,"name":"Panplumiyé", "rarity":"event", "eventInfo":["legendary","Música 2023","Barra colectiva"], "info":{
+            "bait":null, "food":199,
+            "hatch":600, "evolve":{"level":23, "affection":90, "days":60},
+            "energy":[165,185], "luck":["335 a 410","400 a 435"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/library/a74f159c7c500834830139e8deee35af.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/743f7c86135c9f0e2414c0cf099d96f9.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/c8be2125496991a3e4e7c38ef88e4419.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":90,"name":"Perceed", "rarity":"event", "eventInfo":["rare","Navidad 2019",null], "info":{
@@ -1662,6 +1695,17 @@
     },
 
 
+
+    {"id":null,"name":"Zalbinion", "rarity":"event", "eventInfo":["epic","Música 2023","Exploración"], "info":{
+            "bait":490, "food":395,
+            "hatch":280, "evolve":{"level":15, "affection":75, "days":40},
+            "energy":[105,125], "luck":["170 a 225","?"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/dac17b2ad7c7a03756bcae022846ca3c.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/eeb1b347f830a17e80b2a93e7b80d20f.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/4a3345dd571fe93f969babaaf5e32b1f.png"
+        }, "location":{"exploration":[], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
+    },
 
     {"id":81,"name":"Zarali", "rarity":"event", "eventInfo":["legendary","San Valentín 2019",null], "info":{
             "bait":37, "food":127,
