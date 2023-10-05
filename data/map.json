@@ -315,6 +315,11 @@
     
     {"id":192, "map":24, "name":"Caravana de comerciantes", "energy":"50", "time":"25", "style":"left: 359px;top: 247px", "clothes":[
         {"id":32781},{"id":32791},{"id":32801}
+    ]},
+
+    {"id":193, "map":24, "name":"Tumba olvidada", "energy":"55", "time":"30", "style":"left: 527px;top: 53px", "clothes":[
+        {"id":"https://www.eldarya.es/assets/img/item/player/icon/4318f7fa388361e900b0ace1562d363e.png"},
+        {"id":"https://www.eldarya.es/assets/img/item/player/icon/3b27c447f064799c7bf3f8f6af06c9ae.png"}
     ]}
     
 ]

@@ -1786,10 +1786,34 @@
         "img":"https://www.eldarya.es/assets/img/item/consumable/dfc1cf589ee79fbdc41a1d97a4b82635.png"
     }, 
 
+    {"id":484, "name":"Grito ancestral", "group":"alchemy", "category":"Otros", "rarity":"rare",
+        "location":{"exploration":[193],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/082055cb98e6b5538f28704bdbb68b6f.png"
+    },
+
+    {"id":485, "name":"Fragmentos de cerámica antigua", "group":"alchemy", "category":"Otros", "rarity":"common",
+        "location":{"exploration":[193],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/0fc07d85088c990438c4f7ae97bf0651.png"
+    },
+
+    {"id":486, "name":"Tira de embrujo", "group":"alchemy", "category":"Otros", "rarity":"epic",
+        "location":{"exploration":[193],
+            "mall":["-","-"], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/512a4636ab321dfad6db3c2c63756be1.png"
+    },
+
     {"id":487, "name":"Brújula del viajero", "group":"pet", "category":"Cebos", "rarity":"rare",
         "location":{"exploration":[],
             "mall":[300,50], "event":null},
-            "img":"https://www.eldarya.es/assets/img/item/consumable/331e97e93dd5d0ae1a579aa87fe41949.png"
+        "img":"https://www.eldarya.es/assets/img/item/consumable/331e97e93dd5d0ae1a579aa87fe41949.png"
+    },
+
+    {"id":489, "name":"Fuente roca", "group":"pet", "category":"Alimento", "rarity":"rare",
+        "location":{"exploration":[],
+            "mall":[18,3], "event":null},
+        "img":"https://www.eldarya.es/assets/img/item/consumable/69f4f172b34ca201c867f4c59b6f7fdb.png"
     },
 
     {"id":490, "name":"Partitura original de Beylanelle", "group":"pet", "category":"Cebos", "rarity":"event",
@@ -1797,4 +1821,5 @@
             "mall":[540,90], "event":"Música"},
         "img":"https://www.eldarya.es/assets/img/item/consumable/afbe15c0b1dea66531894d03be9380f7.png"
     }
+
 ]

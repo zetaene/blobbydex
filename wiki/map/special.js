@@ -1,7 +1,7 @@
 var mapLocations = [], clotheList = [];
 
 $(document).ready(function () {
-    //window.location.href = "../../"
+    window.location.href = "../../"
     const requestMap = new XMLHttpRequest();requestMap.open("GET", "locations.json");
     requestMap.responseType = "json";requestMap.send();requestMap.onload = function() {
 

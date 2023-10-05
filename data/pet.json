@@ -789,6 +789,17 @@
         }, "location":{"exploration":[96], "mall":["-",200], "bindle":false, "alchemy":false, "other":null} 
     },
 
+    {"id":null, "name":"Lemisush", "rarity":"rare", "eventInfo":[null,null,null], "info":{
+            "bait":219, "food":450,
+            "hatch":175, "evolve":{"level":8, "affection":70, "days":25},
+            "energy":[90,115], "luck":["60 a 115", "90 a 130"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/library/c4df116a5bc85030b2e2692ec28dcef7.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/b16df221f8065caa8dfbca7926e946b9.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/c1f1455599a54dc6d837ecf64aff3456.png"
+        }, "location":{"exploration":[193], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
+    },
+
     {"id":null,"name":"Lezigow", "rarity":"common","eventInfo":[null,null,null], "info":{
             "bait":386, "food":385,
             "hatch":100, "evolve":{"level":6, "affection":80, "days":15},
@@ -1470,6 +1481,17 @@
             "baby":"https://www.eldarya.es/assets/img/pet/library/19b6d4a977f1e9d8797c61bf1e7b5651.png",
             "adult":"https://www.eldarya.es/assets/img/pet/library/63abac3b2dc5cfefb73d026a8dda231a.png"
         }, "location":{"exploration":[62], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null} 
+    },
+
+    {"id":null, "name":"Sk'hopik", "rarity":"epic", "eventInfo":[null,null,null], "info":{
+            "bait":487, "food":489,
+            "hatch":335, "evolve":{"level":16, "affection":90, "days":45},
+            "energy":[130,155], "luck":["205 a 275","245 a 305"]},
+        "img":{
+            "egg":"https://www.eldarya.es/assets/img/item/egg/library/2a9728addd53a934ec6a5a4401a486d8.png",
+            "baby":"https://www.eldarya.es/assets/img/pet/library/097a94c735f7582268e4ea6aed62da12.png",
+            "adult":"https://www.eldarya.es/assets/img/pet/library/a6d5e2ffc406f1b17572100f51177510.png"
+        }, "location":{"exploration":[193], "mall":["-","-"], "bindle":false, "alchemy":false, "other":null}
     },
 
     {"id":91,"name":"Skanis", "rarity":"event", "eventInfo":["legendary","Navidad 2019",null], "info":{
